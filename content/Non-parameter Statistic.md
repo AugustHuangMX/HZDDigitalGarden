@@ -1,0 +1,2 @@
+[[Statistics MOC]]
+#Statistics #permanent 

@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"type":"text","text":"Section 2\n\nHidden Information: Akerlof's lemons-market model\n\n","id":"5c078927341a53bc","x":160,"y":140,"width":520,"height":160},
+		{"type":"text","text":"复习备忘录","id":"caf307ced775dff8","x":-340,"y":175,"width":250,"height":90},
+		{"type":"text","text":"Section 1\n- One-Short Games: finding PSNE and MSNE\n- Basic Models: C, B and S\n- Elaborations on basic models (capacity choice, product differentiation)","id":"dddaf10c15ec46f9","x":160,"y":-300,"width":520,"height":360},
+		{"type":"text","text":"Section 3\n\n- Government solution ([Pigou Tax](Pigou%20Tax.md))\n- Market solution ([Coase Theorem](Coase%20Theorem.md))\n- Pareto Solution and the [[Samuelson Condition]]\n- The [[Lindahl Equilibrium]]\n","id":"438cc8053d72e3d3","x":144,"y":424,"width":536,"height":256},
+		{"type":"file","file":"Pigou Tax.md","id":"437879d8cc4b0793","x":760,"y":424,"width":600,"height":588}
+	],
+	"edges":[
+		{"id":"55554ce4de654f3e","fromNode":"5c078927341a53bc","fromSide":"left","toNode":"caf307ced775dff8","toSide":"right"},
+		{"id":"8ef921baf4d03fec","fromNode":"dddaf10c15ec46f9","fromSide":"left","toNode":"caf307ced775dff8","toSide":"right"},
+		{"id":"44ff46d25f30a7b5","fromNode":"caf307ced775dff8","fromSide":"right","toNode":"438cc8053d72e3d3","toSide":"left"},
+		{"id":"e46600788c530946","fromNode":"438cc8053d72e3d3","fromSide":"right","toNode":"437879d8cc4b0793","toSide":"left"}
+	]
+}

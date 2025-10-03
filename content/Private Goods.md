@@ -1,0 +1,3 @@
+Non-rivalrous
+
+Non-excludable

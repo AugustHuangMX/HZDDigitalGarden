@@ -1,0 +1,1 @@
+The [[Hotelling Model]] is more like a "Location competition".

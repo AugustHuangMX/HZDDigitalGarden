@@ -1,0 +1,85 @@
+{
+  "components": [
+    {
+      "id": "14db8738-744f-472d-a3e8-3e12ef44ed06",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-11-22T07:04:22.266Z",
+      "updateAt": "2024-11-22T07:04:22.267Z",
+      "components": [
+        {
+          "componentId": "ab6be9e6-8449-4439-a26a-dc195a998861"
+        }
+      ],
+      "layoutType": "column",
+      "locked": false,
+      "layoutOptions": {}
+    },
+    {
+      "id": "ab6be9e6-8449-4439-a26a-dc195a998861",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-11-22T07:04:31.787Z",
+      "updateAt": "2024-11-22T07:04:31.787Z",
+      "components": [
+        {
+          "componentId": "4c97c892-cbeb-4ac1-94f2-a5530f2ded94"
+        }
+      ],
+      "layoutType": "tab",
+      "locked": false,
+      "layoutOptions": {}
+    },
+    {
+      "id": "4c97c892-cbeb-4ac1-94f2-a5530f2ded94",
+      "type": "count",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-11-22T07:04:33.806Z",
+      "updateAt": "2024-11-22T07:04:33.806Z",
+      "countValueAlign": "center",
+      "contentPrefix": "",
+      "contentSuffix": "",
+      "countType": "number",
+      "precision": 0,
+      "query": {
+        "valueType": "totalRecords",
+        "value": 100,
+        "filter": {
+          "id": "07a36ebf-e5fb-4f7d-b525-389fcecd9728",
+          "type": "group",
+          "operator": "and",
+          "conditions": []
+        },
+        "sort": {
+          "orders": []
+        }
+      },
+      "totalQuery": {
+        "valueType": "constant",
+        "value": 100,
+        "filter": {
+          "id": "fd3cf26c-089a-43eb-9ff8-de90e72ab985",
+          "type": "group",
+          "operator": "and",
+          "conditions": []
+        },
+        "sort": {
+          "orders": []
+        }
+      }
+    }
+  ],
+  "rootComponentId": "14db8738-744f-472d-a3e8-3e12ef44ed06"
+}

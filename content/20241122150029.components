@@ -1,0 +1,55 @@
+{
+  "components": [
+    {
+      "id": "3bcface3-e1ab-4da5-bf3d-d243a07066a8",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-11-22T07:00:49.848Z",
+      "updateAt": "2024-11-22T07:00:49.854Z",
+      "components": [
+        {
+          "componentId": "a620e407-9839-4274-88cb-a8fdd68a8a75"
+        }
+      ],
+      "layoutType": "tab",
+      "locked": false,
+      "layoutOptions": {}
+    },
+    {
+      "id": "a620e407-9839-4274-88cb-a8fdd68a8a75",
+      "type": "chart",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-11-22T07:01:03.741Z",
+      "updateAt": "2024-11-22T07:01:03.741Z",
+      "chartType": "bar",
+      "filter": {
+        "id": "e02d4713-3d7c-47bf-80b1-319f8e65d58c",
+        "type": "group",
+        "operator": "and",
+        "conditions": []
+      },
+      "labelProperty": "",
+      "labelFormat": "$none",
+      "valueProperty": "$file_count",
+      "valuePrecision": 0,
+      "sortField": "xAxisValue",
+      "sortOrder": "asc",
+      "maxHeight": 300,
+      "chartColorSet": "default",
+      "chartLabelPosition": "top",
+      "showDataValue": false,
+      "valueScaleStartFromZero": true,
+      "smoothLine": false,
+      "options": {}
+    }
+  ],
+  "rootComponentId": "3bcface3-e1ab-4da5-bf3d-d243a07066a8"
+}

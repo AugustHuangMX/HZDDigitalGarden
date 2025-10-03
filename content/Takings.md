@@ -1,0 +1,1 @@
+Takings is a way for government to do some *impressment*. In most countries, government has right of *eminent domain*.

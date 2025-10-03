@@ -1,0 +1,1 @@
+It is the payoff (or utility) after cooperation minus the previous choice, which is known as the [[Threat Values]]. 

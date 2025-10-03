@@ -1,0 +1,1 @@
+Like [[Law of Large Numbers]], it is also a tool for asymptotic analysis.

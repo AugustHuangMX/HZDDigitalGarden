@@ -1,4 +1,4 @@
-#Econ 
+#Econ/Micro #GameTheory 
 
 It is similar to the $WTP$ and $WTA$, but it depends on who owns the *property rights*. The [[Threat Values]] means the payoffs someone could get if *no* agreement is reached.
 

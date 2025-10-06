@@ -141,3 +141,32 @@ total size is 55896k  speedup is 1596.43
  Quartz v4.5.2 
 
 Backing up your content
+[v4 0c36165] Quartz sync: Oct 6, 2025, 11:43 AM
+ 2 files changed, 31 insertions(+), 2 deletions(-)
+Pulling updates from your repository. You may need to resolve some `git` conflicts if you've made changes to components or plugins.
+致命错误：无法访问 'https://github.com/AugustHuangMX/HZDDigitalGarden.git/'：Could not resolve host: github.com
+An error occurred above while pulling updates.
+2025-10-06 11:43:49 - 🚀 内容处理和推送完成！Vercel 将开始自动部署。
+2025-10-06 11:43:49 - ====== 自动发布任务执行完毕 ======
+2025-10-06 15:09:24 - ====== 开始执行自动发布任务 ======
+2025-10-06 15:09:24 - ✅ 步骤 1/2: 开始同步笔记文件...
+Transfer starting: 725 files
+./未命名 1.canvas: deleting
+./
+Essay in EC423.md
+Hecker Model.md
+Human Capital.md
+Mincer Model.md
+index.md
+Economics/
+Math/
+templates/
+
+sent 38163 bytes  received 154 bytes  1364k bytes/sec
+total size is 55889k  speedup is 1458.59
+2025-10-06 15:09:24 - 笔记同步完成。
+2025-10-06 15:09:24 - ✅ 步骤 2/2: 开始处理内容并自动推送到 GitHub...
+
+ Quartz v4.5.2 
+
+Backing up your content

@@ -5,6 +5,8 @@ enableToc: false
 
 Hi，我是黄指导，2021 届澳门大学的经济系学生，感谢你点击这个网站，我毫无保留的“第二大脑”。
 
+我目前正在 [LSE](https://www.lse.ac.uk/) 就读 [MSc Econometrics and Mathematical Economics](https://www.lse.ac.uk/study-at-lse/Graduate/Degree-programmes-2024/MSc-Econometrics-and-Mathematical-Economics) 硕士项目。预计 2026 年夏天毕业。
+
 如果有**任何知识性的错误**和**令你感到不适**的内容，请迅速联系我： augusthuangmx@outlook.com
 
 ==这个主页的内容还需要编辑完善，不过你可以直接点击下方的链接进入我的专业的 MOC (Map of Content)来浏览我所有的笔记了。感谢你的支持！==

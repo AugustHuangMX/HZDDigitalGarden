@@ -34,4 +34,23 @@ We then extend von Neumann's characterization from two-player games to many-play
 
 ---
 
-Remarks: It is easy for us to be confused about what does $\Delta$ mean in the notions. It means the set of 
+Remarks: It is easy for us to be confused about what does $\Delta$ mean in the notions. It means the set of all possible probability distributions over the action set $A^j$.
+
+
+
+
+## Exercise 3 (comparative statics in Nash bargaining)
+
+Let $X = [0, 1] \cup \{d\}$ be the set of alternatives. And consider utility function $x \mapsto u^1(x)$ that is increasing and utility function $x \mapsto u^2(x)$ that is decreasing on $[0, 1]$.
+
+1.  Prove that the Nash bargaining solution $x^*$ to the problem $(X, u^1, u^2, d)$ is unique if both $x \mapsto u^1(x) - u^1(d)$ and $x \mapsto u^2(x) - u^2(d)$ are strictly log concave.
+
+
+
+
+2.  Consider two player 1 utility functions, $\tilde{u}^1(x)$ and $\hat{u}^1(x)$, that are both increasing. Denote $\tilde{x}^*$ the smallest Nash bargaining solution for $(X, \tilde{u}^1, u^2, d)$ and $\hat{x}^*$ the smallest Nash bargaining solution for $(X, \hat{u}^1, u^2, d)$.
+    
+    (i) Prove that $\tilde{x}^* \geq \hat{x}^*$ if for all $1 > x_3 > x_2 > 0$ it holds that
+        $$ \frac{\tilde{u}^1(x_3) - \tilde{u}^1(x_2)}{\tilde{u}^1(x_2) - \tilde{u}^1(d)} \geq \frac{\hat{u}^1(x_3) - \hat{u}^1(x_2)}{\hat{u}^1(x_2) - \hat{u}^1(d)}. $$
+    
+    (ii) Interpret the implied preferences over decision problems where the player must choose between alternative $x_2$ with probability 1 and alternative $x_3$ with probability $p$.

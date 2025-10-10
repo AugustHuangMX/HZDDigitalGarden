@@ -88,7 +88,7 @@ $$
 v^j(s^j,\mu^j) = \sum_{a^j \in A^j} \sum_{a^{-j} \in A^{-j}} s^j(a^j) \mu^j(a^{-j}) u^j(a^j,a^{-j})
 $$
 
-> [! ]  Definition
+> [!example]  Definition
 > A player $j$ action $a^j \in A^j$ is a [[Best Response]] $BR^j(\mu^j)$ against belief $\mu^j \in \Delta(A^{-j})$ if $a^j \in\text{argmax}_{\tilde{a}^j} v^j(a^j, \mu^j)$
 
 
@@ -97,7 +97,7 @@ $$
 If a player is **rational**, the weakest decision criterion for him is not to apply in any situation that are never [[Best Response]].
 
 
-> [! ]  Definition (Never a [[Best Response]])
+> [!example]  Definition (Never a [[Best Response]])
 > An action $a^j \in A^j$ is never a [[Best Response]] if there doesn't exist any belief $\mu^j \in \Delta(A^{-j})$ such that $a^j \in BR^j(\mu^j)$.
 
 
@@ -144,7 +144,7 @@ This cannot arise from independent mixing! Players 1 and 2 seem to coordinate - 
 ## [[Dominant Strategy]]
 
 
-> [! ]  Definition (Strictly Dominated)
+> [!example]  Definition (Strictly Dominated)
 > An action $a^j$ is strictly dominated by a strategy $s^j\in \Delta(A^j)$ if 
 > $$
 > u^j(a^j,a^{-j}) < \sum_{\tilde{a}^j \in A^j} s^j(\tilde{a}^j) u^j(\tilde{a}^j,a^{-j}) \quad \forall a^{-j} \in A^{-j}

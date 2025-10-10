@@ -1,5 +1,5 @@
 
-#marco 
+#Econ/Macro 
 
 
 Specific example: [[Cobb-Douglas Production Function]]

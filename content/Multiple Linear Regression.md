@@ -75,6 +75,7 @@ $$
 $$
 \mathbf{X'e= X'(I_{n \times n} - X (X'X)^{-1}X' )y}
 $$
+
 We called $\mathbf{M = I - X(X'X)^{-1}X'}$ “残差生成矩阵”
 
 $$

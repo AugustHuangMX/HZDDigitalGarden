@@ -1,3 +1,5 @@
+#GameTheory #Econ/Micro 
+
 This course is mainly about the [[Game Theory]] stuff.
 
 # Lecture 1
@@ -151,7 +153,21 @@ This cannot arise from independent mixing! Players 1 and 2 seem to coordinate - 
 > $$
 
 
-It's easy to come up with the idea that $a^j$ would never a BR iff it is **strictly dominated**.
+It's easy to come up with the idea that $a^j$ would never a BR iff it is **strictly dominated**. 
+
+>  There would be a proof in the `lecture 2`, redo it.
+
+
+> [!example]  Definition (Recursive Rationalizability)
+
+$\mu^i_{t+1} [a^i]$
+
+
+
+>  Common knowledge of rationality is "stronger" than rationality alone.
+
+
+See the [[Problem Sets for EC487]] for more applications.
 
 
 

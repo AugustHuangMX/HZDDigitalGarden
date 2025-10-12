@@ -54,3 +54,67 @@ Let $X = [0, 1] \cup \{d\}$ be the set of alternatives. And consider utility fun
         $$ \frac{\tilde{u}^1(x_3) - \tilde{u}^1(x_2)}{\tilde{u}^1(x_2) - \tilde{u}^1(d)} \geq \frac{\hat{u}^1(x_3) - \hat{u}^1(x_2)}{\hat{u}^1(x_2) - \hat{u}^1(d)}. $$
     
     (ii) Interpret the implied preferences over decision problems where the player must choose between alternative $x_2$ with probability 1 and alternative $x_3$ with probability $p$.
+
+
+
+
+# Problem Set 2 
+
+## Question 4
+
+Consider the algorithm which gives the set of **iteratively strictly undominated action profiles** $X \subseteq A$ of a strategic game $(N, A, u)$. For each player $j$ construct a finite sequence $(X_t^j)_{t=1}^T$ such that
+
+- $X_0^j = A^j$ and $X_T^j = X^j$;
+
+- $X_{t+1}^j \subseteq X_t^j$ for each $t \in \{0, ..., T-1\}$;
+
+- Each $a^j \in X_t^j \setminus X_{t+1}^j$ is a strictly dominated action of the finite strategic game $(N, X_t, u|_{X_t})$ (where $u|_{X_t}$ is the restriction of $u$ to action profiles in $X_t$);
+
+- No $a^j \in X^j$ is a strictly dominated action of the finite strategic game $(N, X, u|_X)$.
+
+Show that the set of iteratively strictly undominated action profiles is the set of rationalizable action profiles.
+
+
+*Answer:* The intuition of this procedure is just like what we did in the real example, like question 2 in this pset. The key is to prove the Rationalizable = IESDS Survivors.
+
+- First, we want to prove: Rationalizable $\subseteq$ IESDS Survivors.
+
+That is to say, if $a^j$ is rationalizable, then $a^j \in X^j$. Because $X^j$ denotes the IESDS sets (survivors).
+
+We try to prove by **contradiction**. Suppose $a^j$ is rationalizable but $a^j \notin X^j$. Then, we suppose at, like $t^{*}$, $a^j$ is eliminated. Formally, it is
+
+$$
+a^j \in X^j_{t^{*}} \ \ \ \ \ \text{but} \ \ \ \ a^j \notin X^j_{t^{*}+1}
+$$
+
+By definition, that means $a^j$ is strictly dominated in the reduced game $(N, X_{t^{*}}, u|X_{t^{*}})$
+
+By proposition 2.1, it means $a^j$ is never a BR to any belief of $\mu^j \in \Delta(X^{-j}_{t^{*}})$ 
+Back to the rationalizable side, since we assume $a^j$ is rationalizable, by definition 2.5, it means there exists: 
+
+- Set $Z^i \subset A^i$ with $a^j \in Z^j$,
+- Beliefs $\mu^i[a^i] \in \Delta(Z^{-i})$ for all  $a^i \in Z^i$
+
+such that $a^j$ is a BR to $\mu^j[a^j]$ in the game $(N, Z, u|Z)$.
+
+Which contradicts.
+
+- Second, we want to prove: IESDS Survivors $\subseteq$ Rationalizable.
+
+Set $Z^j = X^j$ for all players $j$, for each $a^j \in X^j$, we construct belief $\mu^j[a^j] \in \Delta(X^{-j})$ such that $a^j$ is a BR to $\mu^j[a^j]$ in the game $(N, X, u|X)$.
+
+Since $a^j$ is never eliminated, this means $a^j \in X^j = X^j_{T}$.
+
+>  $T$ here means the final round.
+
+By Proposition 2.1, since $a^j $ is never strictly dominated in $(N,X_{T}, u|X_{t})$, there exists belief $\mu^j \in \Delta(X^{-j}_{T})$ such that:
+
+$$
+a^j \in \arg \max_{\tilde{a^j} \in A^j} \sum_{a^{-j} \in X^{-j}_{T}} \mu^j(a^{-j}) u^j(\tilde{a^j}, a^{-j})
+$$
+
+ then $a^j$ is a BR to $\mu^j[a^j]$ in the game $(N, X, u|X)$.
+
+By definition 2.5, $a^j$ is rationalizable.
+
+

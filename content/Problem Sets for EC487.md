@@ -57,8 +57,26 @@ Let $X = [0, 1] \cup \{d\}$ be the set of alternatives. And consider utility fun
 
 
 
-
+---
 # Problem Set 2 
+
+
+## Question 2
+
+Find the set of rationalizable actions of each player in the two-player game below:
+
+|    | b1  | b2   | b3  | b4   |
+|:--:|:---:|:----:|:---:|:----:|
+| a1 | 0,7 | 2,5  | 7,0 | 0,1  |
+| a2 | 5,2 | 3,3  | 5,2 | 0,1  |
+| a3 | 7,0 | 2,5  | 0,7 | 0,1  |
+| a4 | 0,0 | 0,-2 | 0,0 | 10,-1|
+
+
+*Answer:*
+
+
+
 
 ## Question 4
 
@@ -116,5 +134,12 @@ $$
  then $a^j$ is a BR to $\mu^j[a^j]$ in the game $(N, X, u|X)$.
 
 By definition 2.5, $a^j$ is rationalizable.
+
+
+## Question 5
+
+Does there exist an action which is rationalizable, yet never played in a Nash equilibrium? Provide an example.
+
+*Answer:* Consider the following game: 
 
 

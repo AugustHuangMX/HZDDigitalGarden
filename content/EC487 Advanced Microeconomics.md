@@ -170,4 +170,10 @@ $\mu^i_{t+1} [a^i]$
 See the [[Problem Sets for EC487]] for more applications.
 
 
+Take a break, I want to summarize the notations about what we have come so far: 
 
+| Notation | Meaning                         | Example           |
+| -------- | ------------------------------- | ----------------- |
+| $A^j$    | $j$ 's action sets              | $A^j = \{U,M,D\}$ |
+| $a^j$    | a specific action by player $j$ | $a^j = U$         |
+|          |                                 |                   |

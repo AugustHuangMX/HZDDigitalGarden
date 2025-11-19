@@ -1,3 +1,5 @@
+#Econ/metrics 
+
 We usually name the IV be $Z$.
 
 A valid instrument should satisfy:
@@ -143,3 +145,4 @@ $$
 > 
 > **相关**：$z$ 与 $x$ 要相关  
 > **不相关**：z 与 ε 要不相关
+

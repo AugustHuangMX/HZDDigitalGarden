@@ -6,3 +6,21 @@
 The Self-Sufficiency Project (SSP) was a Canadian social experiment conducted in the 1990s to evaluate the impact of financial incentives on employment and welfare dependency among low-income single parents. The project aimed to encourage recipients of social assistance to enter the workforce by providing them with a guaranteed income supplement if they found employment.
 
 
+
+
+# Data Lab 
+
+Estimating Mincer Regression.
+
+The basic regression we want to do is $y_{i} = \alpha + \beta S_{i} + X_{i} \delta + u_{i}$
+
+We want to control for $X_{i}$ because of omitted variable bias. What is a good control? For example, age. What is a bad control? For example, Variables on the causal path from schooling to wages. 
+
+The key concern to do the following regression is that **ability** as an omitted variable. And we overstate the returns to schooling (we could also say that the direction of the bias is upward bias).
+
+Even when we conditional on the ability, still the age would have impact on wages, i.e., the experience.
+
+```Stata
+sum hrp1 hrp2
+```
+

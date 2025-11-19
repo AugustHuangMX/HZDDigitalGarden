@@ -1,7 +1,6 @@
 
 #Econ/Macro 
 
-
 Specific example: [[Cobb-Douglas Production Function]]
 
 $Y=K^\alpha L^{1-\alpha}$

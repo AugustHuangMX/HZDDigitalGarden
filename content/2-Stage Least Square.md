@@ -1,3 +1,5 @@
+#Econ/metrics 
+
 1. Regress endogeous regressor $X$ on $Z$, get $\hat X$
 
 $$
@@ -29,4 +31,13 @@ $$
 =\frac{\beta_1 S^2_\hat X}{S^2_\hat X}+\frac{ S_{\hat X,u}}{S^2_\hat X}+\frac{ S_{\hat X,\beta_1,\hat V}}{S^2_\hat X}
 $$
 
-- Textbook
+
+
+## Conditions
+
+When we use 2SLS to estimate, we have to verify 2 conditions:
+
+1. Relevance Condition: $Cov(Z,X) \neq 0$
+2. Validity Condition: $Cov(Z,u) = 0$
+
+where $Z$ is the [[Instrumental Variable]]

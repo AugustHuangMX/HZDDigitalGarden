@@ -28,10 +28,53 @@ $$
 Because we need to apply the [[Uniform Law of Large Numbers]], which requires the Dominance condition.
 
 
+# GMM in the linear setting
 
+Suppose we have a linear system:
+
+$$
+Y_{i} = X_{i}' \beta + e_{i},\ \mathbb{E}[X_{i} e_{i}] = 0
+$$
+
+It's **moment condition**is based on that the error term is uncorrelated with the regressors. Thus we have:
+
+$$
+g(Z_{i}, \beta) = X_{i} (Y_{i} - X_{i}' \beta)
+$$
+
+When we set the $\mathbf{W} = I$, we would have the GMM estimator:
+
+$$
+\hat{\beta}_{GMM} = \left( \sum X_{i} X_{i}' \right)^{-1} \left( \sum X_{i} Y_{i} \right)
+$$
+
+Yes and As you can see, since everything is linear, we could just solve it directly. But in the non-linear setting, we could not solve it directly. Thus we need to use numerical optimization methods to find the estimator.
 
 
 # GMM in the non linear setting
+
+Suppose we have a linear system:
+
+$$
+Y_{i} = e^{X_{i}' \theta} + e_{i},\ \mathbb{E}[X_{i} e_{i}] = 0
+$$
+
+Similarly, we could get the moment condition:
+
+$$
+g(Z_{i}, \theta) = X_{i} (Y_{i} - e^{X_{i}' \theta})
+$$
+
+GMM estimator:
+
+$$
+\hat{\theta}_{GMM} = \arg \min_{\theta \in \Theta} \bar{g}_{n}(\theta)' W \bar{g}_{n}(\theta)
+$$
+
+
+
+
+
 
 The [[Asymptotic Normality]] would satisfy, which could be represented by:
 

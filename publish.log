@@ -425,3 +425,67 @@ total size is 56576k  speedup is 78.95
  Quartz v4.5.2 
 
 Backing up your content
+[v4 3faad3f] Quartz sync: Nov 19, 2025, 5:32 PM
+ 34 files changed, 958 insertions(+), 48 deletions(-)
+ create mode 100644 content/2025-10-16.md
+ create mode 100644 content/2025-10-27.md
+ create mode 100644 content/Arrow-Debreu CE.md
+ create mode 100644 content/Backward Reasoning.md
+ create mode 100644 content/Bellman Equation.md
+ create mode 100644 content/Cobweb Model.md
+ create mode 100644 content/Deterministic Consumption-Saving Problem.md
+ create mode 100644 content/EC484 Econometrics Analysis.md
+ create mode 100644 content/Forward Induction.md
+ create mode 100644 content/Generalized Method of Moments.md
+ create mode 100644 content/Implicit Function Theorem.md
+ create mode 100644 content/Law of Motion.md
+ create mode 100644 content/Maximally Greedy Action Plan.md
+ create mode 100644 content/Phase Diagram.md
+ create mode 100644 content/Problem Sets for EC417.md
+ create mode 100644 content/Rank.md
+ create mode 100644 content/Running List.md
+ create mode 100644 content/base1.base
+ create mode 100644 content/ex ante.md
+ create mode 100644 "content/\345\201\217\345\257\274\346\225\260.md"
+ create mode 100644 "content/\346\210\252\345\261\2172025-10-27 14.32.05.png"
+ create mode 100644 "content/\346\234\252\345\221\275\345\220\215 2.md"
+ create mode 100644 "content/\346\234\252\345\221\275\345\220\215 3.md"
+Pulling updates from your repository. You may need to resolve some `git` conflicts if you've made changes to components or plugins.
+来自 https://github.com/AugustHuangMX/HZDDigitalGarden
+ * branch            v4         -> FETCH_HEAD
+已经是最新的。
+Pushing your changes
+To https://github.com/AugustHuangMX/HZDDigitalGarden.git
+   1e13c44..3faad3f  v4 -> v4
+分支 'v4' 设置为跟踪 'origin/v4'。
+Done!
+npm notice
+npm notice New patch version of npm available! 11.6.0 -> 11.6.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.6.2
+npm notice To update run: npm install -g npm@11.6.2
+npm notice
+2025-11-19 17:32:22 - 🚀 内容处理和推送完成！Vercel 将开始自动部署。
+2025-11-19 17:32:22 - ====== 自动发布任务执行完毕 ======
+2025-11-20 14:44:51 - ====== 开始执行自动发布任务 ======
+2025-11-20 14:44:51 - ✅ 步骤 1/2: 开始同步笔记文件...
+Transfer starting: 762 files
+./
+Consumer Theory.md
+EC423 Labour Economics.md
+EC451.md
+EC484 Econometrics Analysis.md
+Generalized Least Squares.md
+Generalized Method of Moments.md
+Economics/
+Math/
+base/
+templates/
+
+sent 47233 bytes  received 182 bytes  1575k bytes/sec
+total size is 56579k  speedup is 1193.27
+2025-11-20 14:44:51 - 笔记同步完成。
+2025-11-20 14:44:51 - ✅ 步骤 2/2: 开始处理内容并自动推送到 GitHub...
+
+ Quartz v4.5.2 
+
+Backing up your content

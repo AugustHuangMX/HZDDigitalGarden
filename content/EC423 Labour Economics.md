@@ -24,3 +24,4 @@ Even when we conditional on the ability, still the age would have impact on wage
 sum hrp1 hrp2
 ```
 
+`sum` is short for `summarize`. It gives you summary statistics of the variables you input. Here, we are summarizing `hrp1` and `hrp2`.

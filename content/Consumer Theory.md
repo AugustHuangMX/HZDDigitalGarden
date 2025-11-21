@@ -27,6 +27,12 @@ This definition could also be found [[EC451#^2c22e9|here]].
 
 There is an exercise that to show that **strict** quasi-concavity implies that there exists a unique utility-maximizing demand function $x^* (p,w)$.
 
+> [!example] Proposition
+> Suppose that $u: \mathbb{R}^L_{+} \to \mathbb{R}$ is strictly quasi-concave and continuous. Then demand $x(p,w)$ is continuous for all strictly positive price vectors $(p_{1},\dots, p_{L}): p_{\ell} > 0, \forall \ell$
+
+
+
+
 
 
 

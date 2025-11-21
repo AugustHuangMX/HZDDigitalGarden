@@ -1,11 +1,11 @@
 ---
-title: "Endowment"
-tags: 
-- Econ/Macro
+title: Endowment
+tags:
+  - Econ/Macro
+  - Econ/Micro
 ---
 [[Consumption]]
 
-#macro 
 
 ![](IMG_0995EA448DB3-1.jpeg)
 

@@ -25,3 +25,16 @@ sum hrp1 hrp2
 ```
 
 `sum` is short for `summarize`. It gives you summary statistics of the variables you input. Here, we are summarizing `hrp1` and `hrp2`.
+
+
+---
+
+How to understand "labour share"?
+
+The labour share of income is the portion of national income that is paid to workers in the form of wages, salaries, and benefits. It is typically calculated as the ratio of total labour compensation to total national income or GDP.
+
+$$
+\text{Labour Share} = \frac{\text{Total Wages and Salaries}}{\text{GDP}}
+$$
+
+

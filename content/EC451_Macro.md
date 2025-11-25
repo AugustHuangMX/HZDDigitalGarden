@@ -84,7 +84,7 @@ Now, we generalize that backward-thinking into one powerful equation for an infi
         
     - What is the **value function**, V(B)? (Hint: It summarizes the future) 7.
         
-    - What is the **policy function**, g(B)? (Hint: It's your optimal rule or plan) 8888.
+    - What is the **policy function**, g(B)? (Hint: It's your optimal rule or plan) .
         
 - [ ] Follow the example for the
     

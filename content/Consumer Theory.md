@@ -30,7 +30,31 @@ There is an exercise that to show that **strict** quasi-concavity implies that t
 > [!example] Proposition
 > Suppose that $u: \mathbb{R}^L_{+} \to \mathbb{R}$ is strictly quasi-concave and continuous. Then demand $x(p,w)$ is continuous for all strictly positive price vectors $(p_{1},\dots, p_{L}): p_{\ell} > 0, \forall \ell$
 
+### Concavity and Convexity
 
+What we are talking about while we are saying a function is whether **Concave** or **Convexity**?
+
+Formally, we have
+
+$$
+f(\alpha x + (1-\alpha)y) \geq \alpha f(x) + (1-\alpha) f(y) \quad \text{for all } \alpha \in [0,1]
+$$
+
+If a function satisfies this property, then we say it is **Concave**.
+
+Similarly, if a function satisfies the opposite property:
+
+$$
+f(\alpha x + (1-\alpha)y) \leq \alpha f(x) + (1-\alpha) f(y) \quad \text{for all } \alpha \in [0,1]
+$$
+
+Then we say it is **Convex**.
+
+From the derivatice
+
+#### Quasi 
+
+We then have **Quasi-Concave** and **Quasi-Convex**, which are the weaker versions of Concave and Convex.
 
 
 

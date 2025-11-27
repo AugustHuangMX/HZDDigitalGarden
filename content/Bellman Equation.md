@@ -1,4 +1,4 @@
-#Econ/Macro 
+#Econ/Macro  #LSE/EC417_Macroeconomics 
 
 The [[Bellman Equation]] is a fundamental concept in dynamic programming and optimal control theory. It provides a recursive decomposition of the value function, which represents the maximum value that can be achieved from a given state. It has some very good properties, compared with the lagrangian method, the "Old fashioned" way.
 
@@ -59,9 +59,14 @@ The policy functions here are $a' = g(a,y)$ and $c = h(a,y)$.
  
  We could use a *cash-on-hand* method to simplify it: we let $x = y+ Ra$, then $x$ is a state variable which denotes your wealth received at the beginning of the period. 
 
+>  The case-on-hand strategy is kind of trick to make the computer programming easier. Because we don't need to track both $a$ and $y$, but only $x$. 
+
 Then, one nice thing that could happen is we could use $s$ to denote the savings, thus $x' = Rs + y'$.
 
 > One thing important here is we have to assume $y$ is i.i.d. Because only it is i.i.d., the previous value $y$ doesn't provide any information to $y'$, so we don't need to track it in the state variable. In this setting, we only care about $x$!
+
+
+## Stochastic Bellman Equation
 
 Thus our [[Bellman Equation]] becomes: 
 
@@ -134,6 +139,9 @@ Some settings:
 - $y= \{y_{1}, \dots, y_{J}\}$: Finite number of income realizations
 - $\Pr(y_{t+1} = y_{j'}| y_{t} = y_{t-1}, y_{t-2})\dots$ = $\Pr(y_{t+1} = y_{j'}| y_{t} = y_{j}) = p_{jj'}$
 
+
+For example, $p_{11} = \Pr(y_{t+1} = y_{1}|y_{t} = y_{1})$
+
 #### The transition matrix $P$
 
 To fully understand it, we raise a concrete numerical example:
@@ -147,6 +155,8 @@ P = \begin{bmatrix}
 $$
 
 Since it is a $3 \times 3$ setting, we also have income realizations that $y = \{{y_{1},y_{2},y_{3}}\}$  that $y_{1}<y_{2}<y_{3}$.
+
+>  There are two ways to think about $y$ here. One is that the probability you would have income $y_{j}$ in period $t$. The other way is that you could think about there are three different types of households, type 1 always has income $y_{1}$, type 2 always has income $y_{2}$, and type 3 always has income $y_{3}$. And the $p$ you get is the proportion of each type in the economy.
 
 How to read this matrix?
 
@@ -618,6 +628,11 @@ print('90th Percentile: ' + str(np.quantile(aysim,.9)))
 
 print('99th Percentile: ' + str(np.quantile(aysim,.99)))
 ```
+
+
+
+
+
 
 
 ### Different Methods 

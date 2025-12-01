@@ -1,6 +1,10 @@
-#Econ/metrics 
+#Econ/metrics #LSE/EC484_Econometrics_Analysis 
 
 Or, so called **GMM**. 
+
+## The GMM Set Up
+
+
 
 Some important assumptions:
 
@@ -105,4 +109,6 @@ $$
 V_{\mathbf{W}^*} = (G' \Omega^{-1} G)^{-1}
 $$
 
+
+**The optimal weighting strategy:** Weight each moment condition **inversely proportional to its variance**. This is like inverse-variance weighting you might have seen in statistics.
 

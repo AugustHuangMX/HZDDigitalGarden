@@ -10,3 +10,4 @@ $$
 
 Use human language, it means: Given that we know the value of $X$ is $x$, what is the probability that $Y$ is less than or equal to $y$?
 
+You can also refer to the [[Conditional Expectation Function]]

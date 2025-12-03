@@ -20,3 +20,18 @@ $$\max_{\{c_{t}^h, h_{t}^h, k_{t}^h\}^\infty_{t=0}} U = \sum_{t=0}^{\infty} \bet
 
 
 $$\begin{align} \sum_{\ell=1}^L (x'_\ell - \delta) p_\ell(n_k) &= \sum_{\ell=1}^L x'_\ell p_\ell(n_k) - \delta \sum_{\ell=1}^L p_\ell(n_k) \ &= \sum_{\ell=1}^L x'_\ell [p_\ell(n_k) - p_\ell] + \sum_{\ell=1}^L x'_\ell p_\ell - \delta \sum_{\ell=1}^L p_\ell(n_k) \end{align}$$
+
+
+## The BGP ADCE 
+
+The balanced growth path ADCE is a special case where everything grows at constant rate, but maybe not the same rate. For example, the technology grows at rate $g_{A}$, and the consumption grows at rate $g_{c}$, etc.
+
+But finally, it turns out to be the same. Here's a sketch proof:
+
+Consider the household problem:
+
+$$
+c_{t} = F(k_{t},A_{t}) + (1-\delta ) k_{t} - k_{t+1}
+$$
+
+In the BGP ADCE, $c_{t}$ grows at constant rate, thus the RHS part also grows at constant rate. Note that $A_{t}$ grows at constant rate $g_{A}$, thus $F(k_{t},A_{t})$ must also grow at constant rate. And all the components grow at constant rate, thus $k_{t}$ must also grow at constant rate.

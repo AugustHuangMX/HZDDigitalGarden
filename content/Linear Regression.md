@@ -4,4 +4,6 @@
 - [[Simple Linear Regression in Matrix Notation]]
 - [[Multiple Regression]]
 - [[Largrangian Multiplier]]
+- [[Taylor Expansion]]
+
 

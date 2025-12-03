@@ -1564,3 +1564,51 @@ total size is 56747k  speedup is 1184.81
  Quartz v4.5.2 
 
 Backing up your content
+[v4 2236f08] Quartz sync: Dec 1, 2025, 2:43 PM
+ 11 files changed, 192 insertions(+), 18 deletions(-)
+ create mode 100644 content/Conditional Expectation Function.md
+ create mode 100644 content/Diary/2025-11-29.md
+ create mode 100644 content/Lorenz Curve.md
+ create mode 100644 content/Probability Density Function.md
+ delete mode 100644 content/Probability Mass Function.md
+ create mode 100644 content/Welfare Theorem.md
+ create mode 100644 "content/\346\234\252\345\221\275\345\220\215 4.md"
+Pulling updates from your repository. You may need to resolve some `git` conflicts if you've made changes to components or plugins.
+来自 https://github.com/AugustHuangMX/HZDDigitalGarden
+ * branch            v4         -> FETCH_HEAD
+已经是最新的。
+Pushing your changes
+To https://github.com/AugustHuangMX/HZDDigitalGarden.git
+   3c3742e..2236f08  v4 -> v4
+分支 'v4' 设置为跟踪 'origin/v4'。
+Done!
+2025-12-01 14:43:32 - 🚀 内容处理和推送完成！Vercel 将开始自动部署。
+2025-12-01 14:43:32 - ====== 自动发布任务执行完毕 ======
+2025-12-03 12:32:14 - ====== 开始执行自动发布任务 ======
+2025-12-03 12:32:14 - ✅ 步骤 1/2: 开始同步笔记文件...
+Transfer starting: 786 files
+./
+Aiyagari Bewley Huggett Model.md
+Arrow-Debreu CE.md
+Central Limit Theorem.md
+Conditional Expectation Function.md
+Linear Regression.md
+Nonparametric Method.md
+Taylor Expansion.md
+Diary/
+Diary/2025-12-01.md
+Economics/
+Math/
+attachment/
+attachment/�\#210��\#2172025-12-03 12.17.21.png
+base/
+templates/
+
+sent 169k bytes  received 260 bytes  4563k bytes/sec
+total size is 56875k  speedup is 335.97
+2025-12-03 12:32:14 - 笔记同步完成。
+2025-12-03 12:32:14 - ✅ 步骤 2/2: 开始处理内容并自动推送到 GitHub...
+
+ Quartz v4.5.2 
+
+Backing up your content

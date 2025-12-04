@@ -94,7 +94,7 @@ Where $U_{i} = \frac{X_{i} -c}{h}$. The meaning of $U_{i}$ is the relative dista
 The above estimator is called the **Histogram Density Estimator**. It is simple but has some drawbacks, such as being discontinuous and sensitive to the choice of bandwidth. We replace the indicator function with a smooth function called a **kernel function** $K(\cdot)$, which satisfies:
 
 $$
-\hat{f}(c) =  = \frac{1}{n h} \sum_{i=1}^{N} K \left( \frac{X_{i} -c}{h} \right )
+\hat{f}(c) = \frac{1}{n h} \sum_{i=1}^{N} K \left( \frac{X_{i} -c}{h} \right )
 $$
 
 Where $K(\cdot)$ is a kernel function that assigns weights to observations based on their distance from $c$. Common choices for $K(u)$ include:
@@ -176,7 +176,7 @@ $$
 We let the last term to be $2 R_{1}$:
 
 $$
-\int f''(c+h u^*) u^2 K(u) du = \int f''(c)u^2 K(u)) du + \underbrace{ \int [f''(c+h u^*) - f''(c)] u^2 K(u) du }_{ R_{1}}
+\int f''(c+h u^*) u^2 K(u) du = \int f''(c)u^2 K(u)) du + \underbrace{ \int [f''(c+h u^*) - f''(c)] u^2 K(u) du }_{ 2R_{1}}
 $$
 
 Thus we have:
@@ -238,4 +238,95 @@ $$
 $$
 
 #### [[Variance]]
+
+The method is similar to the derivation of mean.
+
+We recall that $\hat{f}(c)  = \frac{1}{n h} \sum_{i=1}^{N} K \left( \frac{X_{i} -c}{h} \right )$, and recall the definition of the variance: $\text{Var}[\hat{f}(c)] = \mathbb{E}[\hat{f}(c)^2]  - \{\mathbb{E}[\hat{f}(c)]\}^2$
+
+$$
+\begin{align}
+\text{Var}[\hat{f}(c)]  &= \text{Var}[ \frac{1}{nh} K(\frac{X-c}{h})] \\
+ &=  \frac{1}{n h^2} \text{Var}[ K(\frac{X-c}{h})] \\
+ &= \frac{1}{n h^2} \{\mathbb{E}[K(\frac{X-c}{h})^2] - \mathbb{E}[K(\frac{X-c}{h})]^2\} \\
+\end{align}
+$$
+
+Then we take the integral:
+
+$$
+\mathbb{E}[K(\frac{X-c}{h})^2] = \int K(\frac{x-c}{h})^2 f(x) dx
+$$
+
+$$
+\mathbb{E}[K(\frac{X-c}{h})]^2 = (\int K(\frac{x-c}{h})f(x) dx)^2
+$$
+
+Similar to what we have done in the mean part, we let $u = \frac{x-c}{h}$, then $x = c + uh$ and $dx = h du$. Thus:
+
+$$
+\mathbb{E}[K(\frac{X-c}{h})^2] = \int K(u)^2 f(c + uh) h du
+$$
+
+$$
+\text{Var}[\hat{f}(c)] = \frac{1}{n h} \int K(u)^2 f(c + hu) du - \frac{1}{n} \left( \int K(u) f(c+hu) du \right)^2
+$$
+
+For simplification, we denote:
+
+$$
+\text{Var}[\hat{f}(c)] = V_{1} - V_{2}
+$$
+
+where $V_{1} = \frac{1}{n h} \int K(u)^2 f(c + hu) du$ and $V_{2} = \frac{1}{n} \left( \int K(u) f(c+hu) du \right)^2$.
+
+For $V_{1}$, using Taylor expansion, we have:
+
+$$
+f(c+hu) = f(c) + f'(c) hu + O(h^2)
+$$
+
+Thus we have:
+
+$$
+V_{1} = \frac{1}{n h} \int K(u)^2 [f(c) + f'(c) hu + O(h^2)] du
+$$
+
+$$
+= \frac{1}{n h} \left[ f(c) \int K(u)^2 du + f'(c) h \int u K(u)^2 du + O(h^2) \right]
+$$
+
+Since $\int u K(u)^2 du = 0$ (The symmetric), we have:
+
+$$
+V_{1} = \frac{1}{n h} \left[ f(c) \int K(u)^2 du + O(h^2) \right] = \frac{f(c)}{n h} \int K(u)^2 du + O(\frac{1}{n})
+$$
+
+We could also follow the lecture slides where we let:
+
+$$
+V_{1} = \frac{1}{nh} f(c) \int K(u)^2 du + \frac{1}{nh} R_{2}
+$$
+
+where $R_2 =  \int K(u)^2 [f(c+hu) - f(c)] du$.
+
+And we could also show that $R_{2} = o(1)$ as $h \to 0$ using the similar method in the mean part.
+
+We skip the part of $V_{2}$ because the method is very similar. Finally we could have $O(n^{-1}) = o(\frac{1}{nh})$
+
+#### [[Consistency]]
+
+We finally could have:
+
+$$
+\begin{align}
+\mathbb{E}[\hat{f}(c)] \to f(c)  \\ \\
+\text{Var}[\hat{f})c] \to 0
+\end{align}
+$$
+
+Since convergence in mean square implies convergence in probability, we have:
+
+$$
+\hat{f}(c) \to^p f(c)
+$$
 

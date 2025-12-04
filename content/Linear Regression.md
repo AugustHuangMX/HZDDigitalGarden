@@ -5,5 +5,3 @@
 - [[Multiple Regression]]
 - [[Largrangian Multiplier]]
 - [[Taylor Expansion]]
-
-

@@ -11,7 +11,7 @@ Hi，我是黄指导，2021 届澳门大学的经济系学生，感谢你点击�
 
 ==这个主页的内容还需要编辑完善，不过你可以直接点击下方的链接进入我的专业的 MOC (Map of Content)来浏览我所有的笔记了。感谢你的支持！==
 
-
+If you are interested in my other information, feel free to visit my [homepage](https://augusthuangmx.github.io/)
 ## 杂谈
 
 [[我为什么要做这件事情？]]

@@ -1685,3 +1685,49 @@ total size is 56884k  speedup is 1178.16
  Quartz v4.5.2 
 
 Backing up your content
+[v4 48496c9] Quartz sync: Dec 4, 2025, 11:37 AM
+ 3 files changed, 128 insertions(+), 4 deletions(-)
+Pulling updates from your repository. You may need to resolve some `git` conflicts if you've made changes to components or plugins.
+æ¥è‡ª https://github.com/AugustHuangMX/HZDDigitalGarden
+ * branch            v4         -> FETCH_HEAD
+å·²ç»æ˜¯æœ€æ–°çš„ã€‚
+Pushing your changes
+To https://github.com/AugustHuangMX/HZDDigitalGarden.git
+   0dd27a2..48496c9  v4 -> v4
+åˆ†æ”¯ 'v4' è®¾ç½®ä¸ºè·Ÿè¸ª 'origin/v4'ã€‚
+Done!
+2025-12-04 11:37:11 - ğŸš€ å†…å®¹å¤„ç†å’Œæ¨é€å®Œæˆï¼Vercel å°†å¼€å§‹è‡ªåŠ¨éƒ¨ç½²ã€‚
+2025-12-04 11:37:11 - ====== è‡ªåŠ¨å‘å¸ƒä»»åŠ¡æ‰§è¡Œå®Œæ¯• ======
+2025-12-04 11:44:16 - ====== å¼€å§‹æ‰§è¡Œè‡ªåŠ¨å‘å¸ƒä»»åŠ¡ ======
+2025-12-04 11:44:16 - âœ… æ­¥éª¤ 1/2: å¼€å§‹åŒæ­¥ç¬”è®°æ–‡ä»¶...
+Transfer starting: 787 files
+./
+index.md
+æ\#234ªå\#221½å\#220\#215 1.base
+æ\#234ªå\#221½å\#220\#215 1.canvas
+æ\#234ªå\#221½å\#220\#215 10.base
+æ\#234ªå\#221½å\#220\#215 11.base
+æ\#234ªå\#221½å\#220\#215 12.base
+æ\#234ªå\#221½å\#220\#215 3.base
+æ\#234ªå\#221½å\#220\#215 5.base
+æ\#234ªå\#221½å\#220\#215 6.base
+æ\#234ªå\#221½å\#220\#215 7.base
+æ\#234ªå\#221½å\#220\#215 8.base
+æ\#234ªå\#221½å\#220\#215 9.base
+æ\#234ªå\#221½å\#220\#215.base
+æ\#234ªå\#221½å\#220\#215.canvas
+Diary/
+Economics/
+Math/
+attachment/
+base/
+templates/
+
+sent 41415 bytes  received 370 bytes  772k bytes/sec
+total size is 56884k  speedup is 1361.35
+2025-12-04 11:44:16 - ç¬”è®°åŒæ­¥å®Œæˆã€‚
+2025-12-04 11:44:16 - âœ… æ­¥éª¤ 2/2: å¼€å§‹å¤„ç†å†…å®¹å¹¶è‡ªåŠ¨æ¨é€åˆ° GitHub...
+
+ Quartz v4.5.2 
+
+Backing up your content

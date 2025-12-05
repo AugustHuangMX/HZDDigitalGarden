@@ -320,7 +320,7 @@ We finally could have:
 $$
 \begin{align}
 \mathbb{E}[\hat{f}(c)] \to f(c)  \\ \\
-\text{Var}[\hat{f})c] \to 0
+\text{Var}[\hat{f}(c)] \to 0
 \end{align}
 $$
 

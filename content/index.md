@@ -62,6 +62,10 @@ If you are interested in my other information, feel free to visit my [homepage](
 
 2025.10.01 国庆快乐！我进行了网站的重新部署，现在整个网站由 [Vercel](https://vercel.com/) 托管，可能从国内访问会出现问题，建议使用 VPN 访问。
 
+2025.12.01 个人主页搭建完成！
+
+
+
 
 
 

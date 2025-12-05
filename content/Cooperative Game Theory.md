@@ -100,3 +100,7 @@ The conditions might be too abstract, lets explain.
 
 Since this exchange economy implies that all agents could only exchange endowment within their coalition, it means that smaller coalitions have limited scope for benefiting from resource exchanges.
 
+## [[Core Equivalence Theorem]]
+
+See [[Core Equivalence Theorem]] for more info.
+

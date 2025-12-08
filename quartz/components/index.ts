@@ -24,6 +24,7 @@ import Comments from "./Comments"
 import Flex from "./Flex"
 import ConditionalRender from "./ConditionalRender"
 
+
 export {
   ArticleTitle,
   Content,
@@ -51,3 +52,5 @@ export {
   Flex,
   ConditionalRender,
 }
+
+export { default as VercelAnalytics } from "./VercelAnalytics"

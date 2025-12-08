@@ -1,6 +1,6 @@
 #Econ/Micro #GameTheory 
 
-A [[Zero-Sum Game]] is a special type of [[Game Theory|game]] where one player's gain is exactly balanced by the losses of other players. In other words, the total benefit to all players in the game adds up to zero.
+A [[Zero Sum Game]] is a special type of [[Game Theory|game]] where one player's gain is exactly balanced by the losses of other players. In other words, the total benefit to all players in the game adds up to zero.
 
 A two player [[Zero Sum Game]] is a normal form game where $N=2$ and $u^1(a) = -u^2(a)$
 
@@ -12,7 +12,7 @@ Now, consider there are two players, player 1 and player 2. We consider an upper
 
 ### Lower Bound
 
-Imagine that for player 1, he is a very pessimistic player, and he thinks that player 2 will always play the best response to his action. So he will choose his action to maximize his minimum payoff. This is called the maximin strategy, that is,
+Imagine that for player 1, he is a very pessimistic player, and he thinks that player 2 will choose the [[Strategy]] that would give him the lowest payoff. So he will choose his action to maximize his minimum payoff. This is called the **maxmin** strategy, that is,
 
 $$
 min_{s^2} v^1(s^1,s^2)
@@ -24,6 +24,8 @@ max_{s^1}min_{s^2} v^1(s^1,s^2)
 $$
 
 So this is the lower bound for player 1. ANY other *equilibrium payoff* must give player 1 at least this value.
+
+> From my perspective, don't make it wrong that the player $-j$ aims to "harm" player $j$. In economics, $-j$ just want to maximize his own payoff, while the result is that player $j$ 's payoff is minimized since it is a [[Zero Sum Game]].
 
 ### Upper Bound 
 
@@ -39,6 +41,9 @@ $$
 min_{s^2}max_{s^1}v^1(s^1,s^2)
 $$
 
-The magic thing is that, in any finite two-player zero-sum game, the maximin value is **equal** to the minimax value. This is called the min-max theorem.
+The magic thing is that, in any finite two-player zero-sum game, the maximin value is **equal** to the minmax value. This is called the min-max theorem. See [[Min-Max = Max-Min]]
+
+
+
 
 

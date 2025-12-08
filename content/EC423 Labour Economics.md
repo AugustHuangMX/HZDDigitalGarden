@@ -44,4 +44,8 @@ Why we use $age^2$ to proxy experience?
 Because experience is typically measured as the number of years a person has been in the workforce, which is often approximated by subtracting the age at which they started working from their current age. However, this relationship is not linear, as the returns to experience tend to diminish over time. By including both age and age squared in the regression, we can capture this non-linear relationship more accurately. The coefficient on age squared allows us to model the diminishing returns to experience as individuals gain more years of work experience.
 
 
+---
+
+[[EC423 Essay]]
+
 

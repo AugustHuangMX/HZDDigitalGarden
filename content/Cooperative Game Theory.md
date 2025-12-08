@@ -38,6 +38,8 @@ A partition $\mathcal{S}$ and a utility profile $(u^j)^N_{j=1}$ so that $(u^j)_{
 
 ### The TU Matching 
 
+> The one-to-one matching.
+
 Consider
 
 $$
@@ -71,8 +73,9 @@ $$
 \max_{m(x,y)} \sum_{x,y} f(x,y) m(x,y) > \sum_{x,y} (u(x) + u(y)) m(x,y)
 $$
 
-That is, there exists blocking coalition. Contradiction!
+That is, there exists blocking coalition. Contradiction! $\square$
 
+>  Try to link this to [[First Welfare Theorem]]
 
 ### Exchange Economy 
 
@@ -103,4 +106,39 @@ Since this exchange economy implies that all agents could only exchange endowmen
 ## [[Core Equivalence Theorem]]
 
 See [[Core Equivalence Theorem]] for more info.
+
+
+---
+
+Claim: If [[Walrasian Equilibrium]] utility exists: $\dot{u}^1(v^2_{WE}) \dot{u}^2(v^2_{WE})<1$ then limit $\delta \to 1$, SSPE -> WE.
+
+
+$$
+u^1(1\times u^2(v^1(1)))-u^1 (\delta u^2(v^1(\delta))) \leq v^1(1) - \delta v^1(\delta)
+$$
+
+both divided by $1-\delta$:
+
+$$
+\frac{u^1(1\times u^2(v^1(1)))-u^1 (\delta u^2(v^1(\delta)))}{1-\delta} \leq \frac{v^1(1) - \delta v^1(\delta)}{1-\delta}
+$$
+
+And take the limit:
+
+$$
+\lim_{ \delta \to 1 } \frac{u^1(1\times u^2(v^1(1)))-u^1 (\delta u^2(v^1(\delta)))}{1-\delta} \leq \lim_{ \delta \to 1 } \frac{v^1(1) - \delta v^1(\delta)}{1-\delta}
+$$
+
+$$
+d_{\delta} u^1(\delta u^2(v^1(\delta)))  \leq d_{\delta} \delta v^1(\delta)|_{\delta=1}
+$$
+
+$$
+\dot{u}^1(\cdot) (u^2(\cdot) + \dot{u}^2(\cdot) \dot{v}^1(1)) \leq v^1(1) + \dot{v}^1(1)
+$$
+
+$$
+\underbrace{ (\dot{u}^1(\cdot) \dot{u}^2(\cdot) -1) }_{ \leq 0 } \underbrace{ \dot{v}^1(1) }_{ \geq 0 } \leq \underbrace{ v^1(1) }_{ > 0 } - \underbrace{ \dot{u}^1(\cdot) }_{ \leq 0 } u^2(\cdot)
+$$
+
 

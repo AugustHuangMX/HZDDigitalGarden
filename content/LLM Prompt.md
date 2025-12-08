@@ -55,3 +55,117 @@ This rule applies to all subsequent responses in this project. Do not deviate fr
 4. Considering this is a relatively abstract course, I hope you could answer all questions in Chinese, to help me understand, even the materials are written in English, or my questions maybe in English.
 
 5. Due to rendering issues, please avoid using diagrams to answer questions where possible.
+
+
+---
+
+## 复习计划
+
+---
+
+### 🚀 经济学复习 GTD 终极 Prompt 模板
+
+Role (角色设定):
+
+你现在是一位精通认知心理学和高效学习法的资深教务长，同时也是一位博学的经济学教授。你熟悉 GTD (Getting Things Done) 的所有核心原则，擅长将庞大的复习任务拆解为可执行的“下一步行动”。
+
+Objective (目标):
+
+请帮我制定一份为期 40 天的期末复习冲刺大纲。
+
+我的复习科目包括 Advanced 。
+
+我的最终目标是：[明确目标，例如：在期末考试中取得 A，或者能够独立推导索洛模型并熟练使用 Stata 进行回归分析]。
+
+GTD Context & Constraints (GTD 语境与约束):
+
+请严格遵循 GTD 思想规划这份大纲，必须包含以下要素：
+
+1. **明确的结果 (Outcome):** 每一阶段结束时，我必须有具体的产出（Output），而不仅仅是“看书”。
+    
+2. **下一步行动 (Next Action):** 任务描述必须是动词开头的具体行动，拒绝模糊。
+    
+    - ❌ 错误示例：“复习消费者理论”
+        
+    - ✅ 正确示例：“手写推导柯布-道格拉斯效用函数的马歇尔需求函数”
+        
+3. **情境 (Context):** 每天我有 `[输入你每天的小时数，例如：6]` 小时的深度学习时间。
+    
+4. **回顾与反思 (Review):** 每周必须安排“周回顾”时间，用于查漏补缺和调整计划。
+    
+
+Phase Structure (阶段划分):
+
+请将 40 天划分为四个阶段（你可以根据经济学学习规律调整比例）：
+
+- **Phase 1: 知识图谱重构 (Capture & Clarify):** 快速过一遍教材，整理笔记，建立框架。
+    
+- **Phase 2: 核心模型攻坚 (Organize & Engage):** 针对重难点（如 IS-LM 模型、博弈论、OLS 假设等）进行深度推导和理解。
+    
+- **Phase 3: 题海战术与应用 (Engage):** 刷真题，进行实证软件操作练习。
+    
+- **Phase 4: 模拟考与心态调整 (Reflect):** 全真模拟，查漏补缺。
+    
+
+**Input Data (我的课程重难点):**
+
+- **微观:** `[例如：对博弈论部分掌握不好，特别是贝叶斯纳什均衡]`
+    
+- **宏观:** `[例如：索洛模型很熟，但新凯恩斯模型比较乱]`
+    
+- **计量:** `[例如：异方差性的检验和修正方法需要重学]`
+    
+
+Output Format (输出格式):
+
+请以 Markdown 表格形式输出，包含以下列：
+
+- **天数 (Day):**
+    
+- **复习主题 (Topic):**
+    
+- **GTD 下一步行动 (Actionable Items):** (列出 3-4 个具体任务)
+    
+- **预计耗时 (Time):**
+    
+- **今日产出物 (Deliverable):** (例如：一张思维导图、解出 5 道拉格朗日题目、一份 Stata do-file)
+    
+
+请先根据上述要求，为我生成**第一周**的详细计划，并简要概述后三周的重点。
+
+---
+
+### 🎓 教授的“点拨”：为什么这个 Prompt 有效？
+
+作为你的“思维伙伴”，我要解释一下这个 Prompt 背后的经济学和管理学原理，以便你更好地执行：
+
+1. **定义产出物 (Deliverable as Signal):**
+    
+    - 在经济学中，我们看重“信号 (Signaling)”。如果在 Prompt 中不要求“今日产出物”，你很容易陷入“假努力”（Passive Learning）。
+        
+    - GTD 的核心在于将任务“外部化”。要求 AI 设定具体的产出（如“默写一遍 OLS 的五大假设”），就是强制你进行 Active Recall（主动回忆），这是最高效的学习方式。
+        
+2. **动词驱动 (Action-Oriented):**
+    
+    - 我在 Prompt 中特别强调了“拒绝模糊”。模糊是拖延症的温床。
+        
+    - 当你看到“复习微观”这四个字，大脑的反应是逃避，因为认知负荷太高；但当你看到“推导斯卢茨基方程 (Slutsky Equation)”时，行动路径是清晰的。
+        
+3. **动态调整 (Feedback Loop):**
+    
+    - 我在 Prompt 结尾只要求它先生成“第一周”。为什么？因为根据 _Rational Expectations_（理性预期），我们无法完美预测 40 天后的状态。
+        
+    - **建议：** 每周结束时，把你这一周的完成情况（完成了哪些，哪些没做完）反馈给 AI，让它帮你重新 _Re-optimize_ 下一周的计划。
+        
+4. **区分阶段 (Phasing):**
+    
+    - 经济学学习有其特殊的生产函数。Phase 1 是建立索引（降低搜索成本），Phase 2 是深化理解（人力资本积累），Phase 3 是技能测试（市场检验）。这个节奏符合认知规律。
+        
+
+### 📝 下一步建议 (Next Step)
+
+既然你已经有了这个“核武器”级别的 Prompt，我建议你现在的行动是：
+
+**拿出你的教学大纲（Syllabus）和之前的错题本，花 10 分钟填充上面 Prompt 中 `[ ]` 的部分，然后发送给 AI。**
+
+如果你在填充过程中，对于某个科目的重难点（比如宏观的动态规划，或者微观的一般均衡）不知道该如何描述给 AI，请随时告诉我，我会帮你把这些专业的经济学术语转化为 AI 能精准理解的指令。

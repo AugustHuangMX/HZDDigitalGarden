@@ -1,3 +1,5 @@
+#LSE/EC484_Econometrics_Analysis 
+
 Like [[Law of Large Numbers]], it is also a tool for asymptotic analysis.
 
 The core idea of this theorem is that **When you add together a large number of random variables, regardless of their individual distributions, their sum (or mean) will tend towards a normal distribution.**
@@ -26,5 +28,32 @@ And we would know that:
 
 $$
 Z_{n} \to^d N(0,1)
+$$
+
+## Why $\sqrt{ n }$?
+
+We already know that since
+
+$$
+\bar{z}_{n} = \frac{1}{n} \sum_{i=1}^{n} z_i  
+$$
+
+The [[Variance]] of $\bar{z}_{n}$ is:
+
+$$
+\begin{align}
+\text{Var}(\bar{z}_{n})  & = \text{Var}\left( \frac{1}{n} \sum_{i=1}^n z_{i} \right) \\
+ & = \frac{1}{n^2} \text{Var} \left( \sum_{i=1}^n z_{i} \right) \\
+ & = \frac{1}{n^2} \sum_{i=1}^{n}(\text{Var}(z_{i})) \quad (\text{becuase it is i.i.d.})  \\
+ & = \frac{1}{n^2} n \sigma^2 \\
+ & = \frac{\sigma^2}{n}
+ \end{align}
+$$
+By [[Weak Law of Large Numbers]], we know that $\bar{z}_{n} \to^p \mu$, the distribution would be more and more concentrated around $\mu$ as $n$ increases, eventually a degenerate distribution at $\mu$.
+
+To avoid this, we multiply by $\sqrt{n}$, thus the variance would be:
+
+$$
+\text{Var}(\sqrt{n} \bar{z}_{n}) = n \cdot \frac{\sigma^2}{n} = \sigma^2
 $$
 

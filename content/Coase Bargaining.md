@@ -20,5 +20,5 @@ The situation should be divided as a
 
 ---
 
-Now we know the efficient outcomes could come from the [[Coase Bargaining]], but how are the terms in an agreement decided? Now introduce the [[Nash Bargaining Model]]
+Now we know the efficient outcomes could come from the [[Coase Bargaining]], but how are the terms in an agreement decided? Now introduce the [[Nash Bargaining]]
 

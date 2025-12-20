@@ -6,11 +6,13 @@ tags:
 
 ### 我的想法
 
- 中文名：帕累托最优
+ 中文名：帕累托最优, we could also use *Pareto Efficiency* to replace.
 
 It is a way that when allocating the resources, when do not decrease everyone's utility, increase someones' (or only one's) utility
 
 When there is no solution that can be better when this agent does better and nobody does worse, so we could call it as [Pareto Optimality](Pareto%20Optimality.md), it is always connected with the [Game Theory](Game%20Theory.md).
+
+
 
 It is possible that one "game" has more than one Pareto solution.
 
@@ -38,7 +40,9 @@ Think about the case in the [Game Theory](Game%20Theory.md) , the player in the 
 
 ---
 
+## Critical Thinking
 
+- Notice that Efficiency $\neq$ Equity. [[Pareto Optimality]] just cares about whether we could improve the overall utility without loss of someone's ([[Pareto Improvement]]), we do not care about the equity of the allocation. For example, we could let one owns all the resources in the society, it is usually [[Pareto Optimality]]. (See [[Jungle Equilibrium]]).
 
 ### Reference 
 

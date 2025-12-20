@@ -1,6 +1,6 @@
 #Econ/Macro  #LSE/EC417_Macroeconomics 
 
-The [[Bellman Equation]] is a fundamental concept in dynamic programming and optimal control theory. It provides a recursive decomposition of the value function, which represents the maximum value that can be achieved from a given state. It has some very good properties, compared with the lagrangian method, the "Old fashioned" way.
+The [[Bellman Equation]] is a fundamental concept in dynamic programming and optimal control theory. It provides a recursive decomposition of the value function, which represents the maximum value that can be achieved from a given state. It has some very good properties, compared with the Lagrangian method, the "Old fashioned" way.
 
 1. You don't need to calculate entire path period by period.
 2. You can solve the problem backwards, which is very useful in many cases.
@@ -15,6 +15,10 @@ subject to
 $$
 x_{t+1} = g(x_{t}, \alpha_{t})
 $$
+
+
+
+
 
 
 ## Application : Consumption-Saving Problem:

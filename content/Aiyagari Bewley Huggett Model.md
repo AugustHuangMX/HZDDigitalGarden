@@ -50,7 +50,7 @@ $$
 
 An extreme case: when $A(-1)$, it means $r = -1$ here, and it also means your wealth would disappear every end of the period. Thus no one would like to save anything, and $A(-1) = 0$.
 
-## The Huggett Model
+## The [[Huggett Model]]
 
 **Key idea**: Households trade **private IOUs** (bonds) among themselves to insure against income shocks. The story is like we first let $\sum_{i} b_{i}= 0$, everyone in the economy plays with each other and there shouldn't be spillover money here. If you want to borrow some money, there should be someone who like to lend you money.
 

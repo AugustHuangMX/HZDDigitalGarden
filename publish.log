@@ -1962,3 +1962,54 @@ total size is 56963k  speedup is 634.07
  Quartz v4.5.2 
 
 Backing up your content
+[v4 4390f5a] Quartz sync: Dec 20, 2025, 1:57 PM
+ 13 files changed, 288 insertions(+), 912 deletions(-)
+ create mode 100644 content/Diary/2025-12-19.md
+ create mode 100644 content/Huggett Model.md
+ delete mode 100644 content/Nash Bargaining Model.md
+ create mode 100644 content/Nash Bargaining.md
+ create mode 100644 content/Quasi-Linear.md
+ create mode 100644 content/Walrasian Equilibrium.md
+Pulling updates from your repository. You may need to resolve some `git` conflicts if you've made changes to components or plugins.
+来自 https://github.com/AugustHuangMX/HZDDigitalGarden
+ * branch            v4         -> FETCH_HEAD
+已经是最新的。
+Pushing your changes
+To https://github.com/AugustHuangMX/HZDDigitalGarden.git
+   1695e2f..4390f5a  v4 -> v4
+分支 'v4' 设置为跟踪 'origin/v4'。
+Done!
+npm notice
+npm notice New minor version of npm available! 11.6.0 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+2025-12-20 13:57:09 - 🚀 内容处理和推送完成！Vercel 将开始自动部署。
+2025-12-20 13:57:09 - ====== 自动发布任务执行完毕 ======
+2025-12-21 09:47:41 - ====== 开始执行自动发布任务 ======
+2025-12-21 09:47:41 - ✅ 步骤 1/2: 开始同步笔记文件...
+Transfer starting: 816 files
+./
+Aiyagari Model.md
+Bewley Model.md
+Concavity.md
+EC417 Advanced Macroeconomics.md
+Hopenhayn Model.md
+Huggett Model.md
+Diary/
+Economics/
+Math/
+attachment/
+attachment/�\#210��\#2172025-12-20 15.01.57.png
+attachment/�\#210��\#2172025-12-20 15.02.09.png
+base/
+templates/
+
+sent 496k bytes  received 238 bytes  12701k bytes/sec
+total size is 57410k  speedup is 115.61
+2025-12-21 09:47:41 - 笔记同步完成。
+2025-12-21 09:47:41 - ✅ 步骤 2/2: 开始处理内容并自动推送到 GitHub...
+
+ Quartz v4.5.2 
+
+Backing up your content

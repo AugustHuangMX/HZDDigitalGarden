@@ -2,7 +2,7 @@
 
 **Key idea**: Households trade **private IOUs** (bonds) among themselves to insure against income shocks. The story is like we first let $\sum_{i} b_{i}= 0$, everyone in the economy plays with each other and there shouldn't be spillover money here. If you want to borrow some money, there should be someone who like to lend you money. Thus, unlike [[Huggett Model]], we have to satisfy the *market clear* condition, which is $A(r) = 0$, while in [[Huggett Model]], $A(r) = K(r)$.
 
-It is the simplest GE heterogenous agent model since there's no production side here.
+It is the simplest GE **heterogenous** agent model since there's no production side here.
 
 In [[Huggett Model]], it is important that the model allows households to borrow, thus $\underline{a} < 0$. If we don't do so, then for the market to clear, we must have everyone has $0$ asset, which is Autarky equilibrium.
 
@@ -32,3 +32,7 @@ A(r) = \sum_{j} \int_{\underline{a}}^{\infty} a \cdot g(a,y_{j};r) da = 0
 $$
 
 We also assume $g(\cdot)$ remains the same.
+
+---
+
+The three models that focus on **Heterogeneity** discussed in the [[EC417 Advanced Macroeconomics]] lectures are the [[Aiyagari Model]], [[Bewley Model]], and [[Huggett Model]].

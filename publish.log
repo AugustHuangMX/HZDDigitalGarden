@@ -2013,3 +2013,45 @@ total size is 57410k  speedup is 115.61
  Quartz v4.5.2 
 
 Backing up your content
+[v4 ae6c923] Quartz sync: Dec 21, 2025, 9:47 AM
+ 9 files changed, 236 insertions(+), 141 deletions(-)
+ create mode 100644 content/Aiyagari Model.md
+ create mode 100644 content/Bewley Model.md
+ create mode 100644 content/Concavity.md
+ create mode 100644 content/Hopenhayn Model.md
+ create mode 100644 "content/attachment/\346\210\252\345\261\2172025-12-20 15.01.57.png"
+ create mode 100644 "content/attachment/\346\210\252\345\261\2172025-12-20 15.02.09.png"
+Pulling updates from your repository. You may need to resolve some `git` conflicts if you've made changes to components or plugins.
+来自 https://github.com/AugustHuangMX/HZDDigitalGarden
+ * branch            v4         -> FETCH_HEAD
+已经是最新的。
+Pushing your changes
+To https://github.com/AugustHuangMX/HZDDigitalGarden.git
+   4390f5a..ae6c923  v4 -> v4
+分支 'v4' 设置为跟踪 'origin/v4'。
+Done!
+2025-12-21 09:47:46 - 🚀 内容处理和推送完成！Vercel 将开始自动部署。
+2025-12-21 09:47:46 - ====== 自动发布任务执行完毕 ======
+2025-12-21 15:58:33 - ====== 开始执行自动发布任务 ======
+2025-12-21 15:58:33 - ✅ 步骤 1/2: 开始同步笔记文件...
+Transfer starting: 819 files
+./
+First Welfare Theorem.md
+Folk Theorem.md
+Nash Folk Theorem.md
+Walrasian Equilibrium.md
+Diary/
+Economics/
+Math/
+attachment/
+base/
+templates/
+
+sent 44772 bytes  received 150 bytes  954k bytes/sec
+total size is 57415k  speedup is 1278.11
+2025-12-21 15:58:33 - 笔记同步完成。
+2025-12-21 15:58:33 - ✅ 步骤 2/2: 开始处理内容并自动推送到 GitHub...
+
+ Quartz v4.5.2 
+
+Backing up your content

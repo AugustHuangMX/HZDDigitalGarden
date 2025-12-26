@@ -1,3 +1,5 @@
+#LSE/EC487_Advanced_Microeconomics 
+
 [[Nash Bargaining]] involves [[Threat Values]], [[Cooperative Surplus]] and [[Bargaining Power]]
 
 >  Unlike the initial discussion about the **Noncooperative Game Theory**, the [[Nash Bargaining]] is a [[Cooperative Game Theory]] problem.
@@ -5,7 +7,7 @@
 
 ![[截屏2023-09-17 16.04.57.png]]
 
-In the previous study in [[Nash Equilibrium]], we know that the *equilibrium* happens in $(D,D)$ , which is not efficient $(C,C)$ ,that means people act *non-cooperatively*. But we know that in the *Prisoner's Dilemma*, people do so is because they do not have [[Bargaining Power]],if they could, they may reach the better outcome (efficiency).
+In the previous study in [[Nash Equilibrium]], we know that the *equilibrium* happens in $(D,D)$ , which is not efficient $(C,C)$ ,that means people act *non-cooperatively*. But we know that in the *Prisoner's Dilemma*, people do so is because they do not have [[Bargaining Power]], if they could, they may reach the better outcome (efficiency).
 
 In this case, the [[Threat Values]] would be $(0,0)$ , the [[Cooperative Surplus]] is $2$. They could reach the efficient outcome by *binding contract* which is $(C,C)$ 
 
@@ -67,6 +69,26 @@ $$
 
 Thus by definition, it is not a [[Nash Bargaining]] Solution, which contradicts our assumption.
 
-($\Leftarrow$) Suppose we have $x^* \in argmax_{x \in X} u^1(x)u^2(x)$.
+($\Leftarrow$) Suppose we have $x^* \in argmax_{x \in X} u^1(x)u^2(x)$, we want to show it is the [[Nash Bargaining]] solution.
 
+Since $x^* \in argmax_{x \in X} u^1(x)u^2(x)$, we have
+
+$$
+u^1(x^*)u^2(x^*) \geq u^1(x)u^2(x)
+$$
+
+Consider a $p \in [0,1]$ such that $p u^j(x) >u^j(x^*)$
+
+Thus we have:
+
+$$
+u^2(x)  \leq \frac{u^1(x^*)}{u^1(x)} u^2(x^*)
+$$
+
+Since $$p u^j(x) >u^j(x^*)$$
+we have 
+
+$$
+u^2(x)  \leq \frac{u^1(x^*)}{u^1(x)} u^2(x^*) < p u^2(x^*)
+$$
 

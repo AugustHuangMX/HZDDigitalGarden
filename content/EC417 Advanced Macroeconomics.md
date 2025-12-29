@@ -147,7 +147,7 @@ $$u(c) = \begin{cases} \frac{c^{1-\sigma} - 1}{1-\sigma} & \text{if } \sigma \ne
 
 #### **线性化 (Linearization)**
 
-**在稳态附近线性化系统**： $$\begin{bmatrix} \dot{k} \ \dot{c} \end{bmatrix} \approx \begin{bmatrix} a_{11} & a_{12} \ a_{21} & a_{22} \end{bmatrix} \begin{bmatrix} k - k^* \ c - c^* \end{bmatrix}$$
+**在稳态附近线性化系统**： $$\begin{bmatrix} \dot{k} \\ \dot{c} \end{bmatrix} \approx \begin{bmatrix} a_{11} & a_{12} \\ a_{21} & a_{22} \end{bmatrix} \begin{bmatrix} k - k^* \\ c - c^* \end{bmatrix}$$
 
 **Jacobian矩阵**： $$J = \begin{bmatrix} f'(k^_) - \delta & -1 \ -\frac{c^_}{\sigma} f''(k^*) & 0 \end{bmatrix}$$
 

@@ -10,3 +10,6 @@
 
 Players by default move *simultaneously*. (See [[Simultaneous Move Game]]), which means you do not observe others' choices, you predict.
 
+
+
+$$\begin{aligned} \sum_{j \in S} u_j &\geq v(S) \\ \sum_{j \in T} u_j &\geq v(T) \\ \sum_{j \in N \setminus (S \cup T)} u_j &\geq v(N \setminus (S \cup T)) \stackrel{\text{零和}}{=} v(N) - v(S \cup T) \end{aligned}$$

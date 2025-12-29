@@ -19,21 +19,11 @@ If you are interested in my other information, feel free to visit my [homepage](
 [[这个 Digital Garden 怎么用？]]
 
 
-## 一些笔记 MOC (Map of content/仅大三) ：
+## Notes in LSE
 
-
--  [[Economics MOC]]
-- [Programming Science MOC](Programming%20Science%20MOC.md)
-- [[Other Courses]]
-- [[ECON4006 Labour Economics]]
-- [[ECON4008 Law and Economics]]
-- [[ECON3002 Econometrics]]
-
-## Notes in Bristol
-
-- [[Applied Microeconomics]]
-- [[Behaviour Economics]]
-- [[International Trade]]
+- [[EC417 Advanced Macroeconomics]]
+- [[EC487 Advanced Microeconomics]]
+- [[EC484 Econometrics Analysis]]
 
 
 ## 参加的一些有意思的讲座：

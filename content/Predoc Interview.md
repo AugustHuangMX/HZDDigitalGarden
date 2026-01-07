@@ -2,7 +2,7 @@
 
 ## Self Introduction 
 
-Good morning, Professor Shan. It's so exciting to have the chance to interview with you today. My name is Minxing Huang, and I'm currently a master's student studying Econometrics and Mathematical Economics at LSE. Before coming to LSE, I completed my bachelor's degree at the University of Macau. So let me tell you a bit about my research journey, what drives my interest in your work, and what I hope to contribute as a predoc researcher.
+Good morning, Professor Shan. It's so exciting to have the chance to interview with you today. My name is Minxing Huang, and I'm currently a master's student studying Econometrics and Mathematical Economics at LSE. Before coming to LSE, I completed my bachelor's degree at the University of Macau. So let me tell you a bit about my research journey, what drives my interest in your work, and what I hope to contribute as a predoc researcher. I know you ofcourse have read my CV, so I hope this interview could let you know more about me beyond what's written there.
 
 **[Early Research Experience - 60 seconds]**
 
@@ -153,6 +153,21 @@ Third, although I consider myself get very solid academic training in LSE, I fin
 3. Do I have opportunities to join any courses offered by NUS?
 4. When can I be able to know the results? 
 5. What's the workflow of the traditional
-6. 
 
 
+
+### Question in the paper 
+
+Since people would have lower anticipated grades of females. Could I understand like people have less expectation of females students. So female students don't have to conceal their grades?
+
+
+For me, economists always trying to answer one question: how to maximize the utility.
+
+
+- 考虑申 PhD
+- 除了 labour，要跟 labour 的人产生联系。
+- Writing Sample 意义不大了
+- 做一个 RR 出来
+- 教育背景不会卡住
+- 科研
+- 推荐人

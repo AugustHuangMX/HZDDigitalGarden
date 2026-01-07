@@ -8,6 +8,9 @@
 
 - Question 3: [[Aiyagari Model]], 
 
+[[EC417 Question List]]
+
+
 # EC451 高级宏观经济学完整思维导图
 
 ## Lecture 1-9 核心内容总览

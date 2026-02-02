@@ -562,3 +562,6 @@ $$\boxed{\hat{\Omega} = \frac{1}{n}\sum \hat{u}_i^2 x_ix_i' \quad \text{(注意�
 - test hypothesis: delta method, t test
 - suppose model is wrong, test the bias.
 - optimal IV
+
+
+

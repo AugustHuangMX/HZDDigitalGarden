@@ -2,7 +2,7 @@
 
 ## Self Introduction 
 
-Good morning, Professor Shan. It's so exciting to have the chance to interview with you today. My name is Minxing Huang, and I'm currently a master's student studying Econometrics and Mathematical Economics at LSE. Before coming to LSE, I completed my bachelor's degree at the University of Macau. So let me tell you a bit about my research journey, what drives my interest in your work, and what I hope to contribute as a predoc researcher. I know you ofcourse have read my CV, so I hope this interview could let you know more about me beyond what's written there.
+Good morning, Professor Shan and Professor Goette. It's so exciting to have the chance to interview with you today. And Professor Shan, it's so good to meet you again. My name is Minxing Huang, and I'm currently a master's student studying Econometrics and Mathematical Economics at LSE. Before coming to LSE, I completed my bachelor's degree at the University of Macau. So let me tell you a bit about my research journey, what drives my interest in your work, and what I hope to contribute as a predoc researcher. I know you ofcourse have read my CV, so I hope this interview could let you know more about me beyond what's written there.
 
 **[Early Research Experience - 60 seconds]**
 
@@ -143,7 +143,7 @@ Third, although I consider myself get very solid academic training in LSE, I fin
 
 
 
-
+I like working with 
 
 
 ## Questions I want to ask
@@ -171,3 +171,131 @@ For me, economists always trying to answer one question: how to maximize the uti
 - 教育背景不会卡住
 - 科研
 - 推荐人
+
+## Follow-up Question
+
+"Professor Shan, I wanted to follow up on your question about sample size from our last meeting. I realize my answer—simply referencing another study's 700 participants—lacked methodological rigor.
+
+After doing a proper power analysis, I can now provide a more grounded answer. Given the effect size I observed—a 21 to 29 percentage point reduction in truthful selection under the New Gaokao—I calculated that I would need approximately **80-100 participants per treatment arm** to achieve 80% power at the 5% significance level.
+
+Accounting for my three market environments, an ideal sample would be around **240-300 participants**, assuming I pool across markets and test for interactions. This is considerably more feasible than 500-700 participants while still providing adequate statistical power.
+
+I recognize my current sample of 40 is below this threshold, but the large effect sizes and significant p-values suggest the main treatment effect is robust. The primary limitation is reduced power to detect subtle interaction effects across market structures."
+
+## Goette
+
+"House money"可能降低损失敏感度
+
+
+## AI 
+
+**Brief Research Introduction**
+
+Thank you for your interest in my research. I'm investigating the causal impact of generative AI image tools—specifically DALL-E 2, Midjourney, and Stable Diffusion—on creative freelance labor markets using Upwork platform data.
+
+**Research Motivation:** While recent studies have documented AI's labor market effects, existing work tends to aggregate different AI technologies together. My study specifically isolates the impact of image generation AI, which launched between mid-2022 and early 2023, on creative occupations like graphic design, illustration, and photo editing.
+
+**Methodology:** I'm employing a Difference-in-Differences framework comparing AI-affected creative occupations (treatment group) against occupations unaffected by image AI, such as data entry and translation (control group). The treatment period begins in January 2023. This approach allows me to establish causal identification by controlling for common time trends and occupation-specific factors.
+
+**Data Collection Progress:** I've built a Python-based web scraper to collect job posting data from Upwork's API, spanning 2021 to 2025. So far, I've gathered over 5,000 job postings across 10 occupations—5 treatment and 5 control. The data includes posting timestamps, budget ranges, required skills, and client characteristics. I'm currently in the data cleaning and panel construction phase using Stata.
+
+**Expected Contributions:** My research will provide the first causal estimates specifically for image AI's labor market impact, with real-time evidence on worker displacement and wage compression. This has direct policy relevance as policymakers grapple with AI's labor market disruptions.
+
+I'm currently working on parallel trends verification and plan to conduct several robustness checks, including alternative control group specifications and placebo tests. I'd be happy to discuss any methodological concerns or receive feedback on the research design.
+
+
+## NEW Gaokao
+
+
+
+So let me tell you about this really interesting experimental economics project I worked on about China's college entrance exam reform.
+
+**The Basic Question**
+
+You know how China recently reformed its Gaokao system, right? The old system was super rigid - you either picked science track or liberal arts track, that's it. The new system, called "3+1+2", supposedly gives students way more flexibility - you still take Chinese, Math, and English, but then you choose Physics or History, plus two other subjects from Chemistry, Biology, Politics, and Geography. The government said this would help students "respect their talents" more. But here's the thing - does more choice actually lead to better matching between students' abilities and their subject selections? That's what I wanted to test.
+
+**The Experimental Design**
+
+Instead of just building theoretical models, I actually ran a lab experiment with 40 real participants. This is classic experimental economics methodology - you create a controlled environment where you can observe actual behavior and test your theory.
+
+Here's how it worked: I divided participants into 8 groups of 5 players each. Each group competed for spots at a fictional college that had 4 seats - 2 for "Physics track" and 2 for "History track." The key innovation was that I gave each player a complete ability profile across all subjects, and importantly, _everyone could see everyone else's abilities_. This is actually pretty realistic because in real life, students have a pretty good sense of how they compare to their peers.
+
+I designed three different "markets" - think of them as different competitive environments:
+
+1. **MAJORITY market**: Where most students (like 4 out of 5) are naturally stronger in the same track
+2. **BALANCE market**: Where abilities are more evenly distributed
+3. **MIXED market**: Where students have mixed strengths across traditionally "science" vs "arts" subjects
+
+Each group played through all three markets, but crucially, four groups experienced the "Old Gaokao" mechanism and four experienced the "New Gaokao" mechanism. This between-subjects design lets me identify the treatment effect.
+
+**The Incentive Mechanism**
+
+This part was really important for experimental validity. I needed participants to actually care about their choices, so I designed a point system:
+
+- 5 points if you get admitted
+- Extra 3 points if you got admitted _and_ chose subjects matching your true strengths
+- 0 points if not admitted
+- But 1 consolation point if you at least tried to respect your talents even though you didn't get in
+
+This incentive structure captures the real-world trade-off students face: Do you go with your strengths and risk not getting in? Or do you strategically pick subjects to maximize admission chances?
+
+**What I Found - The Paradox**
+
+So here's the surprising result: the New Gaokao actually made things _worse_ for talent matching. Students under the New Gaokao mechanism were 21-29 percentage points _less likely_ to choose subjects aligned with their comparative advantages compared to the Old Gaokao. This is statistically significant and holds up across different market structures.
+
+I ran Probit regressions controlling for market type, and the results were pretty robust. Even when I included interaction terms between the New Gaokao treatment and market structure, the main effect stayed negative and significant.
+
+**Why This Happens - Behavioral Insights**
+
+From an experimental economics perspective, I think three mechanisms are at play:
+
+1. **Cognitive overload**: The New Gaokao offers 12 possible combinations versus just 2 in the old system. In the experiment, I literally watched people take way longer to make decisions under the New Gaokao treatment.
+    
+2. **Strategic complexity**: With more options, there's more room for strategic manipulation. Students started thinking "Well, if everyone good at Physics picks Physics, maybe I should pick History even though I'm better at Physics."
+    
+3. **Coordination failure**: The rigid track classification (you're still fundamentally "Physics track" or "History track" in terms of university admissions) creates a weird situation where flexibility doesn't actually help much.
+    
+
+**Why Experiments Matter Here**
+
+You might ask, why not just use real data from Chinese provinces implementing the reform? Well, there are huge confounds - different provinces, different times, different student populations.
+
+The beauty of the lab experiment is I can hold everything constant except the mechanism itself. Same participants, same ability distributions, same competitive environment - just different rules. That's the power of experimental control. It lets me make causal statements about the mechanism's effect that would be impossible with observational data alone.
+
+Plus, I can observe _actual_ behavior under incentivized conditions, not just hypothetical choices. That's crucial for understanding how real people respond to these institutional designs.
+
+**The Bigger Picture**
+
+This research contributes to experimental mechanism design - using experiments to test how different matching mechanisms perform in practice. It's one thing to prove a mechanism is "strategy-proof" in theory, but another to see how real humans with bounded rationality actually behave under it.
+
+The policy implication is pretty clear: expanding choice alone isn't enough. You need to think carefully about how people will actually respond to the incentive structure you create.
+
+Does this make sense? Happy to dive deeper into any aspect of the experimental design or results!
+
+## Why Experiment
+
+**On why experimental/behavioral economics:**
+
+"So actually, my interest in behavioral and experimental economics came directly from my own research experience. When I was working on my honors thesis about China's Gaokao reform, I designed this experiment with 40 students to test whether the new system really helps students choose subjects that match their strengths.
+
+And here's what surprised me — the results were completely counterintuitive. The New Gaokao, which was supposed to give students more flexibility and freedom, actually made them _less_ likely to choose honestly. We're talking about a 21 to 29 percentage point decrease in truthful reporting.
+
+That's when it really hit me that **mechanism design alone isn't enough**. You can't just design a theoretically optimal mechanism and assume people will respond the way the model predicts. People have reference points, they're loss-averse, they get overwhelmed by complexity — all these behavioral frictions that classical theory doesn't capture.
+
+So I realized I need to understand behavioral economics properly if I want to do meaningful work on real-world policy design. And experiments are the cleanest way to test these mechanisms, especially when you can't just observe choices and know whether they're optimal or not."
+
+**On why Goette specifically:**
+
+"As for why I want to work with you specifically, Professor Goette — honestly, your 2011 AER paper on reference points and effort provision feels like it was written for my research question.
+
+In the Gaokao context, students have expectations about which subjects they 'should' choose based on their perceived ability. When the reform changes the choice structure, it's basically shifting their reference points. And your framework could explain exactly why that leads to different effort and choice patterns.
+
+What really appeals to me about your work is that you don't just theorize about these behavioral mechanisms — you test them in real-world settings with actual stakes. Your bicycle messenger study, the blood donation experiments — these are real people making real decisions, not just undergrads in a lab playing for small stakes.
+
+I also saw your recent work on complementarities in behavioral interventions, and that made me think: when China reforms the Gaokao, they're changing multiple things at once — the choice set, the scoring method, the information students receive. Understanding how these elements interact is exactly the kind of question your approach is designed to answer.
+
+And practically speaking, I know NUS has a strong predoc program with good PhD placement, and being in Asia means I can stay connected to the Chinese education policy context, which I think is a really rich area for behavioral and experimental work that's still relatively understudied.
+
+Plus, I noticed Professor Shan is also here working on education and experiments, so there might be really interesting opportunities to learn from both of your perspectives."
+
+

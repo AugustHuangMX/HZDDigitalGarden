@@ -1,0 +1,3 @@
+$$\begin{pmatrix} 1 & -1 & 0 \end{pmatrix} \begin{pmatrix} \hat{V}_{11} & \hat{V}_{12} & \hat{V}_{13} \\ \hat{V}_{12} & \hat{V}_{22} & \hat{V}_{23} \\ \hat{V}_{13} & \hat{V}_{23} & \hat{V}_{33} \end{pmatrix}$$
+
+$$= \begin{pmatrix} 1 \cdot \hat{V}_{11} + (-1) \cdot \hat{V}_{12} + 0 \cdot \hat{V}_{13}, \ 1 \cdot \hat{V}_{12} + (-1) \cdot \hat{V}_{22} + 0 \cdot \hat{V}_{23}, \ 1 \cdot \hat{V}_{13} + (-1) \cdot \hat{V}_{23} + 0 \cdot \hat{V}_{33} \end{pmatrix}$$

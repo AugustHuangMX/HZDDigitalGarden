@@ -37,3 +37,5 @@ When such question, it's usually three steps:
 
 Always make it clear that *policy function* time invariant. Also in (d) and (e), it's important that when calculating coefficient, every parameter is time-invariant.
 
+The most tricky part for me is that how to use [[Taylor Expansion]] to solve such questions.
+

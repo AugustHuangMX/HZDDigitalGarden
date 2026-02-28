@@ -2909,3 +2909,104 @@ total size is 58210k  speedup is 622.21
  Quartz v4.5.2 
 
 Backing up your content
+[v4 5b849ce] Quartz sync: Feb 5, 2026, 9:23 AM
+ 19 files changed, 960 insertions(+), 15 deletions(-)
+ create mode 100644 content/Blanchard Kahn Condition.md
+ create mode 100644 content/Diary/2026-02-03.md
+ create mode 100644 content/Diary/2026-02-04.md
+ create mode 100644 content/EC417 Macro/EC417 Lecture 3 Notes.md
+ rename content/EC417 Macro/{Problem Set 2 Review.md => EC417 Problem Set 2 Review.md} (91%)
+ create mode 100644 content/EC423 Labour/EC423 Lecture 2 Notes.md
+ create mode 100644 content/EC423 Labour/EC423 Lecture 3 Notes.md
+ rename content/EC423 Labour/{Problem Set 1 Applied.md => EC423 Problem Set 1 Applied.md} (100%)
+ create mode 100644 content/EC487 Micro/EC487 Problem Set 2 Review.md
+ delete mode 100644 content/EC487 Micro/Problem Set 2 Review.md
+ create mode 100644 content/K Means Clustering.md
+ create mode 100644 content/Non-Supervising Machine Learning.md
+ create mode 100644 content/SMU Data Task.md
+ create mode 100644 content/TF-IDF.md
+Pulling updates from your repository. You may need to resolve some `git` conflicts if you've made changes to components or plugins.
+来自 https://github.com/AugustHuangMX/HZDDigitalGarden
+ * branch            v4         -> FETCH_HEAD
+已经是最新的。
+Pushing your changes
+To https://github.com/AugustHuangMX/HZDDigitalGarden.git
+   92f8dbb..5b849ce  v4 -> v4
+分支 'v4' 设置为跟踪 'origin/v4'。
+Done!
+2026-02-05 09:23:21 - 🚀 内容处理和推送完成！Vercel 将开始自动部署。
+2026-02-05 09:23:21 - ====== 自动发布任务执行完毕 ======
+2026-02-28 13:22:21 - ====== 开始执行自动发布任务 ======
+2026-02-28 13:22:21 - ✅ 步骤 1/2: 开始同步笔记文件...
+Transfer starting: 881 files
+./
+Bayesian Inference.md
+Calvo Price.md
+Causal Effect.md
+Constant Elasticity of Substitution.md
+Cover Letter for EIT Oxford.md
+EC417 Advanced Macroeconomics.md
+EC423 Essay.md
+EC487 Advanced Microeconomics.md
+EC487 Knowledge Quick Check.md
+Heterogeneous Effect.md
+Indirect Utility Function.md
+Involuntary Unemployment.md
+LLM Prompt.md
+NK-DSGE.md
+New Keynesian Model.md
+Nominal Rigidity.md
+Perfect Bayesian Equilibrium.md
+Place Based Policy.md
+Predoc Interview -- Dorn.md
+Predoc Interview.md
+Real Business Cycle.md
+Repeated Entry Game.md
+SMU RA.md
+Steady State.md
+Sticky Price Assumption.md
+Template For Diary.md
+Valuing Alternative Work Arrangements.md
+.claude/
+.claude/claudian-settings.json
+.claude/agents/
+.claude/commands/
+.claude/sessions/
+.claude/sessions/conv-1772060047606-b377macxj.meta.json
+.claude/sessions/conv-1772278446934-i600zky9y.meta.json
+.claude/skills/
+Diary/
+Diary/2026-02-09.md
+Diary/2026-02-10.md
+Diary/2026-02-11.md
+Diary/2026-02-13.md
+Diary/2026-02-15.md
+Diary/2026-02-16.md
+Diary/2026-02-17.md
+Diary/2026-02-18.md
+Diary/2026-02-19.md
+Diary/2026-02-20.md
+Diary/2026-02-25.md
+Diary/2026-02-26.md
+Diary/2026-02-27.md
+EC417 Macro/
+EC423 Labour/
+EC487 Micro/
+Economics/
+Math/
+attachment/
+attachment/Pasted image 20260226094755.png
+attachment/Pasted image 20260228114027.png
+attachment/Pasted image 20260228114059.png
+attachment/�\#210��\#2172026-02-23 10.56.00.png
+base/
+templates/
+
+sent 1257k bytes  received 1144 bytes  26718k bytes/sec
+total size is 59330k  speedup is 47.15
+2026-02-28 13:22:21 - 笔记同步完成。
+2026-02-28 13:22:21 - ✅ 步骤 2/2: 开始处理内容并自动推送到 GitHub...
+
+ Quartz v4.5.2 
+
+Backing up your content

@@ -1,0 +1,20 @@
+{
+  "id": "conv-1772278446934-i600zky9y",
+  "title": "Explain involuntary unemployment",
+  "titleGenerationStatus": "success",
+  "createdAt": 1772278446934,
+  "updatedAt": 1772278524652,
+  "lastResponseAt": 1772278524652,
+  "sessionId": "70bad118-dc74-43fd-a145-2c0053eb8e5a",
+  "sdkSessionId": "70bad118-dc74-43fd-a145-2c0053eb8e5a",
+  "currentNote": "New Keynesian Model.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 1,
+    "cacheCreationInputTokens": 165,
+    "cacheReadInputTokens": 24328,
+    "contextWindow": 200000,
+    "contextTokens": 24494,
+    "percentage": 12
+  }
+}

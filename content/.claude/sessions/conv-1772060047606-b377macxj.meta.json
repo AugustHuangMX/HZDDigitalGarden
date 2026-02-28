@@ -1,0 +1,19 @@
+{
+  "id": "conv-1772060047606-b377macxj",
+  "title": "Summarize note content",
+  "titleGenerationStatus": "success",
+  "createdAt": 1772060047610,
+  "updatedAt": 1772278428799,
+  "lastResponseAt": 1772276583265,
+  "sessionId": "d3760612-9707-433a-bf10-5a4390ccdae6",
+  "sdkSessionId": "d3760612-9707-433a-bf10-5a4390ccdae6",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 3,
+    "cacheCreationInputTokens": 15445,
+    "cacheReadInputTokens": 13955,
+    "contextWindow": 200000,
+    "contextTokens": 29403,
+    "percentage": 15
+  }
+}

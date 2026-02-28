@@ -16,4 +16,4 @@ $$
 P(A|B) = \frac{P(B|A) P(A)}{P(B)}
 $$
 
-- $P(A|B)$ is posterior
+- $P(A|B)$ is posterior （后验概率）

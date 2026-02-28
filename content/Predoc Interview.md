@@ -1,8 +1,8 @@
-#杂谈 
+ #杂谈 
 
-## Self Introduction 
+## Self Introduction (General One)
 
-Good morning, Professor Shan and Professor Goette. It's so exciting to have the chance to interview with you today. And Professor Shan, it's so good to meet you again. My name is Minxing Huang, and I'm currently a master's student studying Econometrics and Mathematical Economics at LSE. Before coming to LSE, I completed my bachelor's degree at the University of Macau. So let me tell you a bit about my research journey, what drives my interest in your work, and what I hope to contribute as a predoc researcher. I know you ofcourse have read my CV, so I hope this interview could let you know more about me beyond what's written there.
+Good morning, Professor Dorn. It's so exciting to have the chance to interview with you today. To be honest, I didn't expect it could come so fast. My name is Minxing Huang, and I'm currently a master's student studying Econometrics and Mathematical Economics at LSE. Before coming to LSE, I completed my bachelor's degree at the University of Macau. So let me tell you a bit about my research journey, what drives my interest in your work, and what I hope to contribute as a predoc researcher. I know you might have read my CV, so I hope this interview could let you know more about me beyond what's written there.
 
 **[Early Research Experience - 60 seconds]**
 
@@ -10,14 +10,14 @@ At Macau, I started thinking seriously about academic research in my second year
 
 Then during a summer program at Peking University, I did an independent project on wage discrimination in the English Premier League—the world's most competitive football league. I found that English players earn about 33% less than foreign players with similar performance metrics, even after controlling for age, position, and club characteristics. That project taught me how to think carefully about identifying discrimination mechanisms, and it was my first experience using decomposition methods like Oaxaca-Blinder.
 
+>  Plan B
+>  At Macau, I started thinking seriously about academic research in my second year. I did two early projects that taught me the fundamentals: working with Professor Hongchuan Shen on electric vehicle policy impacts across Chinese provinces—that's where I learned to clean administrative data with Python, create spatial visualizations, and run panel regressions—and an independent project on wage discrimination in the English Premier League, where I found English players earn 33% less than foreign players with similar performance. That project introduced me to decomposition methods and taught me to think carefully about identifying discrimination mechanisms.
+
 **[Discovering Mechanism Design - 75 seconds]**
 
-But the real turning point came in my third year when Professor Inácio Bó—who specializes in mechanism design and matching theory—invited me to join his Micro Theory Reading Group. I still remember the first paper he sent me: "An Invitation to Market Design." And I was completely hooked.
+But the real turning point came in my third year when Professor Inácio Bó invited me to join his Micro Theory Reading Group. I was the only undergraduate among PhD students and faculty. Every week, we'd dissect cutting-edge papers on matching theory, contract theory, and mechanism design.
 
-Honestly, I was the only undergraduate in a room full of PhD students and four professors. Every week, we'd present cutting-edge papers—matching theory, contract theory, mechanism design. It was intimidating at first, but it transformed how I think about research. I learned that you can use rigorous theory combined with experiments to understand how institutions shape behavior, how seemingly small design changes can have huge unintended consequences.
-
-That experience also taught me presentation skills and how to engage in academic discourse. I learned LaTeX and Beamer for making slides, but more importantly, I learned how to defend ideas, how to take criticism, and honestly, I learned that I genuinely _love_ being in those intense academic discussions. Now I actually get excited about attending seminars and workshops rather than feeling nervous.
-
+It was intimidating at first, but it transformed how I approach research. I learned that you can use rigorous theory combined with empirical evidence to understand how institutions shape behavior, and how seemingly small design changes can have huge unintended consequences. That experience also taught me how to engage in academic discourse—how to present ideas, defend arguments, and take criticism constructively. I genuinely learned to love those intense intellectual discussions.
 **[The Gaokao Project - 90 seconds]**
 
 That experience led directly to my honors thesis, which became—I guess you could say—an obsession with China's college admissions system.
@@ -32,11 +32,9 @@ The reform designed to help students paradoxically made things _worse_. Why? I t
 
 **[Connection to Your Work - 60 seconds]**
 
-What really excites me about your research is that you've documented similar paradoxes in completely different contexts. Your gender concealment gap paper, for instance, finds that when universities gave students the flexibility to hide poor grades during COVID, men benefited 50% more than women because they concealed more strategically. Both our studies suggest that **flexibility policies don't automatically promote equity**—they can create new opportunities for strategic behavior that actually _increase_ disparities.
+These experiences shape my love of being 
 
-And your recent negotiation skills paper—which I read carefully—shows something I find fascinating: that teaching explicit skills to navigate institutional rules can have these compounding long-run effects. You tracked participants for 10 years and found effects on education, marriage timing, even HIV risk. That's exactly the kind of sustained causal analysis I want to learn how to do.
 
-Your China pension paper also resonates with me. You documented how a well-intentioned policy created unintended consequences—increasing investment in sons while decreasing daughters' school enrollment. That's the same pattern I'm seeing with the Gaokao: good intentions, unexpected behavioral responses.
 
 **[What I'm Looking For - 45 seconds]**
 
@@ -158,36 +156,10 @@ I like working with
 
 ### Question in the paper 
 
-Since people would have lower anticipated grades of females. Could I understand like people have less expectation of females students. So female students don't have to conceal their grades?
-
-
 For me, economists always trying to answer one question: how to maximize the utility.
 
 
-- 考虑申 PhD
-- 除了 labour，要跟 labour 的人产生联系。
-- Writing Sample 意义不大了
-- 做一个 RR 出来
-- 教育背景不会卡住
-- 科研
-- 推荐人
-
-## Follow-up Question
-
-"Professor Shan, I wanted to follow up on your question about sample size from our last meeting. I realize my answer—simply referencing another study's 700 participants—lacked methodological rigor.
-
-After doing a proper power analysis, I can now provide a more grounded answer. Given the effect size I observed—a 21 to 29 percentage point reduction in truthful selection under the New Gaokao—I calculated that I would need approximately **80-100 participants per treatment arm** to achieve 80% power at the 5% significance level.
-
-Accounting for my three market environments, an ideal sample would be around **240-300 participants**, assuming I pool across markets and test for interactions. This is considerably more feasible than 500-700 participants while still providing adequate statistical power.
-
-I recognize my current sample of 40 is below this threshold, but the large effect sizes and significant p-values suggest the main treatment effect is robust. The primary limitation is reduced power to detect subtle interaction effects across market structures."
-
-## Goette
-
-"House money"可能降低损失敏感度
-
-
-## AI 
+## AI Research
 
 **Brief Research Introduction**
 
@@ -203,10 +175,9 @@ Thank you for your interest in my research. I'm investigating the causal impact 
 
 I'm currently working on parallel trends verification and plan to conduct several robustness checks, including alternative control group specifications and placebo tests. I'd be happy to discuss any methodological concerns or receive feedback on the research design.
 
+After I failed to implement, I began to trying to deal with a job posting 7 million 
 
 ## NEW Gaokao
-
-
 
 So let me tell you about this really interesting experimental economics project I worked on about China's college entrance exam reform.
 
@@ -272,30 +243,14 @@ The policy implication is pretty clear: expanding choice alone isn't enough. You
 
 Does this make sense? Happy to dive deeper into any aspect of the experimental design or results!
 
-## Why Experiment
+## Why Dorn 
 
-**On why experimental/behavioral economics:**
+### AI Research
 
-"So actually, my interest in behavioral and experimental economics came directly from my own research experience. When I was working on my honors thesis about China's Gaokao reform, I designed this experiment with 40 students to test whether the new system really helps students choose subjects that match their strengths.
+I watched a youtube video, your talk about "Will I lose my job because of AI". You mentioned that AI won't lead to large scale of [[Unemployment]]. I am not sure if it is right, but I am super eager to find out whether it is correct.
 
-And here's what surprised me — the results were completely counterintuitive. The New Gaokao, which was supposed to give students more flexibility and freedom, actually made them _less_ likely to choose honestly. We're talking about a 21 to 29 percentage point decrease in truthful reporting.
+### Globalization
 
-That's when it really hit me that **mechanism design alone isn't enough**. You can't just design a theoretically optimal mechanism and assume people will respond the way the model predicts. People have reference points, they're loss-averse, they get overwhelmed by complexity — all these behavioral frictions that classical theory doesn't capture.
-
-So I realized I need to understand behavioral economics properly if I want to do meaningful work on real-world policy design. And experiments are the cleanest way to test these mechanisms, especially when you can't just observe choices and know whether they're optimal or not."
-
-**On why Goette specifically:**
-
-"As for why I want to work with you specifically, Professor Goette — honestly, your 2011 AER paper on reference points and effort provision feels like it was written for my research question.
-
-In the Gaokao context, students have expectations about which subjects they 'should' choose based on their perceived ability. When the reform changes the choice structure, it's basically shifting their reference points. And your framework could explain exactly why that leads to different effort and choice patterns.
-
-What really appeals to me about your work is that you don't just theorize about these behavioral mechanisms — you test them in real-world settings with actual stakes. Your bicycle messenger study, the blood donation experiments — these are real people making real decisions, not just undergrads in a lab playing for small stakes.
-
-I also saw your recent work on complementarities in behavioral interventions, and that made me think: when China reforms the Gaokao, they're changing multiple things at once — the choice set, the scoring method, the information students receive. Understanding how these elements interact is exactly the kind of question your approach is designed to answer.
-
-And practically speaking, I know NUS has a strong predoc program with good PhD placement, and being in Asia means I can stay connected to the Chinese education policy context, which I think is a really rich area for behavioral and experimental work that's still relatively understudied.
-
-Plus, I noticed Professor Shan is also here working on education and experiments, so there might be really interesting opportunities to learn from both of your perspectives."
+As a Chinese, I am
 
 

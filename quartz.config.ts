@@ -23,8 +23,8 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "'Hiragino Sans GB', 'Tex Gyre Pagella', serif",
-        body: "'Hiragino Sans GB', 'Tex Gyre Pagella', serif",
+        header: ", 'Tex Gyre Pagella', 'Hiragino Sans GB', serif",
+        body: "'Tex Gyre Pagella','Hiragino Sans GB', serif",
         code: "'Noto Sans Mono SC', 'IBM Plex Mono', monospace",
         },
       colors: {

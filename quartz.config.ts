@@ -23,10 +23,10 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Open Sans, LXGW WenKai TC, serif",
-        body: "Open Sans, LXGW WenKai TC, serif",
-        code: "Noto Sans Mono SC, IBM Plex Mono, monospace",
-        },
+      header: "Open Sans",
+      body: "Open Sans",
+      code: "IBM Plex Mono",
+    },
       colors: {
         lightMode: {
           light: "#f5f5dc",

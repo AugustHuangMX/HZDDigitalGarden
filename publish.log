@@ -3272,3 +3272,131 @@ total size is 60937k  speedup is 33.15
  Quartz v4.5.2 
 
 Backing up your content
+[v4 8e79a70] Quartz sync: Apr 25, 2026, 3:09 PM
+ 154 files changed, 5657 insertions(+), 849 deletions(-)
+ delete mode 100644 content/.claude/sessions/conv-1772060047606-b377macxj.meta.json
+ delete mode 100644 content/.claude/sessions/conv-1772278446934-i600zky9y.meta.json
+ create mode 100644 content/.claude/sessions/conv-1774349780066-iqk0x7gex.meta.json
+ create mode 100644 content/.claude/sessions/conv-1774352344056-fphk0wizl.meta.json
+ create mode 100644 content/.claude/sessions/conv-1774429376506-20j4m44w2.meta.json
+ create mode 100644 content/.claude/sessions/conv-1774429643319-4h6c32p0v.meta.json
+ create mode 100644 content/.claude/sessions/conv-1774431263069-68wky6wud.meta.json
+ create mode 100644 content/.claude/sessions/conv-1774519800449-oneifg46p.meta.json
+ create mode 100644 content/.claude/sessions/conv-1774525676337-zv8gpfapr.meta.json
+ create mode 100644 content/.claude/sessions/conv-1774790923661-lrsdew1dr.meta.json
+ create mode 100644 content/.claude/sessions/conv-1774793352998-vkidhnwko.meta.json
+ create mode 100644 content/.claude/sessions/conv-1775919022552-crybd4hu4.meta.json
+ create mode 100644 content/.claude/skills/defuddle/SKILL.md
+ create mode 100644 content/.claude/skills/json-canvas/SKILL.md
+ create mode 100644 content/.claude/skills/json-canvas/references/EXAMPLES.md
+ create mode 100644 content/.claude/skills/obsidian-bases/SKILL.md
+ create mode 100644 content/.claude/skills/obsidian-bases/references/FUNCTIONS_REFERENCE.md
+ create mode 100644 content/.claude/skills/obsidian-cli/SKILL.md
+ create mode 100644 content/.claude/skills/obsidian-markdown/SKILL.md
+ create mode 100644 content/.claude/skills/obsidian-markdown/references/CALLOUTS.md
+ create mode 100644 content/.claude/skills/obsidian-markdown/references/EMBEDS.md
+ create mode 100644 content/.claude/skills/obsidian-markdown/references/PROPERTIES.md
+ create mode 100644 content/A Less Simple Screening Example.md
+ create mode 100644 content/A Simple Screening Example.md
+ delete mode 100644 content/APA.md
+ create mode 100644 content/Claude MD for SMU RA.md
+ create mode 100644 content/Closed Form.md
+ create mode 100644 content/Contracting.md
+ create mode 100644 content/Cross-Sectional Analysis.md
+ delete mode 100644 content/Cross-Sectional Dependence.md
+ create mode 100644 content/DW test.md
+ create mode 100644 content/Delta Method.md
+ rename content/{ => Diary}/2024-11-22.md (100%)
+ rename content/{ => Diary}/2024-11-29.md (100%)
+ rename content/{ => Diary}/2025-10-08.md (100%)
+ rename content/{ => Diary}/2025-10-09.md (100%)
+ rename content/{ => Diary}/2025-10-16.md (100%)
+ rename content/{ => Diary}/2025-10-27.md (100%)
+ create mode 100644 content/Diary/2026-02-28.md
+ create mode 100644 content/Diary/2026-03-02.md
+ create mode 100644 content/Diary/2026-03-09.md
+ create mode 100644 content/Diary/2026-03-10.md
+ create mode 100644 content/Diary/2026-03-15.md
+ create mode 100644 content/Diary/2026-03-17.md
+ create mode 100644 content/Diary/2026-03-22.md
+ create mode 100644 content/Diary/2026-03-23.md
+ create mode 100644 content/Diary/2026-03-24.md
+ create mode 100644 content/Diary/2026-03-25.md
+ create mode 100644 content/Diary/2026-03-27.md
+ create mode 100644 content/Diary/2026-03-31.md
+ create mode 100644 content/Diary/2026-04-01.md
+ create mode 100644 content/Diary/2026-04-02.md
+ create mode 100644 content/Diary/2026-04-03.md
+ create mode 100644 content/Diary/2026-04-07.md
+ create mode 100644 content/Diary/2026-04-09.md
+ create mode 100644 content/Diary/2026-04-10.md
+ create mode 100644 content/Diary/2026-04-22.md
+ create mode 100644 content/Diary/2026-04-25.md
+ create mode 100644 content/Difference in Difference.md
+ create mode 100644 content/Direct Mechanism.md
+ create mode 100644 content/Dynamic IS Equation.md
+ create mode 100644 content/Dynamic Linear Models.md
+ create mode 100644 content/EC417 Lecture 10.md
+ create mode 100644 content/EC417 Lecture 9.md
+ create mode 100644 content/EC417 Macro.canvas
+ create mode 100644 content/EC417 Macro/EC417 Lecture 6 Notes.md
+ create mode 100644 content/EC423 Essay Log.md
+ create mode 100644 content/EC423 Lecture 10.md
+ create mode 100644 "content/EC484 Final Review WT \347\231\275\347\232\256\344\271\246.md"
+ create mode 100644 content/EC484 Lec10.md
+ create mode 100644 content/EC484 Metrics.canvas
+ create mode 100644 content/Excalidraw/Drawing 2026-03-25 11.28.43.excalidraw.md
+ create mode 100644 content/Excalidraw/Drawing 2026-03-31 16.50.33.excalidraw.md
+ create mode 100644 content/General Mechanism.md
+ create mode 100644 content/Heterogeneity in New Keynesian Model.md
+ create mode 100644 content/Kaitz Index.md
+ create mode 100644 "content/LSE EME \345\260\261\350\257\273\344\275\223\351\252\214.md"
+ create mode 100644 content/Labour Economics Presentation.md
+ rename content/{Largrangian Multiplier.md => Lagrangian Multiplier.md} (100%)
+ create mode 100644 content/Language Affinity Project.md
+ create mode 100644 content/Least Absolute Deviation.md
+ create mode 100644 content/Lucas Diversification.md
+ create mode 100644 content/Marshallian Demand.md
+ create mode 100644 content/Mechanism Design.md
+ create mode 100644 content/Meet with TMonk.md
+ create mode 100644 content/Microeconomic Origins of Aggregate Fluctuations.md
+ create mode 100644 content/Minimum Wage under Imperfect Competition.md
+ create mode 100644 content/Natural Output.md
+ create mode 100644 content/Nothing special about Jacobian Matrix.md
+ create mode 100644 content/Pareto Distribution.md
+ create mode 100644 content/Prompt for Final Review.md
+ create mode 100644 content/Prompt for Paper Reading.md
+ create mode 100644 content/Prompt for Preview.md
+ create mode 100644 content/Prompt for Problem Set.md
+ create mode 100644 content/Prompt for Recordings.md
+ create mode 100644 content/Prompt for Typst Table.md
+ create mode 100644 content/Slutsky Equation.md
+ rename content/{Subtitution Effect.md => Subsitution Effect.md} (100%)
+ create mode 100644 content/Taylor Principle.md
+ create mode 100644 content/Undetermined Coefficient Method.md
+ create mode 100644 content/Virtual Valuation.md
+ create mode 100644 content/attachment/Pasted image 20260325095101.png
+ create mode 100644 content/attachment/event_study_comparison.png
+ create mode 100644 content/attachment/fig_junior_share_halfyear.png
+ create mode 100644 "content/attachment/\346\210\252\345\261\2172026-04-02 10.13.33.png"
+ create mode 100644 "content/attachment/\346\210\252\345\261\2172026-04-02 10.36.52.png"
+ create mode 100644 "content/attachment/\346\210\252\345\261\2172026-04-02 10.37.50.png"
+ create mode 100644 content/link Marshallian Demand and Hicksian Demand.md
+ rename content/{ => templates}/Template For Diary.md (53%)
+ create mode 100644 content/templates/Template for Notes.md
+ create mode 100644 content/templates/Zotero.md
+ create mode 100644 "content/\346\234\252\345\221\275\345\220\215 1.base"
+ create mode 100644 "content/\346\234\252\345\221\275\345\220\215.base"
+ create mode 100644 "content/\346\234\252\345\221\275\345\220\215.md"
+ rename "content/\345\260\217\344\275\234\346\226\207.md" => "content/\351\233\205\346\200\235\345\260\217\344\275\234\346\226\207.md" (94%)
+Pulling updates from your repository. You may need to resolve some `git` conflicts if you've made changes to components or plugins.
+来自 https://github.com/AugustHuangMX/HZDDigitalGarden
+ * branch            v4         -> FETCH_HEAD
+已经是最新的。
+Pushing your changes
+To https://github.com/AugustHuangMX/HZDDigitalGarden.git
+   bc98058..8e79a70  v4 -> v4
+分支 'v4' 设置为跟踪 'origin/v4'。
+Done!
+2026-04-25 15:09:32 - 🚀 内容处理和推送完成！Vercel 将开始自动部署。
+2026-04-25 15:09:32 - ====== 自动发布任务执行完毕 ======

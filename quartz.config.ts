@@ -16,15 +16,15 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "august-digital-garden.vercel.app",
+    baseUrl: "hzd-digital-garden.vercel.app",
     ignorePatterns: ["private", "templates", ".obsidian","copilot"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: ", 'Tex Gyre Pagella', 'Hiragino Sans GB', serif",
-        body: "'Tex Gyre Pagella','Hiragino Sans GB', serif",
+        header: "'Open Sans', 'LXGW WenKai TC', serif",
+        body: "'Open Sans','LXGW WenKai TC', serif",
         code: "'Noto Sans Mono SC', 'IBM Plex Mono', monospace",
         },
       colors: {

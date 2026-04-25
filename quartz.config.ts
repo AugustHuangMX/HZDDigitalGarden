@@ -23,9 +23,9 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "'Open Sans', 'LXGW WenKai TC', serif",
-        body: "'Open Sans','LXGW WenKai TC', serif",
-        code: "'Noto Sans Mono SC', 'IBM Plex Mono', monospace",
+        header: "Open Sans, LXGW WenKai TC, serif",
+        body: "Open Sans, LXGW WenKai TC, serif",
+        code: "Noto Sans Mono SC, IBM Plex Mono, monospace",
         },
       colors: {
         lightMode: {

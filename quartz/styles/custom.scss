@@ -1,12 +1,11 @@
-@use "./base.scss";
+@import url("https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC:wght@300;400;700&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC:wght@300;400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400;700&display=swap');
+@use "./base.scss";
 
 :root {
   --bodyFont: "Open Sans", "LXGW WenKai TC", serif;
   --headerFont: "Open Sans", "LXGW WenKai TC", serif;
-  --codeFont: "IBM Plex Mono", "Noto Sans Mono", monospace;
+  --codeFont: "IBM Plex Mono", "LXGW WenKai TC", monospace;
 }
 
 body {

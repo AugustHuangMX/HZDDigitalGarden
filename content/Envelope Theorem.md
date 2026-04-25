@@ -1,6 +1,7 @@
 #Econ 
 
 We use the [[Bellman Equation]] as an ample to illustrate the [[Envelope Theorem]] in dynamic programming.
+
 ## The Setup
 
 Start with the Bellman equation: $$V(a, y) = \max_{c, a'} u(c) + \beta E[V(a', y')|y]$$ subject to: $$c + a' = y + (1+r)a$$ $$a' \geq \underline{a}$$

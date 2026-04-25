@@ -83,7 +83,7 @@ s\geq  \underline{a}
 \end{align}
 $$
 
-We could then use [[Largrangian Multiplier]] method to solve it:
+We could then use [[Lagrangian Multiplier]] method to solve it:
 
 $$
 \begin{align}

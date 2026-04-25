@@ -28,7 +28,7 @@ $\hat \theta_{n}$ and $\widetilde \theta_{n}$
 To prepare for Final Exam:
 
 - What is [[Heteroskedasticity]].
-- DW test
+- [[DW test]]
 - Likelihood Ratio test, the formula. $LR$
 - LM also maybe appear.
 - 不会考 wald

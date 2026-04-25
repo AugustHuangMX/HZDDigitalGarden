@@ -65,7 +65,7 @@ The basic variables could be seperated as:
 1. Changes in income $Y_1$ and $Y_2$ 
 2. Changes in interest rate
 
-And the changes in interest rate can then be defined as [[Subtitution Effect]] and [[Income Effect]]
+And the changes in interest rate can then be defined as [[Subsitution Effect]] and [[Income Effect]]
 
 The first situation could be very simple, because you just need to calculate again with the new value, but if we change the interest rate, it could be "interesting".
 
@@ -73,7 +73,7 @@ Recall the diagram of [Life-time budget constraint](Life-time%20budget%20constra
 
 ### For a saver:
 
-Think in [Subtitution Effect](Subtitution%20Effect) and [Income Effect](Income%20Effect.md), 
+Think in [Subsitution Effect](Subsitution%20Effect.md) and [Income Effect](Income%20Effect.md), 
 
 ![](截屏2023-04-06%2016.04.54.png)
 

@@ -17,7 +17,7 @@ Max $U = ln (C_1)+\beta ln (C_2)$
 
 Subject to $Y_1 = S_1+C_1$ and $C_2 = Y_2+(1+r)S_1$
 
-We can use the [Largrangian Multiplier](Largrangian%20Multiplier.md) method to solve the best $S^{* }$
+We can use the [Lagrangian Multiplier](Lagrangian%20Multiplier.md) method to solve the best $S^{* }$
 
 See the [Inter-temporal Budget Constraint](Inter-temporal%20Budget%20Constraint.md)
 

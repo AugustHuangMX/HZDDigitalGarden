@@ -1,0 +1,20 @@
+{
+  "id": "conv-1774429643319-4h6c32p0v",
+  "title": "改进这个模版，我希望它在创建之后能自动显示创建时间、最近一次修改时间、所属标签的信息",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1774429643319,
+  "updatedAt": 1774430613853,
+  "lastResponseAt": 1774429717655,
+  "sessionId": null,
+  "sdkSessionId": "c19e88f0-d8a7-4361-9416-c184aac27a64",
+  "currentNote": "templates/Template for Notes.md",
+  "usage": {
+    "model": "Pro/zai-org/GLM-5",
+    "inputTokens": 4407,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 16384,
+    "contextWindow": 200000,
+    "contextTokens": 20791,
+    "percentage": 10
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "conv-1774525676337-zv8gpfapr",
+  "title": "我这个内容写的对吗？",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1774525676338,
+  "updatedAt": 1774793336296,
+  "lastResponseAt": 1774793281475,
+  "sessionId": null,
+  "sdkSessionId": "98789491-f2ce-4cb5-8805-c7db878dd1aa",
+  "previousSdkSessionIds": [
+    "669eae7b-1a83-4656-93b6-1c34ff294696"
+  ],
+  "currentNote": "EC484 Metrics.canvas",
+  "usage": {
+    "model": "Pro/zai-org/GLM-5",
+    "inputTokens": 28017,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 128,
+    "contextWindow": 200000,
+    "contextTokens": 28145,
+    "percentage": 14
+  }
+}

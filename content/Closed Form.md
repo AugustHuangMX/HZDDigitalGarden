@@ -1,0 +1,1 @@
+"Closed form" means expressing the solution as an explicit formula in terms of the model's primitives, as opposed to leaving it characterized implicitly by a system of equations or FOCs.

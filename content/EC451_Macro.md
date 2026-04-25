@@ -19,7 +19,7 @@ From previous learnings, we could both get the [[Euler Equation]] and the [[Tran
 - EC: $u'(C_{t}) = \beta R u' (C_{t+1})$
 - TC: $B_{T+1} = 0$
 
-The idea of the recursive methods is to start with the last period and move backwards. If not do so, we would have a large system with $2 \times (T+1)$ equations and $2 \times (T+1)$ unknowns, which would be impossible to solve using [[Largrangian Multiplier]].
+The idea of the recursive methods is to start with the last period and move backwards. If not do so, we would have a large system with $2 \times (T+1)$ equations and $2 \times (T+1)$ unknowns, which would be impossible to solve using [[Lagrangian Multiplier]].
 
 If we use recursive, we would only have one equation. This is why we study this lecture.
 

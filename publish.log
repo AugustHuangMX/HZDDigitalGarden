@@ -3010,3 +3010,265 @@ total size is 59330k  speedup is 47.15
  Quartz v4.5.2 
 
 Backing up your content
+[v4 bc98058] Quartz sync: Feb 28, 2026, 1:22 PM
+ 48 files changed, 2242 insertions(+), 1446 deletions(-)
+ create mode 100644 content/.claude/claudian-settings.json
+ create mode 100644 content/.claude/sessions/conv-1772060047606-b377macxj.meta.json
+ create mode 100644 content/.claude/sessions/conv-1772278446934-i600zky9y.meta.json
+ create mode 100644 content/Calvo Price.md
+ create mode 100644 content/Causal Effect.md
+ create mode 100644 content/Constant Elasticity of Substitution.md
+ create mode 100644 content/Cover Letter for EIT Oxford.md
+ create mode 100644 content/Diary/2026-02-09.md
+ create mode 100644 content/Diary/2026-02-10.md
+ create mode 100644 content/Diary/2026-02-11.md
+ create mode 100644 content/Diary/2026-02-13.md
+ create mode 100644 content/Diary/2026-02-15.md
+ create mode 100644 content/Diary/2026-02-16.md
+ create mode 100644 content/Diary/2026-02-17.md
+ create mode 100644 content/Diary/2026-02-18.md
+ create mode 100644 content/Diary/2026-02-19.md
+ create mode 100644 content/Diary/2026-02-20.md
+ create mode 100644 content/Diary/2026-02-25.md
+ create mode 100644 content/Diary/2026-02-26.md
+ create mode 100644 content/Diary/2026-02-27.md
+ create mode 100644 content/Heterogeneous Effect.md
+ create mode 100644 content/Indirect Utility Function.md
+ create mode 100644 content/Involuntary Unemployment.md
+ create mode 100644 content/NK-DSGE.md
+ create mode 100644 content/New Keynesian Model.md
+ create mode 100644 content/Nominal Rigidity.md
+ create mode 100644 content/Perfect Bayesian Equilibrium.md
+ create mode 100644 content/Place Based Policy.md
+ create mode 100644 content/Predoc Interview -- Dorn.md
+ create mode 100644 content/Real Business Cycle.md
+ create mode 100644 content/Repeated Entry Game.md
+ create mode 100644 content/SMU RA.md
+ create mode 100644 content/Sticky Price Assumption.md
+ create mode 100644 content/Template For Diary.md
+ create mode 100644 content/Valuing Alternative Work Arrangements.md
+ create mode 100644 content/attachment/Pasted image 20260226094755.png
+ create mode 100644 content/attachment/Pasted image 20260228114027.png
+ create mode 100644 content/attachment/Pasted image 20260228114059.png
+ create mode 100644 "content/attachment/\346\210\252\345\261\2172026-02-23 10.56.00.png"
+Pulling updates from your repository. You may need to resolve some `git` conflicts if you've made changes to components or plugins.
+æ¥è‡ª https://github.com/AugustHuangMX/HZDDigitalGarden
+ * branch            v4         -> FETCH_HEAD
+å·²ç»æ˜¯æœ€æ–°çš„ã€‚
+Pushing your changes
+To https://github.com/AugustHuangMX/HZDDigitalGarden.git
+   5b849ce..bc98058  v4 -> v4
+åˆ†æ”¯ 'v4' è®¾ç½®ä¸ºè·Ÿè¸ª 'origin/v4'ã€‚
+Done!
+npm notice
+npm notice New minor version of npm available! 11.6.0 -> 11.11.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.11.0
+npm notice To update run: npm install -g npm@11.11.0
+npm notice
+2026-02-28 13:22:27 - ğŸš€ å†…å®¹å¤„ç†å’Œæ¨é€å®Œæˆï¼Vercel å°†å¼€å§‹è‡ªåŠ¨éƒ¨ç½²ã€‚
+2026-02-28 13:22:27 - ====== è‡ªåŠ¨å‘å¸ƒä»»åŠ¡æ‰§è¡Œå®Œæ¯• ======
+2026-04-25 15:09:25 - ====== å¼€å§‹æ‰§è¡Œè‡ªåŠ¨å‘å¸ƒä»»åŠ¡ ======
+2026-04-25 15:09:25 - âœ… æ­¥éª¤ 1/2: å¼€å§‹åŒæ­¥ç¬”è®°æ–‡ä»¶...
+Transfer starting: 989 files
+deleting .claude/sessions/conv-1772278446934-i600zky9y.meta.json
+deleting .claude/sessions/conv-1772060047606-b377macxj.meta.json
+deleting å°\#217ä½\#234æ\#226\#207.md
+deleting Template For Diary.md
+deleting Subtitution Effect.md
+deleting Largrangian Multiplier.md
+deleting Cross-Sectional Dependence.md
+deleting APA.md
+deleting 2025-10-27.md
+deleting 2025-10-16.md
+deleting 2025-10-09.md
+deleting 2025-10-08.md
+deleting 2024-11-29.md
+deleting 2024-11-22.md
+./
+A Less Simple Screening Example.md
+A Simple Screening Example.md
+Asymmetric Information.md
+Bellman Equation.md
+Bootstrap.md
+Breusch-Pagan Test.md
+Calvo Price.md
+Claude MD for SMU RA.md
+Closed Form.md
+Constant Return to Scale.md
+Contracting.md
+Cross-Sectional Analysis.md
+DW test.md
+Delta Method.md
+Difference in Difference.md
+Direct Mechanism.md
+Dynamic IS Equation.md
+Dynamic Linear Models.md
+EC417 Advanced Macroeconomics.md
+EC417 Lecture 10.md
+EC417 Lecture 9.md
+EC417 Macro.canvas
+EC417 Question List.md
+EC423 Essay Log.md
+EC423 Essay.md
+EC423 Labour Economics.md
+EC423 Lecture 10.md
+EC451_Macro.md
+EC484 Econometrics Analysis.md
+EC484 Final Review WT ç\#231½ç\#232®ä¹¦.md
+EC484 Lec10.md
+EC484 Metrics.canvas
+EC487 Advanced Microeconomics.md
+ECON3003 Econometric II.md
+Envelope Theorem.md
+Essay in EC423.md
+Euler Equation.md
+General Mechanism.md
+Heterogeneity in New Keynesian Model.md
+Huggett Model.md
+Indirect Utility Function.md
+Inter-temporal Budget Constraint.md
+Kaitz Index.md
+LLM Prompt.md
+LSE EME å°±è¯»ä½\#223éª\#214.md
+Labour Economics Presentation.md
+Lagrangian Multiplier.md
+Language Affinity Project.md
+Law of One Price.md
+Least Absolute Deviation.md
+Life-cycle Hypothesis.md
+Linear Regression.md
+Lucas Diversification.md
+MLE æ\#236\#201å¤§ä¼¼ç\#204¶ä¼°è®¡.md
+Marshallian Demand.md
+Mechanism Design.md
+Meet with TMonk.md
+Microeconomic Origins of Aggregate Fluctuations.md
+Minimum Wage under Imperfect Competition.md
+Minimum Wage.md
+Moral Hazard.md
+Natural Output.md
+New Keynesian Model.md
+Nothing special about Jacobian Matrix.md
+Panel Data.md
+Pareto Distribution.md
+Predoc Interview -- Dorn.md
+Problem Sets for EC417.md
+Prompt for Final Review.md
+Prompt for Paper Reading.md
+Prompt for Preview.md
+Prompt for Problem Set.md
+Prompt for Recordings.md
+Prompt for Typst Table.md
+Running List.md
+SMU RA.md
+Samuelson Condition.md
+Slutsky Equation.md
+Subsitution Effect.md
+Taylor Principle.md
+Two-Variable Input Case.md
+Undetermined Coefficient Method.md
+Utility Maximizing Problem.md
+Virtual Valuation.md
+index.md
+link Marshallian Demand and Hicksian Demand.md
+å\#255¦é\#225¿å\#255¦å§\#220å\#210\#206äº«ä¼\#232.md
+æ\#234ªå\#221½å\#220\#215 1.base
+æ\#234ªå\#221½å\#220\#215.base
+æ\#234ªå\#221½å\#220\#215.md
+é\#233\#205æ\#200\#235å\#206\#231ä½\#234.md
+é\#233\#205æ\#200\#235å°\#217ä½\#234æ\#226\#207.md
+.claude/
+.claude/claudian-settings.json
+.claude/agents/
+.claude/commands/
+.claude/sessions/
+.claude/sessions/conv-1774349780066-iqk0x7gex.meta.json
+.claude/sessions/conv-1774352344056-fphk0wizl.meta.json
+.claude/sessions/conv-1774429376506-20j4m44w2.meta.json
+.claude/sessions/conv-1774429643319-4h6c32p0v.meta.json
+.claude/sessions/conv-1774431263069-68wky6wud.meta.json
+.claude/sessions/conv-1774519800449-oneifg46p.meta.json
+.claude/sessions/conv-1774525676337-zv8gpfapr.meta.json
+.claude/sessions/conv-1774790923661-lrsdew1dr.meta.json
+.claude/sessions/conv-1774793352998-vkidhnwko.meta.json
+.claude/sessions/conv-1775919022552-crybd4hu4.meta.json
+.claude/skills/
+.claude/skills/defuddle/
+.claude/skills/defuddle/SKILL.md
+.claude/skills/json-canvas/
+.claude/skills/json-canvas/SKILL.md
+.claude/skills/json-canvas/references/
+.claude/skills/json-canvas/references/EXAMPLES.md
+.claude/skills/obsidian-bases/
+.claude/skills/obsidian-bases/SKILL.md
+.claude/skills/obsidian-bases/references/
+.claude/skills/obsidian-bases/references/FUNCTIONS_REFERENCE.md
+.claude/skills/obsidian-cli/
+.claude/skills/obsidian-cli/SKILL.md
+.claude/skills/obsidian-markdown/
+.claude/skills/obsidian-markdown/SKILL.md
+.claude/skills/obsidian-markdown/references/
+.claude/skills/obsidian-markdown/references/CALLOUTS.md
+.claude/skills/obsidian-markdown/references/EMBEDS.md
+.claude/skills/obsidian-markdown/references/PROPERTIES.md
+Diary/
+Diary/2024-11-22.md
+Diary/2024-11-29.md
+Diary/2025-10-08.md
+Diary/2025-10-09.md
+Diary/2025-10-16.md
+Diary/2025-10-27.md
+Diary/2026-02-25.md
+Diary/2026-02-26.md
+Diary/2026-02-28.md
+Diary/2026-03-02.md
+Diary/2026-03-09.md
+Diary/2026-03-10.md
+Diary/2026-03-15.md
+Diary/2026-03-17.md
+Diary/2026-03-22.md
+Diary/2026-03-23.md
+Diary/2026-03-24.md
+Diary/2026-03-25.md
+Diary/2026-03-27.md
+Diary/2026-03-31.md
+Diary/2026-04-01.md
+Diary/2026-04-02.md
+Diary/2026-04-03.md
+Diary/2026-04-07.md
+Diary/2026-04-09.md
+Diary/2026-04-10.md
+Diary/2026-04-22.md
+Diary/2026-04-25.md
+EC417 Macro/
+EC417 Macro/EC417 Lecture 6 Notes.md
+EC423 Labour/
+EC487 Micro/
+Economics/
+Excalidraw/
+Excalidraw/Drawing 2026-03-25 11.28.43.excalidraw.md
+Excalidraw/Drawing 2026-03-31 16.50.33.excalidraw.md
+Math/
+Paper/
+Zotero/
+attachment/
+attachment/Pasted image 20260325095101.png
+attachment/event_study_comparison.png
+attachment/fig_junior_share_halfyear.png
+attachment/æ\#210ªå±\#2172026-04-02 10.13.33.png
+attachment/æ\#210ªå±\#2172026-04-02 10.36.52.png
+attachment/æ\#210ªå±\#2172026-04-02 10.37.50.png
+base/
+templates/
+templates/Template For Diary.md
+templates/Template for Notes.md
+templates/Zotero.md
+
+sent 1835k bytes  received 3542 bytes  27808k bytes/sec
+total size is 60937k  speedup is 33.15
+2026-04-25 15:09:25 - ç¬”è®°åŒæ­¥å®Œæˆã€‚
+2026-04-25 15:09:25 - âœ… æ­¥éª¤ 2/2: å¼€å§‹å¤„ç†å†…å®¹å¹¶è‡ªåŠ¨æ¨é€åˆ° GitHub...
+
+ Quartz v4.5.2 
+
+Backing up your content

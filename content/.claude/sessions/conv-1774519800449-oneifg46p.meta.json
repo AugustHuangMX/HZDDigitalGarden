@@ -1,0 +1,20 @@
+{
+  "id": "conv-1774519800449-oneifg46p",
+  "title": "如何理解 LAD",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1774519800450,
+  "updatedAt": 1774790900502,
+  "lastResponseAt": 1774519881637,
+  "sessionId": null,
+  "sdkSessionId": "5ec0a571-94dc-4121-89e7-bc7021498930",
+  "currentNote": "Least Absolute Deviation.md",
+  "usage": {
+    "model": "Pro/zai-org/GLM-5",
+    "inputTokens": 3846,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 16384,
+    "contextWindow": 200000,
+    "contextTokens": 20230,
+    "percentage": 10
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "conv-1774352344056-fphk0wizl",
+  "title": "为我概括这条笔记的内容",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1774352344061,
+  "updatedAt": 1774430608169,
+  "lastResponseAt": 1774372665407,
+  "sessionId": null,
+  "sdkSessionId": "4636b351-51fd-4a7d-b7a5-8b42ccaee76d",
+  "usage": {
+    "model": "Pro/zai-org/GLM-5",
+    "inputTokens": 23532,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 3392,
+    "contextWindow": 200000,
+    "contextTokens": 26924,
+    "percentage": 13
+  }
+}

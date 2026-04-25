@@ -1,0 +1,31 @@
+{
+  "id": "conv-1775919022552-crybd4hu4",
+  "title": "Review card content and suggest improvements",
+  "titleGenerationStatus": "success",
+  "createdAt": 1775919022553,
+  "updatedAt": 1775919292476,
+  "lastResponseAt": 1775919292476,
+  "sessionId": "982c4804-c3bb-49d5-9fb4-5b1a31c99374",
+  "sdkSessionId": "982c4804-c3bb-49d5-9fb4-5b1a31c99374",
+  "currentNote": "Indirect Utility Function.md",
+  "usage": {
+    "model": "Pro/zai-org/GLM-5.1",
+    "inputTokens": 26803,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 26803,
+    "percentage": 13
+  },
+  "subagentData": {
+    "019d7d060558dd2c9bf237b3b53a329a": {
+      "id": "019d7d060558dd2c9bf237b3b53a329a",
+      "description": "Find related economics notes",
+      "prompt": "Search the vault for notes related to indirect utility function, direct utility function, Lagrangian, Roy's identity, expenditure function, Hicksian demand, Marshallian demand, or consumer theory. Use Glob and Grep to find relevant files. Report back the filenames and a brief summary of their content. Use relative paths from the vault root.",
+      "status": "completed",
+      "toolCalls": [],
+      "isExpanded": false,
+      "result": "API Error: 400 Model does not exist. Please check it carefully."
+    }
+  }
+}

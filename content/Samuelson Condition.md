@@ -22,7 +22,7 @@ Since $x_i$ is all the private part, so you don't need to multiply anything, wha
 
 ## To reach the optimal:
 
-We should consider in the [Pareto Optimality](Pareto%20Optimality.md) so we need to use the [Largrangian Multiplier](Largrangian%20Multiplier.md) in order to get it.
+We should consider in the [Pareto Optimality](Pareto%20Optimality.md) so we need to use the [Lagrangian Multiplier](Lagrangian%20Multiplier.md) in order to get it.
 
 ## The Utility Equation
 

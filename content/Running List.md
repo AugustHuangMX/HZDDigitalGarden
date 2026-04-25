@@ -2,9 +2,6 @@
 
 - [ ] What is a [[Phase Diagram]]?
 
-
-、
-
 # [[EC423 Labour Economics]]
 
 - [ ] What is $f$ in [[Mincer Model]] (p15 lecture 1)

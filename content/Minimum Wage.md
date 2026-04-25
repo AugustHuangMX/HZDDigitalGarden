@@ -2,13 +2,10 @@
 
 Difference in Difference: Naturally, we use the randomised control trial (RCT) to analyze questions in natural science, but it is impractical for [[Minimum Wage]]. 
 
-## Lecture 2
 
 ### Standard view:
 
 - Minimum Wage reduces employment
-
-
 
 Consider the market for low-wage labour, with the $W^{*}$ as the equilibrium wage. if we bind the *minimum wage* at wage $W^{min}>W^{*}$, what will happen is the labour demand would decreases to  $L^{min}$. However, the labours would consider the higher wage, so the supply is also getting higher in this case, creating the labour supply $L^{'}$, so the unemployment goes up to $L^{'}- L^{min}$
 
@@ -27,7 +24,7 @@ And the effect on wages depends on the employment effect.
 
 The size of the reduction depends on **substitution** and **scale** effects. 
 
-	The papers discuss last week generally focus on a particular city/industry.
+> The papers discuss last week generally focus on a particular city/industry.
 
 Empirical studies show little negative employment effects, Which, in this environment, means demand for low-wage labour is inelastic
 
@@ -64,3 +61,19 @@ Wage dispersion
 *Why some of the biggest beneficiaries are in the middle of the income distribution?*
 
 Because the MW law might not well-targeted on the poorest households.
+
+## Different Countries
+
+### US
+
+Federal MW.
+
+### UK
+An independent advisory body: **Low Pay Commission** (LPC).
+
+But some countries don't have minimum wage at all, like Italy and Austria. This makes the international comparison become very hard. One way is to use [[Kaitz Index]]
+
+## Efficiency
+
+[[Minimum Wage under Imperfect Competition]]
+

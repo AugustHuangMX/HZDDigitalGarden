@@ -8,7 +8,7 @@ tags:
 
 # Tell It by Myself...
 
-在 [Time-Series Analysis](Time-Series%20Analysis.md) data 里面取多个 [Cross-Sectional Dependence](Cross-Sectional%20Dependence.md) data，主要可以观察一些变动的问题。
+在 [Time-Series Analysis](Time-Series%20Analysis.md) data 里面取多个 [Cross-Sectional Analysis](Cross-Sectional%20Analysis.md) data，主要可以观察一些变动的问题。
 
 如，一年内所有 A 股的开盘价
 

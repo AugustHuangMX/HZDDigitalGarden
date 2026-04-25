@@ -1,0 +1,20 @@
+{
+  "id": "conv-1774349780066-iqk0x7gex",
+  "title": "测试",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1774349780067,
+  "updatedAt": 1774429635943,
+  "lastResponseAt": 1774349795661,
+  "sessionId": null,
+  "sdkSessionId": "b076f160-9668-4f4e-8c28-6cfa9c6a5657",
+  "currentNote": "Diary/2026-03-24.md",
+  "usage": {
+    "model": "Pro/zai-org/GLM-5",
+    "inputTokens": 19566,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 19566,
+    "percentage": 10
+  }
+}

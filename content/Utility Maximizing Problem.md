@@ -5,7 +5,7 @@ The consumer's problem is
 $$
 max\ u(x,y)\ s.t.\ p_xx + p_yy\leq w
 $$
-And we have to apply to [[Largrangian Multiplier]] $\lambda$,
+And we have to apply to [[Lagrangian Multiplier]] $\lambda$,
 
 $$
 L = u(x,y)+\lambda(w-p_xx-p_yy)

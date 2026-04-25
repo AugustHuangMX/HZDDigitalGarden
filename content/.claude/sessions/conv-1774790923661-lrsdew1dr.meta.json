@@ -1,0 +1,24 @@
+{
+  "id": "conv-1774790923661-lrsdew1dr",
+  "title": "如何理解The GDP volatility in this economy 这一节的内容？",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1774790923661,
+  "updatedAt": 1774793334842,
+  "lastResponseAt": 1774791470260,
+  "sessionId": null,
+  "sdkSessionId": "267ca59b-846a-411b-bcc7-cbcc73607990",
+  "previousSdkSessionIds": [
+    "972c93b5-9dc2-44e0-b198-8c5b91981e4f",
+    "9a4f7db0-b0b0-433c-8f92-3fe44f69360c",
+    "b88f5d8b-88e3-4c4b-8f8d-2f46850e714d"
+  ],
+  "usage": {
+    "model": "Pro/zai-org/GLM-5",
+    "inputTokens": 7554,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 21120,
+    "contextWindow": 200000,
+    "contextTokens": 28674,
+    "percentage": 14
+  }
+}

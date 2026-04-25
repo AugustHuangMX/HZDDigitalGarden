@@ -657,9 +657,8 @@ The broader question I'm trying to answer is: when AI can directly substitute fo
 
 1. How many groups of professors I would be responsible for? Or I just work for you?
 2. Does the department offer seminars opportunities for predocs?
-3. Do I have opportunities to join any courses offered by NUS?
-4. When can I be able to know the results? 
-5. What's the workflow of the traditional
+3. When can I be able to know the results? 
+4. What's the workflow of the traditional
 
 
 # Second Meet

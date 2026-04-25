@@ -6,7 +6,11 @@ tags:
 
 #Statistics 
 
+Also see [[Maximum Likelihood Estimation]]
+
 # Tell It by Myself...
+
+
 
 ## 前情提要
 

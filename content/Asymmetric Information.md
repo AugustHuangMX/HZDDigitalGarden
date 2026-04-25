@@ -1,3 +1,5 @@
+#Econ/Micro 
+
 Asymmetric Information is different to the [[Full Information]], that could lead to inefficient situation. 
 
 We usually use the [[Game Theory]] to make the strategy.
@@ -20,12 +22,12 @@ There is a simple setting model called [[Principal-Agent Model]],
 
 --- 
 
-	 Above all are all the information about the course [[ECON2003 Intermediate Microeconomics II]], below are the materials about [[ECON4006 Labour Economics]]
+>  Above all are all the information about the course [[ECON2003 Intermediate Microeconomics II]] , below are the materials about [[ECON4006 Labour Economics]] . During the studies in LSE, I also spent really long time studying different problems in this topic ( [[EC487 Advanced Microeconomics]] ).
 
 
 # Definition of [[Asymmetric Information]]
 
-[[Asymmetric Information]] is  characteristic of many business situations. For example, a seller of product knows more about its quality than buyers does. Workers usually know their own skills better than employers (They know themselves better)
+[[Asymmetric Information]] is characteristic of many business situations. For example, a seller of product knows more about its quality than buyers does. Workers usually know their own skills better than employers (They know themselves better)
 
 Recall the very classic example: [[The Market for Lemons]]
 

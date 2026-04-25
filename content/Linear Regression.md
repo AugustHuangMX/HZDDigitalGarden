@@ -3,5 +3,5 @@
 - [[Simple Linear Regression]]
 - [[Simple Linear Regression in Matrix Notation]]
 - [[Multiple Regression]]
-- [[Largrangian Multiplier]]
+- [[Lagrangian Multiplier]]
 - [[Taylor Expansion]]

@@ -7,7 +7,7 @@ title: "Time-Series Analysis"
 # Tell It by Myself...
 
 # Introduction
-It is a topic first introduced in ECON 2001. And of course it  is a really important topic and is famous in [[Econometrics]].
+It is a topic first introduced in ECON2001. And of course it  is a really important topic and is famous in [[Econometrics]].
 
 ## Referrence
 

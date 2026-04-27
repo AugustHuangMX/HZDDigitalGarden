@@ -37,3 +37,16 @@ Conclusion（~300 words）。
 6. having 
 7. connect with the people from Guy's 
 8. make the question tight.
+
+
+
+---
+
+# Todos
+
+- [x] Unemployment Rates for Recent College Graduates vs Overall rates 图添加
+	- [x] 同时也可以考虑一下这个图是放在 Appendix 还是 Data
+注：由于不显著，直接取消。
+- [ ] 
+
+

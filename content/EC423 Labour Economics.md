@@ -5,6 +5,16 @@
 
 [[EC423 Essay]]
 
+Cristinine's Content:
+
+1. Wage Differentials and Discrimination: Gender and Race
+2. Compensating Differentials
+3. Place-Based Policies
+4. Minimum Wage and Unions
+5. Intergenerational Mobility
+6. Labour Market Insurance
+
+
 
 
 | Day               | 复习主题 (Topic)                                                         | GTD 下一步行动 (Actionable Items)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | 知识点定位 (Knowledge Points)                                                                                                                                                                                                                                                          | 今日产出物 (Deliverable)                                                                   |
@@ -15,3 +25,8 @@
 | **Day 4** (≈3.5h) | **WT Lec 4-6**<br>Place-Based Policies & Minimum Wage                | 1. 通读 `EC423_WT_Lec4_Update.pdf` + `EC423_WT_Lec5.pdf`，推导 Rosen-Roback 中 $dr/ds$、$dw/ds$ 的 comparative statics，理解 "amenities fully capitalized into land rents" (90 min)<br>2. 通读 `EC423_WT_Lec6.pdf` (102 slides, 最长)，整理 MW 的四种经验证据：Time series → State panel → Case studies (Card-Krueger) → Bunching (Cengiz et al.)，并对比 Competitive vs Monopsony 预测 (90 min)<br>3. 重做 `EC423_WT_Analytical_Problem_Set_II.pdf` Q1 (Rosen-Roback) + `EC423_2023.pdf` 或 `EC423_2024.pdf` 中任一 MW 题目 (30 min)                     | **Rosen-Roback spatial model** (高频考点)、Amenity capitalization、Wage subsidies incidence、Marginal vs inframarginal movers、Monopsony model、Card-Krueger (1994) DiD、Cengiz bunching estimator、Harasztosi-Lindner (incidence)、SUTVA in state panels                                     | 📌 2 张 Marginnote 思维导图：<br>① *Rosen-Roback 两市场调整机制*<br>② *MW 识别策略演化树*                 |
 | **Day 5** (≈3h)   | **WT Lec 7-8**<br>Unions & Intergenerational Mobility                | 1. 通读 `EC423_WT_Lec7.pdf`，整理 Monopoly union / Efficient bargaining / Right-to-manage 三模型图、DiNardo-Lee (2004) RDD 设计、Union wage premium 分解 (rent-extraction vs firm-selection) (75 min)<br>2. 通读 `EC423_WT_Lec8.pdf`，推导 Becker-Tomes (1979) 得到 IGE $\beta$ 的归约形式，理解 Galton critique、Classical measurement error (Solon 1992) 为何需要多年平均，Chetty rank-rank 为何稳健 (75 min)<br>3. 重做 `EC423_2020.pdf` Q4 (Becker-Tomes with twins/adoptees) — **这是 2020 年原题，强烈推荐** (30 min)                                               | Union coverage vs density、**Monopoly union model** (高频考点)、Efficient contracts、DiNardo-Lee RDD、AKM firm effects、**Becker-Tomes IGE** (高频考点)、Galton regression-to-the-mean、Measurement error & multi-year averaging、Rank-rank (Chetty)、Sibling correlations、Adoptees identification | 📌 2 张 Marginnote 思维导图：<br>① *Union 三种博弈模型对比*<br>② *IGE 识别策略树（twins / adoptees / IV）* |
 | **Day 6** (≈3h)   | **WT Lec 9-10 + Weekly Review**                                      | 1. 通读 `EC423_WT_Lec9.pdf`，整理 Jacobson-LaLonde-Sullivan (1993) event study 设定、earnings loss 的 intensive/extensive margin 分解、Lachowska-Mas-Woodbury 的 $\Delta\Psi + \Delta\mu$ 分解 (60 min)<br>2. 通读 `EC423_WT_Lec10.pdf`，默写 Baily-Chetty sufficient statistic 公式 $\frac{\epsilon_{1-e,b}}{e} = \frac{u'(c_L) - u'(c_H)}{u'(c_H)}$，理解 Chetty (2008) liquidity vs moral hazard 分解 (75 min)<br>3. **Weekly Review** (45 min)：(a) 合并当周所有思维导图为 1 张 "EC423 全景图"；(b) 列出 Phase 1 中仍不清楚的 3-5 个问题，写入 Obsidian 作为 Phase 2 攻坚清单 | Job displacement event study、JLS tenure restriction、Scarring vs employer FE、**Baily-Chetty formula** (高频考点)、Consumption smoothing vs moral hazard、Liquidity effect (Chetty 2008)、Severance pay vs UI vs STW、Gruber (1997) identification                                          | 📌 **1 张 EC423 全景思维导图** (所有专题合并)<br>📌 **1 份 Phase 2 攻坚问题清单** (写入 Obsidian)           |
+
+
+[[EC423 Review Notes]]
+
+[[Gender Inequality]]

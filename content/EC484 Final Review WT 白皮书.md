@@ -8,6 +8,8 @@
 2.  Chain Rule
 3. 幂函数积分公式
 4. 正态分布对称性
+5. Inverse Mills Ratio (Source: Sample Selection in LimDep)
+6. 
 
 
 ## [[Bootstrap]]

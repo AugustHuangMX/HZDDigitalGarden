@@ -21,3 +21,6 @@ $$ \begin{array}{l} \frac {\partial \mathfrak {L}}{\partial C _ {i , t}} = P _ {
 
 $$ \int_ {0} ^ {1} P _ {i, t} C _ {i, t} d i = \int_ {0} ^ {1} P _ {i, t} \left(\frac {P _ {i , t}}{P _ {j , t}}\right) ^ {- \epsilon} C _ {j, t} d i \Rightarrow C _ {j t} = \frac {P _ {j , t} ^ {- \epsilon} \int_ {0} ^ {1} P _ {i , t} C _ {i , t} d i}{\int_ {0} ^ {1} P _ {i , t} ^ {1 - \epsilon} d i} $$
 
+---
+
+Also we could relate this concept to the labour economics content, which is [[CES production function]].

@@ -98,4 +98,5 @@ Done List:
 
 - [[EC484 Final Review WT 白皮书]]
 - [[EC484 Final Review WT 杂记]]
+- [[EC484 Final 考点总结]]
 - 

@@ -52,3 +52,4 @@ We have to apply general asymptotic theory to approach.
 
 Don't worry too much about proof
 
+The way is to study the basic idea first and apply it to different context, like binary, ...

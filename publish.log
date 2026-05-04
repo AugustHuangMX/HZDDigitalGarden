@@ -4343,3 +4343,62 @@ sent 52713 bytes  received 236 bytes  1320k bytes/sec
 total size is 61077k  speedup is 1153.50
 2026-05-04 10:23:03 - 笔记同步完成。
 2026-05-04 10:23:03 - ✅ 步骤 2/2: 开始处理内容并自动推送到 GitHub...
+
+> @jackyzha0/quartz@4.5.2 quartz
+> ./quartz/bootstrap-cli.mjs sync
+
+
+ Quartz v4.5.2 
+
+Backing up your content
+[v4 c826a83] Quartz sync: May 4, 2026, 10:23 AM
+ 2 files changed, 58 insertions(+), 1 deletion(-)
+Pulling updates from your repository. You may need to resolve some `git` conflicts if you've made changes to components or plugins.
+fatal: unable to access 'https://github.com/AugustHuangMX/HZDDigitalGarden.git/': Could not resolve host: github.com
+An error occurred above while pulling updates.
+2026-05-04 10:23:04 - ❌ 失败：检测到 Git/网络错误输出（请查看 /Users/huangminxing/Developer/quartz/publish.log）
+2026-05-04 10:53:31 - ====== 开始执行自动发布任务 ======
+2026-05-04 10:53:31 - ✅ 步骤 1/2: 开始同步笔记文件...
+Transfer starting: 1034 files
+./
+Tai Guide for EC484.md
+.agents/
+.agents/skills/
+.agents/skills/defuddle/
+.agents/skills/json-canvas/
+.agents/skills/json-canvas/references/
+.agents/skills/obsidian-bases/
+.agents/skills/obsidian-bases/references/
+.agents/skills/obsidian-cli/
+.agents/skills/obsidian-markdown/
+.agents/skills/obsidian-markdown/references/
+.claude/
+.claude/agents/
+.claude/commands/
+.claude/sessions/
+.claude/skills/
+.claude/skills/defuddle/
+.claude/skills/json-canvas/
+.claude/skills/json-canvas/references/
+.claude/skills/obsidian-bases/
+.claude/skills/obsidian-bases/references/
+.claude/skills/obsidian-cli/
+.claude/skills/obsidian-markdown/
+.claude/skills/obsidian-markdown/references/
+Diary/
+EC417 Macro/
+EC423 Labour/
+EC487 Micro/
+Economics/
+Excalidraw/
+Math/
+Paper/
+Zotero/
+attachment/
+base/
+templates/
+
+sent 54674 bytes  received 258 bytes  899k bytes/sec
+total size is 61077k  speedup is 1111.87
+2026-05-04 10:53:31 - 笔记同步完成。
+2026-05-04 10:53:31 - ✅ 步骤 2/2: 开始处理内容并自动推送到 GitHub...

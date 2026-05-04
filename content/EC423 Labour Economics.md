@@ -29,4 +29,7 @@ Cristinine's Content:
 
 [[EC423 Review Notes]]
 
-[[Gender Inequality]]
+
+## By Topics
+- Lecture 3 [[Compensating Differentials]]
+-  [[Gender Inequality]]

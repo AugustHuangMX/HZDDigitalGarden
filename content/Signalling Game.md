@@ -2,8 +2,6 @@
 
 #Econ/Micro #LSE/EC487_Advanced_Microeconomics 
 
-
-
 ## Bayesian Updating
 
 The procedure is like this: 
@@ -14,7 +12,6 @@ The procedure is like this:
 4. Receiver base on this $\mu(\theta|a_{1})$, chooses optimal $a_{2}$.
 
 >  The key here is that, indeed sender would have rational anticipation of what the receiver would do.
-
 
 
 ---

@@ -225,7 +225,7 @@ tags:
 ### Core Theory
 
 > [!definition] Compensating Wage Differential (补偿性工资差异)
-> 在竞争均衡中，工人对不同工作的"总补偿"（工资+非货币收益）应该相等。低工资工作必须有其他优势（如安全性、灵活性）来补偿。
+> 在竞争均衡中，工人对不同工作的"总补偿"（工资+非货币收益）应该相等。低工资工作必须有其他优势（如安全性、灵活性）来补偿。从数据上来看（“workers in the US value health insurance and flexible hours”）
 
 > [!formula] Worker Utility Maximization
 > 
@@ -305,6 +305,8 @@ tags:
 
 #### Roback (1982) Model of Location Choice
 
+Also the workhorse model for this lecture (most important). The key goal is to answer this question: *"If a place becomes more attractive, what happens to its wages and rents?"* In other words, a local change is partly capitalized into **wages** and **rents/house prices**.
+
 > [!model] 基本设定
 > 
 > **工人：** 最大化效用 $U(w, r, s)$
@@ -322,6 +324,25 @@ tags:
 > (2) 企业无差异：$c(w(s), r(s), s) = \bar{c}$
 > 
 > (3) 市场出清：$L_w(s) + L_p(s) = \bar{L}(s)$
+
+在这里，原课件使用的是 Direct Utility, 比如 $u(x,l^c,s)$ , and recall the [[Budget Constraint]] is $x + rl^c = w + I$ ,
+
+In this system, the only prices are $r$ and $w$ , thus intuitive to check out $w'(s)$ and $r'(s)$ .
+
+Since it's a [[Perfect Competition]] market, and workers are allowed to free entry/leave, thus it is intuitive to have:
+
+$$
+\begin{align}
+c(w(s), r(s), s)  & = 1 \\
+V(w(s), r(s), s)  & = V^0
+\end{align}
+$$
+
+$V^0$ here means that if some place could give people higher/lower utility to workers, they would choose to move here (free entry), thus finally all places would converge to the same $V$ level, which is $V^0$ .
+
+
+
+
 
 > [!formula] Comparative Statics
 > 
@@ -342,8 +363,17 @@ tags:
 > 
 > $$\text{Social Value} = \underbrace{(-V_s/V_w)}_{\text{工人WTP}} + \underbrace{(-c_s/c_w)}_{\text{企业WTP}}$$
 
+符合大一时候学习的一些直觉，类似于 Marginal Rate of Subsitution.
+
+
 > [!intuition] 经济学直觉
 > 如果特性只影响工人感受（如好天气），社会价值等于工人的支付意愿。如果特性也提高生产率（如好基础设施），企业也愿意支付，总社会价值更大。但租金会捕获部分价值，导致"资本化"效应。
+
+
+在这里要区分 Full [[Rosen Roback]] model 和 Partial [[Rosen Roback]] 的区别。Full [[Rosen Roback]] 主要引入了异质性工人，这让我们可以分析人口流动和福利分配等。 Here we involve two different places and markets are also different.
+
+How to measure the efficiency? We look at the welfare impact per money spent (measure the deadweight loss).
+
 
 ### Key Papers
 

@@ -1,4 +1,5 @@
 #!/bin/bash
+set -euo pipefail
 
 # 加载系统路径，确保 cron 能找到所有命令
 export PATH=/opt/homebrew/bin:/usr/local/bin:$PATH
@@ -15,24 +16,37 @@ log() {
     echo "$(date +'%Y-%m-%d %H:%M:%S') - $1" | tee -a "$LOG_FILE"
 }
 
+run_step() {
+    local desc="$1"
+    shift
+    log "$desc"
+    if "$@" >> "$LOG_FILE" 2>&1; then
+        return 0
+    else
+        local code=$?
+        log "❌ 失败（退出码 $code）：$desc"
+        exit "$code"
+    fi
+}
+
 log "====== 开始执行自动发布任务 ======"
 
 # 进入项目目录
 cd "$PROJECT_DIR" || { log "错误：无法进入项目目录 $PROJECT_DIR"; exit 1; }
 
-log "✅ 步骤 1/2: 开始同步笔记文件..."
-rsync -avh --delete \
---exclude '.obsidian' \
---exclude '.smart-env' \
---exclude '.DS_Store' \
---exclude '.sync' \
---exclude 'copilot' \
-/Users/huangminxing/Documents/MyNotes/ \
-/Users/huangminxing/Developer/quartz/content/ >> "$LOG_FILE" 2>&1
+run_step "✅ 步骤 1/2: 开始同步笔记文件..." \
+    rsync -avh --delete \
+    --exclude '.obsidian' \
+    --exclude '.smart-env' \
+    --exclude '.DS_Store' \
+    --exclude '.sync' \
+    --exclude 'copilot' \
+    /Users/huangminxing/Documents/MyNotes/ \
+    /Users/huangminxing/Developer/quartz/content/
 log "笔记同步完成。"
 
-log "✅ 步骤 2/2: 开始处理内容并自动推送到 GitHub..."
-npx quartz sync >> "$LOG_FILE" 2>&1
+run_step "✅ 步骤 2/2: 开始处理内容并自动推送到 GitHub..." \
+    npm run quartz -- sync
 log "🚀 内容处理和推送完成！Vercel 将开始自动部署。"
 
 log "====== 自动发布任务执行完毕 ======"

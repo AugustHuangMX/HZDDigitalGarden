@@ -29,6 +29,30 @@ run_step() {
     fi
 }
 
+run_step_capture_check() {
+    local desc="$1"
+    shift
+    local tmp
+    tmp="$(mktemp)"
+    log "$desc"
+    set +e
+    "$@" >"$tmp" 2>&1
+    local code=$?
+    set -e
+    cat "$tmp" >>"$LOG_FILE"
+    if [ "$code" -ne 0 ]; then
+        rm -f "$tmp"
+        log "❌ 失败（退出码 $code）：$desc"
+        exit "$code"
+    fi
+    if rg -n --no-heading --fixed-strings -e "fatal:" -e "Could not resolve host" -e "An error occurred above" "$tmp" >/dev/null 2>&1; then
+        rm -f "$tmp"
+        log "❌ 失败：检测到 Git/网络错误输出（请查看 $LOG_FILE）"
+        exit 1
+    fi
+    rm -f "$tmp"
+}
+
 log "====== 开始执行自动发布任务 ======"
 
 # 进入项目目录
@@ -45,7 +69,7 @@ run_step "✅ 步骤 1/2: 开始同步笔记文件..." \
     /Users/huangminxing/Developer/quartz/content/
 log "笔记同步完成。"
 
-run_step "✅ 步骤 2/2: 开始处理内容并自动推送到 GitHub..." \
+run_step_capture_check "✅ 步骤 2/2: 开始处理内容并自动推送到 GitHub..." \
     npm run quartz -- sync
 log "🚀 内容处理和推送完成！Vercel 将开始自动部署。"
 

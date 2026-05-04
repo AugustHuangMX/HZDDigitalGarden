@@ -47,7 +47,7 @@ run_step_capture_check() {
     fi
     if rg -n --no-heading --fixed-strings -e "fatal:" -e "Could not resolve host" -e "An error occurred above" "$tmp" >/dev/null 2>&1; then
         rm -f "$tmp"
-        log "❌ 失败：检测到 Git/网络错误输出（请查看 $LOG_FILE）"
+        log "❌ 失败：检测到 Git/网络错误输出（请查看 ${LOG_FILE}）"
         exit 1
     fi
     rm -f "$tmp"

@@ -11,30 +11,30 @@ tags:
 
 几乎每年必考一整道大题或多个小题。
 
-| 年份      | 题号             | 考点                                                         |
-| ------- | -------------- | ---------------------------------------------------------- |
-| 2018 ST | Q3(a)(i)       | MLE 定义 + 梯度法求解                                             |
-| 2018 ST | Q3(a)(ii)      | 假设检验：Wald & LR/LM（两种方法）                                    |
-| 2018 ST | Q3(c)          | Ordered Probit（三类有序选择模型的 MLE）                              |
-| 2019 ST | Q3(a)-(e)      | 内生性 Probit：控制函数法（control function），含 $\theta$ 推导、两步估计、假设检验 |
-| 2020 ST | Q1(e)          | Probit 第一步 + 两步估计量的渐近分布（stacking moment conditions）        |
-| 2020 ST | Q3(a)          | Tobit 模型（top-coded censored regression）正态同方差 MLE           |
-| 2020 ST | Q3(b)          | Tobit 异方差 MLE（$\text{Var} = \alpha x_i^2$）                 |
-| 2020 ST | Q3(c)          | 半参数 Tobit：不需正态/同方差假设如何估计 $\beta$                           |
-| 2020 ST | Q3(d)          | Tobit NLS（非线性最小二乘目标函数）                                     |
-| 2020 ST | Q3(e)          | 内生性 Tobit：联合正态下的控制函数法                                      |
-| 2021 ST | Q3(a)          | Ordered Probit MLE 定义 + 渐近分布                               |
-| 2021 ST | Q3(b)          | Ordered Probit 的 $E[y_i                                    |
-| 2021 ST | Q3(c)          | 半参数 Ordered Probit（对称分布，不需正态假设）                            |
-| 2021 ST | Q3(d)          | 内生性 Ordered Probit（控制函数法）                                  |
-| 2022 ST | Q3(a)          | Probit MLE + 渐近分布                                          |
-| 2022 ST | Q3(b)          | Probit 的 Bootstrap 置信区间                                    |
-| 2022 ST | Q3(c)(i)(ii)   | 模型误设（true: logit，fitted: probit）下的 plim 和渐近分布              |
-| 2022 ST | Q3(d)          | 半参数二值选择模型：$P(y=1                                           |
-| 2023 ST | Q3(a)(i)-(iii) | Probit + 二次项：边际效应估计、渐近分布、90% CI                            |
-| 2023 ST | Q3(b)(i)       | 截断+删失混合变量的 CDF                                             |
-| 2023 ST | Q3(b)(ii)      | 截断+删失+top-coded 模型的对数似然函数                                  |
-| 2024 ST | Q3(a)(i)(ii)   | Pareto 分布 MLE + 一致性证明                                      |
+| 年份      | 题号             | 考点                                                         | 做后感                                              |
+| ------- | -------------- | ---------------------------------------------------------- | ------------------------------------------------ |
+| 2018 ST | Q3(a)(i)       | MLE 定义 + 梯度法求解                                             | 主要考察基本定义，简单构造                                    |
+| 2018 ST | Q3(a)(ii)      | 假设检验：Wald & LR/LM（两种方法）                                    | 需要熟知三种假设检验方法的思路（限制条件，restricted ,non restricted） |
+| 2018 ST | Q3(c)          | Ordered Probit（三类有序选择模型的 MLE）                              |                                                  |
+| 2019 ST | Q3(a)-(e)      | 内生性 Probit：控制函数法（control function），含 $\theta$ 推导、两步估计、假设检验 |                                                  |
+| 2020 ST | Q1(e)          | Probit 第一步 + 两步估计量的渐近分布（stacking moment conditions）        |                                                  |
+| 2020 ST | Q3(a)          | Tobit 模型（top-coded censored regression）正态同方差 MLE           |                                                  |
+| 2020 ST | Q3(b)          | Tobit 异方差 MLE（$\text{Var} = \alpha x_i^2$）                 |                                                  |
+| 2020 ST | Q3(c)          | 半参数 Tobit：不需正态/同方差假设如何估计 $\beta$                           |                                                  |
+| 2020 ST | Q3(d)          | Tobit NLS（非线性最小二乘目标函数）                                     |                                                  |
+| 2020 ST | Q3(e)          | 内生性 Tobit：联合正态下的控制函数法                                      |                                                  |
+| 2021 ST | Q3(a)          | Ordered Probit MLE 定义 + 渐近分布                               |                                                  |
+| 2021 ST | Q3(b)          | Ordered Probit 的 $E[y_i                                    |                                                  |
+| 2021 ST | Q3(c)          | 半参数 Ordered Probit（对称分布，不需正态假设）                            |                                                  |
+| 2021 ST | Q3(d)          | 内生性 Ordered Probit（控制函数法）                                  |                                                  |
+| 2022 ST | Q3(a)          | Probit MLE + 渐近分布                                          |                                                  |
+| 2022 ST | Q3(b)          | Probit 的 Bootstrap 置信区间                                    |                                                  |
+| 2022 ST | Q3(c)(i)(ii)   | 模型误设（true: logit，fitted: probit）下的 plim 和渐近分布              |                                                  |
+| 2022 ST | Q3(d)          | 半参数二值选择模型：$P(y=1                                           |                                                  |
+| 2023 ST | Q3(a)(i)-(iii) | Probit + 二次项：边际效应估计、渐近分布、90% CI                            |                                                  |
+| 2023 ST | Q3(b)(i)       | 截断+删失混合变量的 CDF                                             |                                                  |
+| 2023 ST | Q3(b)(ii)      | 截断+删失+top-coded 模型的对数似然函数                                  |                                                  |
+| 2024 ST | Q3(a)(i)(ii)   | Pareto 分布 MLE + 一致性证明                                      |                                                  |
 
 **核心高频考点**：Probit MLE 定义与渐近分布、Ordered Probit、Tobit/Censored regression、控制函数法处理内生性、模型误设下的 plim、边际效应 + Delta Method CI。
 
@@ -62,13 +62,13 @@ tags:
 
 出现频率较低但每次考都是完整证明题，分值不小。
 
-|年份|题号|考点|
-|---|---|---|
-|2018 ST|Q3(b)|IPW 证明：$E[y_1] = E\left[\frac{wy}{p(x)}\right]$（17 分）|
-|2024 ST|Q3(b)(i)|证明 $E[y_1] = E[m_1(x)]$（outcome regression 识别）|
-|2024 ST|Q3(b)(ii)|参数化 $m_1(x) = \beta x$ 的估计量 + 渐近分布|
-|2024 ST|Q3(b)(iii)|IPW 证明 + Probit propensity score 下的 IPW 估计量|
-|2024 ST|Q3(b)(iv)|**Doubly Robust 估计量**：证明只需一个模型正确即一致|
+| 年份      | 题号         | 考点                                                    | 做后感                |
+| ------- | ---------- | ----------------------------------------------------- | ------------------ |
+| 2018 ST | Q3(b)      | IPW 证明：$E[y_1] = E\left[\frac{wy}{p(x)}\right]$（17 分） | 考察的是 Causal 课件里的原题 |
+| 2024 ST | Q3(b)(i)   | 证明 $E[y_1] = E[m_1(x)]$（outcome regression 识别）        |                    |
+| 2024 ST | Q3(b)(ii)  | 参数化 $m_1(x) = \beta x$ 的估计量 + 渐近分布                    |                    |
+| 2024 ST | Q3(b)(iii) | IPW 证明 + Probit propensity score 下的 IPW 估计量           |                    |
+| 2024 ST | Q3(b)(iv)  | **Doubly Robust 估计量**：证明只需一个模型正确即一致                   |                    |
 
 **核心高频考点**：IPW 识别公式的证明（条件独立 + 重叠）、Outcome regression vs IPW、Doubly Robust 性质。2024 年的 Q3(b) 非常全面，是复习因果推断的最佳真题。
 

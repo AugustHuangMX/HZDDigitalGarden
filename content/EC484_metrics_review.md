@@ -176,9 +176,9 @@ tags:
 > $X$ 的作用是把 treated 和 untreated 变成“可比的人”。Overlap 要求每类 $X$ 都同时有人接受和不接受 treatment, 否则 counterfactual 没有数据支撑。
 > 
 
+对于每一个个体，它的观察值有且只有 $Y$ , 而 $Y_{1}$ , $Y_{2}$ 只是我们的理论构造，我们根据 what we observe ( $W$ ) and give tags to whether it should be $Y_{1}$ or $Y_{2}$ .
 
-
-
+如何理解 $X=x$ ? 就是把协变量固定在某一个具体的取值上。
 
 > [!formula] Regression / imputation identification
 > Let $m_w(x)=E[Y|X=x,W=w]$. Under CI and overlap:
@@ -199,11 +199,23 @@ tags:
 > $$
 > `(Causal, pp.12-13)`
 
+`2018` 考了一个证明过程，需要 double check 一下
+
+- To estimate $\theta_{ATE}$ we need to estimate $p$ , the way is to implement binary regression from $w$ on $x$ (probit, logit, nonparametric, etc.) to get a $\hat{p}_{i}$ , then $\theta_{ATE}$ is estimated by:
+
+
+$$
+\frac{1}{n} \sum_{i=1}^n \left[\frac{\{W_{i}-\hat{p}_{i}\}Y_{i}}{\hat{p}_{i}\{1-\hat{p}_{i}\}}\right]
+$$
+
+
 > [!intuition] 经济学直觉
 > IPW 把罕见但重要的 observations 放大权重。例如某类人很少被 treatment, 那些被 treatment 的人就代表了很多 counterfactual-relevant individuals。
 
 > [!definition] Propensity score theorem
 > If $(Y_0,Y_1)\perp W|X$ and overlap holds, then conditioning on $p(X)$ is sufficient for identification `(Causal, pp.14-17)`。
+
+If dimension of $X$ is too large, nonparametric estimation of $m_{w}(x)$ would be difficult. See [[curse of dimensionality]].
 
 > [!intuition] 经济学直觉
 > Propensity score 把高维 comparability problem 压缩成一个 treatment probability。它不是魔法，只是把“谁容易被处理”的信息汇总成一维 index。

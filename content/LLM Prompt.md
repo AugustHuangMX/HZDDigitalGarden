@@ -9,4 +9,4 @@ This is a page where my self-use LLM prompt, mainly for `Claude` , which is also
 - [[Prompt for Typst Table]]
 - [[Prompt for Final Review]]
 - [[Prompt for Past Exam]]
-- 
+

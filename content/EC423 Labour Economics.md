@@ -31,3 +31,16 @@ Cristinine's Content:
 
 完整的笔记见：[[EC423_review]]
 
+---
+
+Tom's Seminar
+
+Reading List 很关键，可以有更多 sense, know the 
+
+IV, RDD, DiD
+
+---
+
+## Model List 
+- [[Becker Model]]
+

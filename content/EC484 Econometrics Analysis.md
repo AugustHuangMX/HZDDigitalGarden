@@ -86,17 +86,8 @@ Vassilis 讲解内容是：
 
 ## 复习记录
 
-### 4.24
-Done List:
-
-- 已完成 Otsu PS2 Q1,Q2
-	- 关于 Q2，题目的独到之处是给定了 $f$ 的形态（Pareto），因此在做的时候比较有具体一些。
-	- 
-
-
-
 
 - [[EC484 Final Review WT 白皮书]]
 - [[EC484 Final Review WT 杂记]]
-- [[EC484 Final 考点总结]]
-- 
+- [[EC484 Redo]]
+

@@ -2,6 +2,8 @@
 
 ## 暂定需要包括的内容
 
+Cameron Trivedi, Hamilton 
+
 ### 数学工具类：
 
 1. Integration by Part 
@@ -13,6 +15,7 @@
 
 
 ## [[Bootstrap]]
+1. 
 
 ### Limited Dependent Variable
 

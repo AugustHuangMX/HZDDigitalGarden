@@ -75,3 +75,4 @@ I need to study the following lecture materials. Please help me understand and m
 - Highlight intuition and motivation throughout
 - When answering follow-up questions, reference specific slides or sections from the PDF where possible
 
+

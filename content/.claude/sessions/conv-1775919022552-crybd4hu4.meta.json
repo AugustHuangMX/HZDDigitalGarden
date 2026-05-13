@@ -3,11 +3,10 @@
   "title": "Review card content and suggest improvements",
   "titleGenerationStatus": "success",
   "createdAt": 1775919022553,
-  "updatedAt": 1775919292476,
+  "updatedAt": 1778077278516,
   "lastResponseAt": 1775919292476,
   "sessionId": "982c4804-c3bb-49d5-9fb4-5b1a31c99374",
   "sdkSessionId": "982c4804-c3bb-49d5-9fb4-5b1a31c99374",
-  "currentNote": "Indirect Utility Function.md",
   "usage": {
     "model": "Pro/zai-org/GLM-5.1",
     "inputTokens": 26803,

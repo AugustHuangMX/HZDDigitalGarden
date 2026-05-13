@@ -39,16 +39,23 @@ Found in `EC423 Labour/`:
 | Past exams | `Past Exams/EC423_2020-2025.pdf` | 用于识别反复出现的题型 |
 | Other | `Sample Exam Questions.pdf` text extraction was blank; `AT/` contains duplicate/essay material | 未作为主干证据 |
 
-## Exam Information
+[[Omitted Variable Bias]]: 并不是越多的控制变量 $X$ 越好。有两个因素：
 
-> [!exam]
-> 近年试卷均为两大 section，每个 section 两题，考生每个 section 选一题作答；2025 年卷面明确写着 "Each section contains TWO questions. Answer ONE question from each section"`Exam 2025 页 1`。2020-2024 也保持四题、Section A/B 各选一题的结构`Exam 2020 页 1``Exam 2021 页 1``Exam 2022 页 1``Exam 2024 页 1`。
+1. Bad Control 问题：如果 $X$ 是某一个 post 后验的变量，即 $X$ 受 $D$ 是否接受 treatment 的影响，那么 $X$ 就是一个 bad control。原则是：**只能控制不受 treatment 影响的变量**（pre-treatment 或 predetermined 的变量）
+2. **CIA 假设可能仍然不成立**：即使你加了很多 $X_{i}$ ​，只要还有遗漏的、同时与 $D_{i}$ ​ 和 $Y_{i}$ 相关的变量，OVB 就依然存在。你永远无法确定自己已经控制了"所有"相关变量，这也是为什么课程更强调 IV、DiD、RDD 这些基于研究设计的方法——它们不依赖于"控制了足够多变量"这个很强且不可检验的假设。
 
-> [!warning]
-> 不要机械假设 Section A 一定只考第一学期、Section B 一定只考第二学期。2025 年 Section A 同时出现 occupational decline/job displacement 风格问题和 UBI，Section B 出现 Rosen-Roback place-based policy 与 statistical discrimination`Exam 2025 页 2-5`。
+如何判断 OLS bias 的方向： 方法就是把 OVB 公式 $\beta_s = \beta + \gamma'\delta_{XD}$ 拆成两个符号的乘积：
 
-> [!technique]
-> 作答风格：先写模型设定与识别对象，再写核心假设，再解释结果或政策含义；历年题都要求 "answers should be justified by showing work"，且 2020/2021/2023 多次要求 concise and precise answers`Exam 2020 页 1``Exam 2021 页 1``Exam 2023 页 1`。
+以大学毕业（college graduation）作为被省略变量为例：
+
+- $\gamma$：大学毕业对工作时间的影响 → 大概率是**正的**（受教育更多的女性倾向于工作更多）
+- $\delta_{XD}$：大学毕业与生第三个孩子的关联 → 大概率是**负的**（受教育越多越倾向于少生）
+
+所以偏误 $\gamma'\delta_{XD} < 0$，意味着 $\beta_s < \beta$。由于 $\beta$ 本身就是负的（生孩子减少工作时间），$\beta_s$ **比真实效应更负**——OLS 会**夸大**孩子对劳动供给的负面影响。
+
+Slides 还提到可以用 potential outcomes 的语言理解同样的事情：$E[Y_{0i}|D_i=1] - E[Y_{0i}|D_i=0] < 0$，即有孩子的女性即使不生孩子也会比无孩子女性工作得少（因为她们教育程度更低等），这就是 negative selection bias，与上面 OVB 分析的结论一致。
+
+核心技巧就是：**分别判断两个分量的符号，然后相乘**，就能知道偏误方向。
 
 ## Autumn Topic 1: Labor Supply and Welfare Systems
 
@@ -118,6 +125,31 @@ Found in `EC423 Labour/`:
 > [!formula]
 > Omitted Variables Bias：短回归遗漏与处理变量相关、且影响 outcome 的变量时，OLS 估计等于 causal effect 加上 selection term；课件用 children 对女性劳动供给的例子说明 OLS 估计 ATT/ATE 都可能失败`AT Topic 1 课件页 100-123`。
 
+
+#### CIA 
+即 Conditional Independence Assumption
+
+要注意辨析："生不生孩子都不会影响这个人的 outcome"在字面上是说：
+
+$$Y_{1i} - Y_{0i} = 0$$
+
+即 treatment 对 outcome **没有因果效应**。
+
+而 CIA 说的是：
+
+$$E[Y_{0i} \mid X_i, D_i=1] = E[Y_{0i} \mid X_i, D_i=0]$$
+
+即条件于 $X_i$，**生与不生的两组人在基准水平上没有差异**，但生孩子本身仍然可以对每个人的 outcome 产生很大影响。
+
+如果你想用中文准确表述 CIA，可以说：**固定 $X_i$ 后，生不生孩子这个"选择"与这个人本身会工作多少无关**——而不是说生孩子这件事不影响工作时数。
+
+区别在于："选择谁进入 treatment"与 potential outcomes 无关 vs "treatment 本身对 outcome 没影响"。前者是 CIA，后者是零效应。
+
+
+
+
+
+
 > [!intuition]
 > 有孩子的女性和没孩子的女性不只差在孩子数量，也可能差在偏好、职业路径、家庭结构；OLS 比较的是“孩子效应 + 原本就不同”的混合物`AT Topic 1 课件页 104-123`。
 
@@ -130,13 +162,21 @@ Found in `EC423 Labour/`:
 > [!formula]
 > LATE theorem：在 independence、exclusion、first stage、monotonicity 下，binary-IV Wald ratio 识别 compliers 的平均处理效应 $E[Y_1-Y_0\mid D_1=1,D_0=0]$`AT Topic 1 课件页 134-149`。
 
+[[Local Average Treatment Effect]]
+
+
 > [!intuition]
 > IV 估计的不是全体平均效应，而是“会被 instrument 推动改变 treatment 状态的人”的效应；这解释了为什么强 first stage 和清楚的 complier 描述在考试答案里很重要`AT Topic 1 课件页 142-149`。
+
+
+
+
+
 
 ### Problem Patterns
 
 > [!example]
-> 常考推导：给定 $U(c,\ell)=c^\alpha \ell$，推出 $h=\frac{\alpha wT-y}{(1+\alpha)w}$、uncompensated/compensated wage elasticity，并解释 overtime premium；seminar solution 显示 $T=80,y=0,\alpha=1$ 时 $h^*=40$，若 $h'=h^*/4$ 需 $w'=2w$`PS1 Q1``PS1 solutions 页 1-3``AT Seminar 2 页 29-71`。
+> 常考推导：给定 $U(c,\ell)=c^\alpha \ell$，推出 $h=\frac{\alpha wT-y}{(1+\alpha)w}$、uncompensated/compensated wage elasticity，并解释 overtime premium；seminar solution 显示 $T=80,y=0,\alpha=1$ 时 $h^*=40$，若 $h'=h^*/4$ 需 $w'=2w$ `PS1 Q1` `PS1 solutions 页 1-3` `AT Seminar 2 页 29-71`。
 
 > [!technique]
 > UBI/income floor 题不要只画一条预算线。分三步写：初始是否工作、是否在 eligibility threshold 附近、政策是否改变 slope 或 intercept；2021 与 2025 都几乎原样考 UBI vs income floor`Exam 2021 Q2``Exam 2025 Q2`。
@@ -507,6 +547,9 @@ Found in `EC423 Labour/`:
 > [!intuition]
 > 土地固定且不可移动，所以它最终吸收当地政策/amenity 的总剩余；这也是为什么地方政策 welfare analysis 必须看 rent/land prices`WT Lec 4 Update 课件页 72-76`。
 
+
+
+
 ### Evidence On Place-Based Policies
 
 > [!example]
@@ -526,6 +569,11 @@ Found in `EC423 Labour/`:
 
 > [!intuition]
 > 地方政策若只转移活动，national welfare 可能不高；若激活 agglomeration externalities 或多重均衡，长期 gains 才可能超过成本`WT Lec 5 课件页 79-88`。
+
+注意区分 bundle ITT 的效果。
+
+
+
 
 ## Winter Lecture 6: Minimum Wage
 
@@ -697,13 +745,15 @@ Union preference 对应的方程形式多种多样，可以根据题目具体给
 
 ## Winter Lecture 8: Intergenerational Mobility
 
+**背景**：经济社会地位（收入、教育、职业）在代际间的传递程度有多强？是什么机制驱动了这种传递？不同国家、地区、时期的代际流动性差异如何？
+
 ### Theory
 
 > [!definition]
-> Absolute mobility 关注子代是否比父代赚更多；relative mobility 关注父母在收入分布中的位置对子女位置的影响`WT Lec 8 课件页 1-10`。
+> Absolute mobility 关注子代是否比父代赚更多；relative mobility 关注父母在收入分布中的位置对子女位置的影响 `WT Lec 8 课件页 1-10`。
 
 > [!intuition]
-> 一个社会可以 absolute mobility 高但 relative mobility 低；增长让多数人更富，但排序仍可能高度继承`WT Lec 8 课件页 2-10`。
+> 一个社会可以 absolute mobility 高但 relative mobility 低；增长让多数人更富，但排序仍可能高度继承 `WT Lec 8 课件页 2-10`。
 
 > [!formula]
 > Becker-Tomes：父母收入 $y_{t-1}=C_{t-1}+I_{t-1}$，子代收入 $y_t=(1+r)I_{t-1}+E_t$；Cobb-Douglas altruism 下 $I_{t-1}=\alpha y_{t-1}-\frac{(1-\alpha)E_t}{1+r}$`WT Lec 8 课件页 15-21`。
@@ -725,11 +775,16 @@ Union preference 对应的方程形式多种多样，可以根据题目具体给
 
 ### Measurement
 
+Intergenerational Earnings Elasticity(IGE)
+
 > [!formula]
 > IGE benchmark：$\ln y_c=\alpha+\beta\ln y_p+\epsilon$；$\beta=0$ 表示 perfect mobility，$\beta=1$ 表示 perfect persistence`WT Lec 8 课件页 37-38｜推荐练习：WT Analytical PS III`。
 
 > [!intuition]
 > IGE 衡量父母收入百分比差异转化为子女收入百分比差异的程度；但需要 lifetime permanent income，年度收入会带来 measurement error`WT Lec 8 课件页 37-52`。
+
+这里考场上最容易去 challenge 的就是 measurement error，因为我们几乎不可能真的去 measure 一个人的终身收入水平。$(1-\beta)$ 经常可以被解读成 mobility。
+
 
 > [!formula]
 > Intergenerational correlation：$\rho_{y_c,y_p}=\frac{Cov(y_c,y_p)}{\sigma_c\sigma_p}=\beta\frac{\sigma_p}{\sigma_c}$；若子代 inequality 更高，$\rho<\beta$`WT Lec 8 课件页 39-42`。
@@ -739,6 +794,10 @@ Union preference 对应的方程形式多种多样，可以根据题目具体给
 
 > [!formula]
 > Classical measurement error in parental income：若 $y_p=y_p^*+u$，则 $\operatorname{plim}\hat\beta=\beta\frac{Var(y_p^*)}{Var(y_p^*)+Var(u)}$，向零 attenuation；多期平均可降低 $Var(u)$`WT Lec 8 课件页 49-58｜推荐练习：WT Analytical PS III Q1-Q2`。
+
+Classical ME 的核心思想就是我们用短期收入替代了终身收入。除了单纯用 $T$ 年取平均的方法来测量还可以使用 [[Mincer Model]]的思想，最后结论是 30-40 岁时候的收入是最可靠的。
+
+解法 2：使用 rank-rank 来测量，使用百分位排名来代替收入，排名是有界的，这样对异常值是稳健的。
 
 > [!intuition]
 > 用一年收入 proxy lifetime income 会把 transitory luck 当 permanent status，父母收入排序被噪声打乱，因此估计的 persistence 偏低`WT Lec 8 课件页 49-58`。
@@ -780,6 +839,8 @@ Union preference 对应的方程形式多种多样，可以根据题目具体给
 > worker FE 控制固定能力，calendar FE 控制宏观冲击；event-time coefficients 检查 pre-trends 并描绘动态损失路径`WT Lec 9 课件页 30-33`。
 
 ### Decomposition
+
+Lachowska, Mas and Woodbury (2020)
 
 > [!formula]
 > AKM wage model：$\ln w_{it}=\alpha_i+\psi_{j(i,t)}+\theta_t+\upsilon_{ijt}$；displacement 后可分解 lost employer effects $\psi$ 与 lost worker-employer match effects $\mu$`WT Lec 9 课件页 34-44`。
@@ -866,7 +927,7 @@ Union preference 对应的方程形式多种多样，可以根据题目具体给
 > 高频冬季专题 4：minimum wage 与 discrimination。2021 考 Cengiz et al. low-wage jobs，2023 考 minimum wage coverage and racial inequality，2025 考 statistical discrimination 的 employer learning test`Exam 2021 Q4``Exam 2023 Q3``Exam 2025 Q4`。
 
 > [!exam]
-> 高频冬季专题 5：intergenerational mobility/job displacement。2020 考 Becker-Tomes、twins/adoptees 与 Chetty mobility geography；2022 考 parental job displacement 对 children；2024 考 upward educational mobility 与 teacher wages；2025 考 occupational decline`Exam 2020 Q4``Exam 2022 Q4``Exam 2024 Q3``Exam 2025 Q1`。
+> 高频冬季专题 5：intergenerational mobility/job displacement。2020 考 Becker-Tomes、twins/adoptees 与 Chetty mobility geography；2022 考 parental job displacement 对 children；2024 考 upward educational mobility 与 teacher wages；2025 考 occupational decline `Exam 2020 Q4` `Exam 2022 Q4` `Exam 2024 Q3` `Exam 2025 Q1`。
 
 ## Quick Reference
 

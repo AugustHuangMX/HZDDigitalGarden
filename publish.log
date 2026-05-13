@@ -4726,3 +4726,87 @@ sent 700k bytes  received 1110 bytes  11867k bytes/sec
 total size is 61681k  speedup is 87.95
 2026-05-13 10:23:24 - 笔记同步完成。
 2026-05-13 10:23:24 - ✅ 步骤 2/2: 开始处理内容并自动推送到 GitHub...
+
+> @jackyzha0/quartz@4.5.2 quartz
+> ./quartz/bootstrap-cli.mjs sync
+
+
+ Quartz v4.5.2 
+
+Backing up your content
+[v4 8e83677] Quartz sync: May 13, 2026, 10:23 AM
+ 45 files changed, 8967 insertions(+), 250 deletions(-)
+ create mode 100644 content/Average Treatment Effect.md
+ rename "content/\346\234\252\345\221\275\345\220\215.md" => content/Becker Model.md (100%)
+ create mode 100644 content/Causal.md
+ create mode 100644 content/Diary/2026-05-07.md
+ create mode 100644 content/Diary/2026-05-08.md
+ create mode 100644 content/Diary/2026-05-11.md
+ create mode 100644 content/Diary/2026-05-12.md
+ create mode 100644 content/EC417_review.md
+ create mode 100644 content/EC423 Redo.md
+ rename "content/EC484 Final \350\200\203\347\202\271\346\200\273\347\273\223.md" => content/EC484 Redo.md (76%)
+ create mode 100644 content/EC484_exam_questions_summary.md
+ create mode 100644 content/EC487 Redo.md
+ create mode 100644 "content/EC487 WT Model \346\261\207\346\200\273.md"
+ create mode 100644 content/EC487_review.md
+ delete mode 100644 content/Excalidraw/Drawing 2026-03-25 11.28.43.excalidraw.md
+ delete mode 100644 content/Excalidraw/Drawing 2026-03-31 16.50.33.excalidraw.md
+ create mode 100644 content/External Validity.md
+ create mode 100644 content/Internal Validity.md
+ create mode 100644 content/Limdep.md
+ create mode 100644 content/Local Average Treatment Effect.md
+ create mode 100644 content/Machine.md
+ create mode 100644 content/ec484-paneldata.md
+ create mode 100644 content/ec484-timeseries.md
+ create mode 100644 content/ec484-topic0.md
+ delete mode 100644 "content/\346\234\252\345\221\275\345\220\215 1.base"
+ delete mode 100644 "content/\346\234\252\345\221\275\345\220\215.base"
+ create mode 100644 "content/\351\230\277\347\261\263\345\250\205 Prompt.md"
+Pulling updates from your repository. You may need to resolve some `git` conflicts if you've made changes to components or plugins.
+fatal: unable to access 'https://github.com/AugustHuangMX/HZDDigitalGarden.git/': Could not resolve host: github.com
+An error occurred above while pulling updates.
+2026-05-13 10:23:28 - ❌ 失败：检测到 Git/网络错误输出（请查看 /Users/huangminxing/Developer/quartz/publish.log）
+2026-05-13 10:25:24 - ====== 开始执行自动发布任务 ======
+2026-05-13 10:25:24 - ✅ 步骤 1/2: 开始同步笔记文件...
+Transfer starting: 1055 files
+./
+.agents/
+.agents/skills/
+.agents/skills/defuddle/
+.agents/skills/json-canvas/
+.agents/skills/json-canvas/references/
+.agents/skills/obsidian-bases/
+.agents/skills/obsidian-bases/references/
+.agents/skills/obsidian-cli/
+.agents/skills/obsidian-markdown/
+.agents/skills/obsidian-markdown/references/
+.claude/
+.claude/agents/
+.claude/commands/
+.claude/sessions/
+.claude/skills/
+.claude/skills/defuddle/
+.claude/skills/json-canvas/
+.claude/skills/json-canvas/references/
+.claude/skills/obsidian-bases/
+.claude/skills/obsidian-bases/references/
+.claude/skills/obsidian-cli/
+.claude/skills/obsidian-markdown/
+.claude/skills/obsidian-markdown/references/
+Diary/
+EC417 Macro/
+EC423 Labour/
+EC487 Micro/
+Economics/
+Math/
+Paper/
+Zotero/
+attachment/
+base/
+templates/
+
+sent 53634 bytes  received 230 bytes  1343k bytes/sec
+total size is 61681k  speedup is 1145.13
+2026-05-13 10:25:24 - 笔记同步完成。
+2026-05-13 10:25:24 - ✅ 步骤 2/2: 开始处理内容并自动推送到 GitHub...

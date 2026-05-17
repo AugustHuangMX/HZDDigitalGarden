@@ -264,6 +264,10 @@ $$E[Y_{0i} \mid X_i, D_i=1] = E[Y_{0i} \mid X_i, D_i=0]$$
 
 ## Autumn Topic 3: Immigration
 
+主要探讨两个话题：Effects of immigrants on natives and Selection of immigrants ([[Roy Model]])
+
+A migrant 移民者 is simply defined as a person born in a country but different from where they are currently living.
+
 ### Immigration Surplus
 
 > [!definition]
@@ -272,24 +276,91 @@ $$E[Y_{0i} \mid X_i, D_i=1] = E[Y_{0i} \mid X_i, D_i=0]$$
 > [!formula]
 > Immigration surplus result：本地人总收入为 $Y-WM$；在 CRS 与完全竞争下，移民增加使 natives average income 上升，但劳动者与资本所有者分配不同`AT Topic 3 课件页 16-21`。
 
+> 详细手写推导见 p18
+
+![[截屏2026-05-14 16.27.00.png|600]]
+
+
+
 > [!intuition]
 > 新移民压低边际劳动产品工资，但也扩大总产出；资本和互补要素获得的增益可以超过原生劳动者工资损失，所以总 native surplus 为正但分配冲突尖锐`AT Topic 3 课件页 17-20`。
 
 > [!warning]
 > 异质劳动下没有简单总结果。若 skilled immigration 增加，native income 是否上升取决于移民在各技能组中的占比和跨技能替代/互补关系`AT Topic 3 课件页 22-27`。
 
+Otherwise lead to workers lose, capitalists gain problem.
+
+
 > [!intuition]
 > “移民影响工资”不是一个单一参数：如果移民与某些 natives 是 substitutes，他们可能压低该组工资；若与另一些 natives 是 complements，反而提高其 marginal product`AT Topic 3 课件页 22-28`。
+
+> [!definition]
+> Another Approach would be **Immigration with heterogeneous labour**, assume there are two types of labor, high skill and low skill, the production function now becomes:
+> $$
+> F(N_{1}+M_{1}, N_{2}+M_{2}) = F(L_{1},L_{2})$$
+> 
+> Constant Return to Skill arguments:
+> 
+> $$
+> F(L_{1},L_{2}) = L_{2} f\left( \frac{L_{1}}{L_{2}} \right)
+> $$
+> 
+
+然后可以通过求导算出 $w_{1},w_{2}$ 。接下来考虑一个场景即，高技能的工人涌入，也就是说带来了 $M_{1}$ .
+
+最后的结论是， immigration of type 1 labour will raise income of natives if:
+
+$$
+\frac{M_{1}}{L_{1}} > \frac{M_{2}}{L_{2}}
+$$
+
+
+i.e. share of migrants in type 1 labour is higher than share in type 2 labour.
 
 ### Empirical Approaches
 
 > [!example]
-> Card (1990) Mariel Boatlift 是 local labor market natural experiment；Borjas and Doran (2011) 用 Soviet mathematicians shock 研究高技能供给冲击；两者都强调 exposure、counterfactual group 与 composition concerns`AT Topic 3 课件页 29-46`。
+> David Card (1990), “The Impact of the Mariel Boatlift on the Miami Labor Market.”
+> 
+> 主要内容：这篇论文研究的是：**1980 年 Mariel Boatlift 这次大规模古巴移民冲击，对 Miami 本地劳动市场有什么影响。**
+> 
+> 背景是：1980 年 Castro 突然允许古巴人从 Mariel 港口离开；1980 年 5 月到 9 月，约 **125,000** 名古巴移民抵达 Miami，其中约一半永久定居在 Miami。这使 Miami 劳动力规模上升约 **7%**，古巴工人数量上升约 **20%**。
+> 
+> Identification Strategy: 核心识别思路是把 **Mariel Boatlift 当作一个 plausibly exogenous immigration shock**。
+> 可以把它理解成一种 **local labour market natural experiment / difference-in-differences-style comparison**：
+> 
+> Miami after 1980−Miami before 1980
+> 
+> 再和没有受到 Mariel shock 的 comparison cities 比较。
+> 
+> 识别假设是：如果没有 Mariel Boatlift，Miami 的 low-skilled labour market trend 会和 comparison cities 类似。
+> 
+> Card 结论是：**Mariel immigration 对 Miami non-Cuban workers 的 wages 或 employment outcomes 没有明显影响。**
+> 
+> 课件还强调，Miami 古巴工人平均工资在 1980 后下降，但这个下降并不超过“把收入较低的新 Mariel immigrants 加入 Cuban worker pool”后本来就会机械产生的下降。
 
 > [!intuition]
 > 移民冲击难点在 counterfactual：接收城市可能本来趋势不同，本地人和资本会迁移，产业结构会调整；因此估计值往往是 local/general-equilibrium 混合效应`AT Topic 3 课件页 37-46`。
 
+另一个非常有意思的感悟：几乎所有的 natural experiment 似乎都可以用 [[External Validity]] 去 challenge，因此也许可以视作一个考试通解。
+
+> [!example]
+> Doran 2011: The Collapse of the Soviet Union and the Productivity of American Mathematicians.
+> 
+> 这篇研究的是：**高技能移民冲击对本地高技能 workers 的影响**。主要想探究这些顶尖数学家对美国本土的科研人员是 complements 还是 substitute?
+> 
+> Identification Strategy: field exposure DiD。不是所有美国数学领域都受到同样冲击。苏联数学家在某些 subfields 很强，所以这些领域在苏联解体后突然收到大量高技能竞争者；其他领域受到的冲击较小。课件说，可以比较美国数学家对 Soviet mathematicians 的不同 exposure。通过构建 exposure index，直觉是：如果一个美国数学家原本研究的领域和苏联数学家的优势领域高度重合，他受到的 Soviet supply shock 更大。课件还列了 intensity index 和 similarity index。
+> 
+> 结果是：**受 Soviet mathematicians 冲击更大的美国数学家，之后 publication 和 citations 明显下降。**
+> 
+> 这个 paper 的核心信息是：**高技能移民不一定只带来 knowledge spillovers；在某些专业市场里，他们也可能和本地高技能 workers 直接竞争。**
+> 
+
+
+
 ### Roy/Borjas Selection Model
+
+了解 self-selection 是非常重要的话题。
 
 > [!definition]
 > Roy model：个体在多个 sector/country 中选择收益最高者，观察到的 sector earnings 是选择后的结果，不能直接当作 treatment effect`AT Topic 3 课件页 47-54`。
@@ -305,6 +376,20 @@ $$E[Y_{0i} \mid X_i, D_i=1] = E[Y_{0i} \mid X_i, D_i=0]$$
 
 > [!definition]
 > Inverse Mills Ratio (IMR) 用来计算截断正态下的选择项，例如 $E[\varepsilon_0\mid \nu/\sigma_\nu>z]$；它衡量“进入迁移样本”后未观测能力的条件均值`AT Topic 3 课件页 64-68`。
+
+Probability of Migration:
+
+$$
+\begin{align}
+P & = \mathbb{P}[v > (\mu_{0} - \mu_{1} +\pi)] \\
+ & =\mathbb{P}\left[ \frac{v}{\sigma_{v}} > \frac{(\mu_{0} - \mu_{1} +\pi)}{\sigma_{v}} \right] \\
+  & = 1 - \Phi(\frac{(\mu_{0} - \mu_{1} +\pi)}{\sigma_{v}}) \\
+   & = 1 - \Phi(z)
+\end{align}
+$$
+
+
+
 
 > [!intuition]
 > 如果只观察迁移者，样本左/右尾被筛选；IMR 是把“被筛进样本的未观测成分”显式写出来，避免把选择效应误认为迁移收益`AT Topic 3 课件页 64-68`。
@@ -579,14 +664,22 @@ $$E[Y_{0i} \mid X_i, D_i=1] = E[Y_{0i} \mid X_i, D_i=0]$$
 
 ### Theory
 
+
 > [!definition]
 > Minimum wage "bite" 衡量最低工资相对当地/群体工资分布的约束强度；跨国或跨地区比较比 nominal MW 更有信息`WT Lec 6 课件页 13-19`。
+
+to reveal how binding is the MW in the wage distribution. [[Kaitz Index]].
+
 
 > [!intuition]
 > 同样的法定工资在高工资地区可能不 binding，在低工资行业可能强 binding；就业效应应随 bite 和 coverage 变化`WT Lec 6 课件页 13-19`。
 
+
 > [!formula]
 > Perfect competition：若 $w_{MW}>w^*$，就业 $E_{MW}<E^*$，产生失业和 deadweight loss；小变动下 $\Delta\ln E\approx \eta\Delta\ln w$，$\eta$ 为 labor demand elasticity`WT Lec 6 课件页 21-28`。
+
+> 考试原题：`2023 Q3(d)`
+
 
 > [!intuition]
 > 竞争模型中工资是价格，价格底线高于均衡会减少需求；employment effect unambiguously negative`WT Lec 6 课件页 23-28`。
@@ -757,6 +850,9 @@ Union preference 对应的方程形式多种多样，可以根据题目具体给
 
 > [!formula]
 > Becker-Tomes：父母收入 $y_{t-1}=C_{t-1}+I_{t-1}$，子代收入 $y_t=(1+r)I_{t-1}+E_t$；Cobb-Douglas altruism 下 $I_{t-1}=\alpha y_{t-1}-\frac{(1-\alpha)E_t}{1+r}$`WT Lec 8 课件页 15-21`。
+
+$E_{t}$ 在这里可以理解的很宽泛，可以理解为孩子从父母那里继承的先天禀赋，它的含义比字面上的“基因” 要宽泛，它捕捉的是所有**不通过父母收入投资渠道**、但仍然从父母传递给子女的因素。这包括：
+
 
 > [!intuition]
 > 富父母投资更多，altruism 越强或回报越高，代际传递越强；若 child endowment 高，所需 investment 可较低`WT Lec 8 课件页 19-21`。

@@ -1,6 +1,6 @@
 [[What is Econometrics]]
 
-[[Lecture Notes for ECON3002]]
+[[ECON3002 Econometrics II]]
 
 [[Multiple Linear Regression]]
 
@@ -173,16 +173,3 @@ This is why we have to highlight the "linear" in
 The independence only hold if $X$ has no relationship (neither linear nor nonlinear) of $Y$!
 
 [[ECON3002 Lecture2]]
-
-
-## ECON 3002 Question List
-
-1. What is lagged value/ forward value?
-2. What is $\Delta ^k Y_t = \Delta ^{k-1} Y_t -  \Delta ^{k-1} Y_{t-1}$
-
-
-
-
-
-# Reference 
-

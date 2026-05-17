@@ -523,9 +523,15 @@ No pooling equilibrium：若两类 worker 接受同一 contract，firm 可设计
 
 ### Moral Hazard Setup
 
+如何理解 First-Best? 即若 effort 可观测而且可以写入合同，唯一需要的就是满足 $IR$ .
+
+> first-best 的本质是，当信息完全的时候，在合同制定时只需要解决参与问题（IR）而不是激励问题（IC）。 IR 可以简单理解为，合同需要设计成让 agent 的期望收益比 outside option 高的情况。
+
 #### Definition
 
 Moral hazard：principal 不能观察 agent effort $e$，只能观察与 effort 相关的 outcome/profit $\pi$，并用 wage schedule $w(\pi)$ 提供激励。`Lec 5 课件页 3-5｜推荐练习：PS6 Q1-Q2, PS7 Q1, Exam 2025 Q2`
+
+注意这里给出的 $wage$ 是按照具体的产出决定的，因为看不到真正的 effort，只能通过验收成果来倒推。
 
 #### Economic Intuition
 
@@ -566,6 +572,9 @@ flat wage 是 optimal insurance：如果 effort 已经被锁定，没必要让 r
 #### Formula/Proposition
 
 若 agent risk-neutral，可通过 $w(\pi)=\pi-\alpha$ 把 firm “卖给 agent”，使 agent internalize output return。`Lec 5 课件页 10-11`
+
+
+
 
 #### Economic Intuition
 
@@ -1100,6 +1109,8 @@ Adverse selection 题先写“谁接受 wage/contract”，再由这个接受集
 ---
 
 ## 明确会考的内容
+
+^3d7c3b
 
 **Lecture 1: 不完全信息静态博弈**
 

@@ -1,3 +1,4 @@
+#metrics 
 
 The joint probability distribution of two discrete random variables, say X and Y, is the probability that the random variables simultaneously take on certain values, say $x$ and $y$. The probabilities of all possible $(x, y)$ combinations sum to $1$. 
 
@@ -17,5 +18,5 @@ $$
 f_{X,Y}(x,y)
 $$
 
-![[Pasted image 20250405131026.png|400]]
+![[Pasted image 20250405131026.png|441]]
 

@@ -1,3 +1,5 @@
+[[ECON3002 Econometrics]]
+
 ## Probability
 
 The probability of an outcome is the proportion of the time it occurs in the long run

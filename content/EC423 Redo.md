@@ -167,36 +167,79 @@ Found in `EC423 Labour/`:
 
 ## 空复盘表
 
-| 题目                                 | 我当时卡在哪里                                                          | 关键词                                        | 下次重做计划 |
-| ---------------------------------- | ---------------------------------------------------------------- | ------------------------------------------ | ------ |
-| 2020 Q1 Migration/Roy model        |                                                                  |                                            |        |
-| 2020 Q2 RD school grant            |                                                                  |                                            |        |
-| 2020 Q3 Crime and incentives       |                                                                  |                                            |        |
-| 2020 Q4 Becker-Tomes IGM           |                                                                  |                                            |        |
-| 2021 Q1 Divorce and income         |                                                                  |                                            |        |
-| 2021 Q2 UBI                        |                                                                  |                                            |        |
-| 2021 Q3 Crime scars                |                                                                  |                                            |        |
-| 2021 Q4 Cengiz minimum wage        |                                                                  |                                            |        |
-| 2022 Q1 MTO                        |                                                                  |                                            |        |
-| 2022 Q2 Degree RD                  |                                                                  |                                            |        |
-| 2022 Q3 Ban the Box                |                                                                  |                                            |        |
-| 2022 Q4 Parental displacement      | e 问的突破点反而是在 Lecture 9，而且提到了一个 Labour Market Scarring 这个概念完全没有想到。 | Becker-Thoms Model; Labour Market Scarring | 重新推导一次 |
-| 2023 Q1 Migration/Roy model        |                                                                  |                                            |        |
-| 2023 Q2 SSP                        |                                                                  |                                            |        |
-| 2023 Q3 MW and racial inequality   |                                                                  |                                            |        |
-| 2023 Q4 Trade and crime            |                                                                  |                                            |        |
-| 2024 Q1 Slutsky and lottery        |                                                                  |                                            |        |
-| 2024 Q2 CES skill premium          |                                                                  |                                            |        |
-| 2024 Q3 Upward mobility            |                                                                  |                                            |        |
-| 2024 Q4 Racial bias in policing    |                                                                  |                                            |        |
-| 2025 Q1 Occupational decline       |                                                                  |                                            |        |
-| 2025 Q2 UBI                        |                                                                  |                                            |        |
-| 2025 Q3 Rosen-Roback               |                                                                  |                                            |        |
-| 2025 Q4 Statistical discrimination |                                                                  |                                            |        |
+| 题目                                 | 我当时卡在哪里                                                                                                      | 下次重做计划 |
+| ---------------------------------- | ------------------------------------------------------------------------------------------------------------ | ------ |
+| 2020 Q1 Migration/Roy model        |                                                                                                              |        |
+| 2020 Q2 RD school grant            |                                                                                                              |        |
+| 2020 Q3 Crime and incentives       |                                                                                                              |        |
+| 2020 Q4 Becker-Tomes IGM           |                                                                                                              |        |
+| 2021 Q1 Divorce and income         |                                                                                                              |        |
+| 2021 Q2 UBI                        |                                                                                                              |        |
+| 2021 Q3 Crime scars                |                                                                                                              |        |
+| 2021 Q4 Cengiz minimum wage        |                                                                                                              |        |
+| 2022 Q1 MTO                        | 这道题好就好在它几乎覆盖了所有本节课教的 identification Strategy: RCT 下的 OLS, IV/2SLS -> LATE, 以及简单带过的 DiD。需要知道怎么去区分 ATE 和 LATE。 |        |
+| 2022 Q2 Degree RD                  | 考察了 RDD 的相关内容，需要回顾 `Topic 2`，而且不算难，只需要回顾课件里的内容就行，不需要有天马行空的设定。                                                |        |
+| 2022 Q3 Ban the Box                | 经典 Statistical Discrimination 话题，                                                                            |        |
+| 2022 Q4 Parental displacement      | e 问的突破点反而是在 Lecture 9，而且提到了一个 Labour Market Scarring 这个概念完全没有想到。                                             | 重新推导一次 |
+| 2023 Q1 Migration/Roy model        |                                                                                                              |        |
+| 2023 Q2 SSP                        |                                                                                                              |        |
+| 2023 Q3 MW and racial inequality   |                                                                                                              |        |
+| 2023 Q4 Trade and crime            |                                                                                                              |        |
+| 2024 Q1 Slutsky and lottery        |                                                                                                              |        |
+| 2024 Q2 CES skill premium          |                                                                                                              |        |
+| 2024 Q3 Upward mobility            |                                                                                                              |        |
+| 2024 Q4 Racial bias in policing    |                                                                                                              |        |
+| 2025 Q1 Occupational decline       |                                                                                                              |        |
+| 2025 Q2 UBI                        |                                                                                                              |        |
+| 2025 Q3 Rosen-Roback               |                                                                                                              |        |
+| 2025 Q4 Statistical discrimination |                                                                                                              |        |
 
-## 使用方式
 
-1. 先按年份做题；如果时间紧，优先做重复出现的模型：UBI/SSP, Roy migration, RD, minimum wage, discrimination, IGM/displacement, Rosen-Roback。
-2. 每做完一行，在主表最后一列打勾。
-3. 每做完一个大题，在复盘表里记录卡点和下次起手句。
-4. 对标注“未在当前 lecture PDFs 中找到”的 crime 题，不要硬背课件页；重点把识别逻辑、劳动市场机制和政策通道写清楚。
+---
+
+## 感悟
+
+
+- 什么情况下 ITT = TOT？
+	- 当我们强行要求有 compliance 的时候（perfect compliance）
+	- ITT 和 TOT 的数量关系：TOT = ITT/Take up rate
+- ATE 和 LATE 的区别？
+	- 同上，如果 compliance 
+- Control Variable 的原则
+	- 只加 pre-treatment variable
+	- post-treatment variable? -> Bad Control 
+- [[Internal Validity]] 和 [[External Validity]] 取舍问题
+	- RCT → 强internal validity，弱external validity（self-selected sample）
+	- Quasi-experiment → internal validity依赖parallel trends，但population更接近general population
+- 最新奇：Multiple [[Hypothesis test]] 带来的问题
+	- 存在可能性说 you find some significance by chance
+		- 解决办法：Anderson summary index或[[Bonferroni correction]]. 后者比较简单，只需要拿传统的 significance level 去除以 outcome 的个数即可。
+- [[Sample Selection]] bias 
+	- 当分析样本的 _存在本身_ 被treatment影响时，randomization在子样本上失效
+- IV 的 Exclusion Restriction 问题
+	- IV要求instrument只通过endogenous variable影响outcome
+	- 不可检验（untestable），只能通过经济直觉论证
+	- Excluded category的选择影响exclusion restriction的可信度（T2 vs. Control的区别）
+- 如何理解 Excluded Category?
+	- 即regression中 **被省略的那个baseline组**，也叫 reference group。在 sample 里，是都有的
+- [[Regression Discontinuity Design]]
+	- 主要需要掌握三种 RDD（Sharp）即 Linear, Flexible Polynomial, Nonpar，分别是递进的关系。需要说出，每种设定放松了哪个假设，代价是什么。
+		- 这里有一个隐藏的点，就是我们在 Linear RD 中，其实隐含了 treatment effect 是 constant 的点。
+	- Threats to Identification
+		- Manipulation：操控/谎报 直接导致两侧 not comparable
+			- Solution：McCrary density test + pre-determined covariates在cutoff处无jump
+		- Confounding discontinuities: 其他treatment也在同一cutoff变化 → bundled effect
+			- Solution: 检查其他 outcome 是否也一同变化 + 研究制度规则，人为扫清障碍。
+	- [[Nonparametric Method]]
+		- Nonparametric RD的核心tension：用更窄的窗口更准确但更 noisy，用更宽的窗口更精确但可能引入 bias。
+			- Bandwidth $\delta$ 小 → 低bias，高variance
+			- Bandwidth $\delta$ 大 → 低variance，高bias
+		- 解决方案：local linear regression
+- Potential Outcome
+	- 一个合并 CEF 的技巧，可以见 `2022 Q2`，交互项的含义指允许两侧的斜率和曲率不同
+		- 为什么要 renormalize？因为让截距差直接代表我们想捕捉的效应，也就是在 cutoff 处的 treatment effect。
+- LATE
+	- 这里主要是需要和 IV 的 LATE 辨析一下，IV 的 LATE 是 local 在 complier，但是在 RDD 中，主要是 local 在这个 cutoff 附近。
+- F test
+	- F test 的作用就是去检测一组参数是否*同时*为 0.如果 F＞critical value，那么我们就要拒绝 $H_{0}$ 意思就是额外的参数是有意义的。反之，则建议简单的模型就够用。
+- 

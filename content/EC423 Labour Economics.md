@@ -1,9 +1,7 @@
 #LabourEcon 
 
-[[Labour Economics Presentation]]
-
-
-[[EC423 Essay]]
+- 我在 Seminar 里的 Presentation 演讲稿：[[Labour Economics Presentation]]
+- [[EC423 Essay]]
 
 Cristinine's Content:
 
@@ -14,33 +12,12 @@ Cristinine's Content:
 5. Intergenerational Mobility
 6. Labour Market Insurance
 
-
-
-
-| Day               | 复习主题 (Topic)                                                         | GTD 下一步行动 (Actionable Items)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | 知识点定位 (Knowledge Points)                                                                                                                                                                                                                                                          | 今日产出物 (Deliverable)                                                                   |
-| ----------------- | -------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| **Day 1** (≈3h)   | **AT Topic 1 + Topic 2**<br>Labor Supply & Human Capital             | 1. 通读 `EC423_Autumn_Topic1.pdf`，在 Marginnote 中标注 Slutsky equation 推导、UBI vs Income Floor 图示、Lottery studies 识别策略 (90 min)<br>2. 通读 `EC423_Autumn_Topic2.pdf`，重点圈出 Mincer regression、Ability bias、IV (twins/quarter of birth) 三类识别策略 (60 min)<br>3. 重做 `PS_1_labor_supply.pdf` Q1(a)-(b) + `PS_3_ret_to_schooling.pdf` Q1 作为知识锚点 (30 min)                                                                                                                                                                          | Slutsky 分解、收入/替代效应、Labor supply elasticity、Lottery IV、**UBI vs NIT** (高频考点)、Mincer model、OVB from ability、Twins IV、Measurement error & attenuation bias                                                                                                                           | 📌 2 张 Marginnote 思维导图：<br>① *Labor Supply 决策框架*<br>② *Return to Schooling 识别策略树*     |
-| **Day 2** (≈3h)   | **AT Topic 3 + Topic 4**<br>Immigration/Roy & Inequality/Tech Change | 1. 通读 `EC423_Autumn_Topic3.pdf`，手写推导 Roy model 自选择方程 $\mu_{\nu} = \sigma_\nu/\sigma_w \cdot \rho_{\nu w}$，标注正/负选择条件 (60 min)<br>2. 通读 `EC423_Autumn_Topic4.pdf`，整理 SBTC、Katz-Murphy CES 框架、Task approach (Autor-Levy-Murnane) 三层演化 (60 min)<br>3. 重做 `PS_5_roy.pdf` Q1 自选择部分 + `PS_6_katz_murphy.pdf` Q1(a) (45 min)<br>4. 额外任务（若有时间）：默写 Heckman selection correction (IMR) 的两步法 (15 min)                                                                                                                         | **Borjas/Roy self-selection** (高频考点)、Positive/Negative selection、IMR、Immigration wage effects (Card vs Borjas)、SBTC、CES production、Skill premium、Polarization、Task-based model                                                                                                    | 📌 2 张 Marginnote 思维导图：<br>① *Roy Model 正负选择四象限图*<br>② *Inequality 分解与 SBTC 时间线*      |
-| **Day 3** (≈3h)   | **WT Lec 1-3**<br>Discrimination & Compensating Differentials        | 1. 通读 `EC423_WT_Lec1.pdf` + `EC423_WT_Lec2.pdf`，整合 Gender wage gap 事实 + Oaxaca-Blinder + Taste-based (Becker 1957) + Statistical (Phelps/Aigner-Cain) 三模型对照表 (90 min)<br>2. 通读 `EC423_WT_Lec3.pdf`，绘制 Rosen (1986) hedonic wage 图 (workers' θ + firms' ϕ tangency)，理解 Brown (1980) FE 为何缓解 OVB (60 min)<br>3. 重做 `EC423_WT_Analytical_Problem_Set_I.pdf` Q1 (Discrimination) (30 min)                                                                                                                             | **Oaxaca-Blinder decomposition** (高频考点)、Becker taste-based discrimination、Statistical discrimination (Aigner-Cain vs Phelps)、Audit/correspondence studies (Bertrand-Mullainathan)、Charles-Guryan test、Hedonic wage function、Rosen (1986) matching、Brown (1980) panel              | 📌 1 张 Marginnote 对照大图：*Discrimination 三模型 + 经验检验*                                    |
-| **Day 4** (≈3.5h) | **WT Lec 4-6**<br>Place-Based Policies & Minimum Wage                | 1. 通读 `EC423_WT_Lec4_Update.pdf` + `EC423_WT_Lec5.pdf`，推导 Rosen-Roback 中 $dr/ds$、$dw/ds$ 的 comparative statics，理解 "amenities fully capitalized into land rents" (90 min)<br>2. 通读 `EC423_WT_Lec6.pdf` (102 slides, 最长)，整理 MW 的四种经验证据：Time series → State panel → Case studies (Card-Krueger) → Bunching (Cengiz et al.)，并对比 Competitive vs Monopsony 预测 (90 min)<br>3. 重做 `EC423_WT_Analytical_Problem_Set_II.pdf` Q1 (Rosen-Roback) + `EC423_2023.pdf` 或 `EC423_2024.pdf` 中任一 MW 题目 (30 min)                     | **Rosen-Roback spatial model** (高频考点)、Amenity capitalization、Wage subsidies incidence、Marginal vs inframarginal movers、Monopsony model、Card-Krueger (1994) DiD、Cengiz bunching estimator、Harasztosi-Lindner (incidence)、SUTVA in state panels                                     | 📌 2 张 Marginnote 思维导图：<br>① *Rosen-Roback 两市场调整机制*<br>② *MW 识别策略演化树*                 |
-| **Day 5** (≈3h)   | **WT Lec 7-8**<br>Unions & Intergenerational Mobility                | 1. 通读 `EC423_WT_Lec7.pdf`，整理 Monopoly union / Efficient bargaining / Right-to-manage 三模型图、DiNardo-Lee (2004) RDD 设计、Union wage premium 分解 (rent-extraction vs firm-selection) (75 min)<br>2. 通读 `EC423_WT_Lec8.pdf`，推导 Becker-Tomes (1979) 得到 IGE $\beta$ 的归约形式，理解 Galton critique、Classical measurement error (Solon 1992) 为何需要多年平均，Chetty rank-rank 为何稳健 (75 min)<br>3. 重做 `EC423_2020.pdf` Q4 (Becker-Tomes with twins/adoptees) — **这是 2020 年原题，强烈推荐** (30 min)                                               | Union coverage vs density、**Monopoly union model** (高频考点)、Efficient contracts、DiNardo-Lee RDD、AKM firm effects、**Becker-Tomes IGE** (高频考点)、Galton regression-to-the-mean、Measurement error & multi-year averaging、Rank-rank (Chetty)、Sibling correlations、Adoptees identification | 📌 2 张 Marginnote 思维导图：<br>① *Union 三种博弈模型对比*<br>② *IGE 识别策略树（twins / adoptees / IV）* |
-| **Day 6** (≈3h)   | **WT Lec 9-10 + Weekly Review**                                      | 1. 通读 `EC423_WT_Lec9.pdf`，整理 Jacobson-LaLonde-Sullivan (1993) event study 设定、earnings loss 的 intensive/extensive margin 分解、Lachowska-Mas-Woodbury 的 $\Delta\Psi + \Delta\mu$ 分解 (60 min)<br>2. 通读 `EC423_WT_Lec10.pdf`，默写 Baily-Chetty sufficient statistic 公式 $\frac{\epsilon_{1-e,b}}{e} = \frac{u'(c_L) - u'(c_H)}{u'(c_H)}$，理解 Chetty (2008) liquidity vs moral hazard 分解 (75 min)<br>3. **Weekly Review** (45 min)：(a) 合并当周所有思维导图为 1 张 "EC423 全景图"；(b) 列出 Phase 1 中仍不清楚的 3-5 个问题，写入 Obsidian 作为 Phase 2 攻坚清单 | Job displacement event study、JLS tenure restriction、Scarring vs employer FE、**Baily-Chetty formula** (高频考点)、Consumption smoothing vs moral hazard、Liquidity effect (Chetty 2008)、Severance pay vs UI vs STW、Gruber (1997) identification                                          | 📌 **1 张 EC423 全景思维导图** (所有专题合并)<br>📌 **1 份 Phase 2 攻坚问题清单** (写入 Obsidian)           |
-
-
 [[EC423 Review Notes]]
 
 完整的笔记见：[[EC423_review]]
 
 ---
 
-Tom's Seminar
-
-Reading List 很关键，可以有更多 sense, know the 
-
-IV, RDD, DiD
-
----
-
 ## Model List 
 - [[Becker Model]]
-
+- [[Roy Model]]
